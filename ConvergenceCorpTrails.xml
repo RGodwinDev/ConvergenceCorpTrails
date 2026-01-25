@@ -1,11 +1,217 @@
 <OverlayData>
-    <MarkerCategory name="cc" displayName="Convergence Corp Trails">
+    <MarkerCategory name="cc" displayName="Convergence Corp">
+        <MarkerCategory name="soto" displayName="SotO">
+            <MarkerCategory name="wiztower" displayName="Wizards Tower">
+                <MarkerCategory 
+                    name="wiztrail" 
+                    displayName="Wizards Tower Convergence Entrance Trial"
+                    texture="Data/trail.png"
+                    fadeNear="3000" fadeFar="3500"
+                />
+            </MarkerCategory>
+        </MarkerCategory>
+        <MarkerCategory name="jw" displayName="JW">
+            <MarkerCategory name="heartsignage" displayName="Heart Signs">
+                <MarkerCategory 
+                    name="JourneykinOutpost" 
+                    displayName="JourneykinOutpost" 
+                    iconFile="Data/JW/Markers/Hearts/jopetthecats.png" 
+                    fadeNear="3000" fadeFar="3500"
+                />
+            </MarkerCategory >
+            <MarkerCategory name="convergesignage" displayName="Convergence Signs">
+                <MarkerCategory
+                    name="disruptspawns"
+                    displayName="Disruptor Spawns"
+                    fadeNear="3000" fadeFar="3500"
+                />
+            </MarkerCategory>
+            <MarkerCategory
+                name="elct"
+                displayName="Lowland Shore Convergence Entrance Trail"
+                texture="Data/trail.png"
+                fadeNear="3000" fadeFar="3500"
+            />
+            <MarkerCategory
+                name="dolyaktrail"
+                displayName="Dolyak Trail"
+                texture="Data/trail.png"
+                fadeNear="3000" fadeFar="3500"
+            />
+            <MarkerCategory
+                name="doortrail"
+                displayName="Door Trail"
+                texture="Data/trail.png"
+                fadeNear="3000" fadeFar="3500"
+            />
+            <MarkerCategory
+                name="thumpertrail"
+                displayName="Thumper Trails"
+                texture="Data/trail.png"
+                fadeNear="3000" fadeFar="3500"
+            />
+            <MarkerCategory 
+                name="hearttrails" 
+                displayName="Heart Trails" 
+                texture="Data/trail.png" 
+                fadeNear="3000" fadeFar="3500" 
+            />
+        </MarkerCategory>
+        <MarkerCategory name="voe" displayName="VoE">
+        </MarkerCategory>
 
-
+        <!-- NOTE: Do NOT use './Data/...', use 'Data/...' -->
+        <!--Marker Types-->
+        <!--
+            name: the class
+            displayName: What the class displays as in game
+            iconFile: image of the markers icon
+        -->
+        <!--Trail Types-->
+        <!--
+            name: the class
+            displayName: What the class displays as in game
+            texture: the actual image of the trail
+            fadeNear: when the trail starts to fade
+            fadeFar: when the trail is completely faded
+            use fades so you dont see them from across the entire map.
+        -->
     </MarkerCategory>
 
-    <!--Marker/Trail data goes in here-->
+    <!-- Markers -->
+    <!--
+        All markers are a <POI />
+        MapID: what map the marker is in https://api.guildwars2.com/v2/maps?ids=all
+        xpos
+        ypos
+        zpos
+        GUID: unique identifier
+        iconSize: (default 1), float
+        info: text on screen
+        inforange: distance that it's visible (default 2)
+        Mount="jackal,springer,etc" (only shows if on the mount)
+        tip, allows tooltips when hovering on map or categories in the dropdown
+    -->
+    <!-- Trails -->
+    <!--
+        All trails are a <Trail />
+        type="", what markercategory class is it.
+        trailData="", what file the trail uses.
+        color: 8digit hex RRGGBBAA 
+        COLOR is actually AARRGGBB
+        NOTE: COLOR IS BACKWARDS BBGGRRAA. I do not know why, but it's consistent between taco and blish at least.
+    -->
     <POIs>
+        <!-- 
+            SECRETS OF THE OBSCURE 
+        -->
+        <!-- Wizard Tower -->
+        <!-- Wiz Tower Trail to Convergence Portal-->
+        <Trail type="cc.soto.wiztower.wiztrail" trailData="Data/SotO/Trails/wiztower.trl" color="FFFFA500"/>
 
+        <!-- CONVERGE -->
+
+        <!-- Zojja in Mid -->
+        <POI MapID="1527" xpos="-5.937211" ypos="9.723023" zpos="26.18845" GUID="uUv6LbWbaUiB2vEtQi6W3A=="/>
+        <!-- West spawn -->
+        <POI MapID="1527" xpos="-95.10444" ypos="5.815973" zpos="17.24136" GUID="WYC2y7Oe10K920+8L2obGA=="/>
+        <!-- NE spawn -->
+        <POI MapID="1527" xpos="60.90176" ypos="2.150495" zpos="97.59732" GUID="4q4BR2yS6kSIa4xqZQOeUQ=="/>
+        <!-- SE spawn -->
+        <POI MapID="1527" xpos="99.69678" ypos="1.175588" zpos="-48.04602" GUID="u78hVYM+z06OtPsv88EHuQ=="/>
+
+        <!-- NE -->
+        <!-- NE Lt 1-->
+        <POI MapID="1527" xpos="128.8051" ypos="44.66696" zpos="107.8083" GUID="PD7nmToGVU2f9EoqBqJjQg=="/>
+        <!-- NE Lt 2 -->
+        <POI MapID="1527" xpos="116.2756" ypos="0.5130234" zpos="191.7773" GUID="kcL9QjdX7EyhJU41jS64/w=="/>
+        <!-- NE Lt 3 -->
+        <POI MapID="1527" xpos="151.796" ypos="0.5136161" zpos="143.2215" GUID="kmRjjpuKMUGjhHsfAZeqAQ=="/>
+        <!-- NE Lt 4 -->
+        <POI MapID="1527" xpos="215.9564" ypos="11.20963" zpos="200.7138" GUID="amDrYayDdEiZEGsGyhI43Q=="/>
+        <!-- NE Lt 5 -->
+        <POI MapID="1527" xpos="259.54" ypos="24.45555" zpos="133.2821" GUID="/kzaxKamsUePd+sRj8Xx3w=="/>
+        <!-- NE Gen -->
+        <POI MapID="1527" xpos="256.5778" ypos="24.46374" zpos="135.1871" GUID="qKLug9Dw0EiSpslzXyS3oA=="/>
+        
+        
+        <!-- 
+            JANTHIR WILDS 
+        -->
+        <!-- 
+            CONVERGE 
+        -->
+        <Trail type="cc.jw.elct" trailData="Data/JW/Trails/Convergence/lowlandentering.trl" color="FF00FF00" />
+        <!-- left in start -->
+        <POI MapID="1562" xpos="-240.1132" ypos="79.42603" zpos="-426.5479" GUID="UeX8M9rgUUaEL5VxTaA2Zg=="/>
+        <!-- behind bear in start -->
+        <POI MapID="1562" xpos="-205.3855" ypos="77.07713" zpos="-416.4498" GUID="koX79JepXkaWQjb5fJ75pg=="/>
+
+        <!-- Dolyak Trail -->
+        <Trail type="cc.jw.dolyaktrail" trailData="Data/JW/Trails/Convergence/dolyakRoute.trl" color="FF0000FF" />
+        <!-- dolyak start -->
+        <POI MapID="1562" xpos="-208.2204" ypos="76.94397" zpos="-418.2499" GUID="/XfKR3Q1tk+tLvfyOjbjJg=="/>
+        <!-- dolyak stop 1 -->
+        <POI MapID="1562" xpos="-199.6675" ypos="100.1301" zpos="-296.8672" GUID="X07P9N3y9EOk7+SZULDMpQ=="/>
+        <!-- dolyak stop 2 -->
+        <POI MapID="1562" xpos="-159.2413" ypos="144.9497" zpos="-128.847" GUID="HkETPJ7FEk+nePIgMkTdmg=="/>
+        <!-- dolyak stop 3 -->
+        <POI MapID="1562" xpos="-73.17634" ypos="192.2892" zpos="-78.93548" GUID="uPx2vB+G1ES8XY3/AUYO+w=="/>
+
+        <!-- DOORS -->
+        <Trail type="cc.jw.doortrail" trailData="Data/JW/Trails/Convergence/BombersToDoors.trl" color="FFFF00FF"/>
+        <Trail type="cc.jw.doortrail" trailData="Data/JW/Trails/Convergence/Doors.trl" color="FFFF00FF"/>
+
+        <!-- THUMPER ROUTES -->
+        <!-- West -->
+        <Trail type="cc.jw.thumpertrail" trailData="Data/JW/Trails/Convergence/thumperWest.trl" color="FFFF0000"/>
+
+        <!-- Center -->
+        <Trail type="cc.jw.thumpertrail" trailData="Data/JW/Trails/Convergence/thumpertocenter.trl" color="FF007BFF"/>
+
+        <!-- North -->
+        <Trail type="cc.jw.thumpertrail" trailData="Data/JW/Trails/Convergence/thumperNorth.trl" color="FFFFEE00"/>
+        <!-- PPR sign for north -->
+        <POI MapID="1562" xpos="17.20025" ypos="209.4248" zpos="375.4267" GUID="P4GbsI8wQEiilhQ6B9IVxw=="/>
+
+        <!-- East -->
+        <Trail type="cc.jw.thumpertrail" trailData="Data/JW/Trails/Convergence/thumperEast.trl" color="FFFF00E1"/>
+        <!-- PPR sign for east -->
+        <POI MapID="1562" xpos="220.7027" ypos="144.4143" zpos="110.7152" GUID="HeNTX8MnS0WDvs3MN/3zxQ=="/>
+
+        <!-- SouthEast -->
+        <Trail type="cc.jw.thumpertrail" trailData="Data/JW/Trails/Convergence/thumpertoSouthEast.trl" color="FFFF8800"/>
+        <!-- Base Camp -->
+
+        
+        
+        <!-- 
+            JW HEARTS
+        -->
+
+        <!-- Journeykin Outpost sign -->
+        <POI iconSize="5" type="cc.jw.heartsignage.JourneykinOutpost" MapID="1550" xpos="-723.507751" ypos="211.167252" zpos="-66.299889" GUID="fKXXlmrDRUKaXukHzHZUyQ=="/>
+        
+        <Trail type="cc.jw.hearttrails" trailData="Data/JW/Trails/Hearts/JourneykinOutpost.trl" color="FFFF0000"/>
+
+        <!-- Dodge training -->
+        <POI MapID="1550" xpos="690.6953" ypos="92.96624" zpos="253.5366" GUID="uwwSm8oQiUqEwnyFTTOzIQ=="/>
+        <!-- CC training -->
+        <POI MapID="1550" xpos="713.3734" ypos="92.96832" zpos="253.7412" GUID="JNxRvV5kRU29VsaPkaYvRw=="/>
+        <!-- arena -->
+        <POI MapID="1550" xpos="692.7314" ypos="94.29445" zpos="277.1239" GUID="VoSIFDOWd0iys/39kor7uQ=="/>
+        <!-- forge -->
+        <POI MapID="1550" xpos="555.3727" ypos="150.1755" zpos="160.1015" GUID="Ne+xuhUzfEe2ke6EkQIRpg=="/>
+
+        <Trail type="cc.jw.hearttrails" trailData="Data/JW/Trails/Hearts/HarvestDen.trl" color="FFFF0000"/>
+
+
+        <Trail type="cc.jw.hearttrails" trailData="Data/JW/Trails/Hearts/ForagersHunt.trl" color="FFFF0000"/>
+        <Trail type="cc.jw.hearttrails" trailData="Data/JW/Trails/Hearts/FesteringBasin.trl" color="FFFF0000"/>
+
+
+        <!-- 
+            VISIONS OF ETERNITY 
+        -->
     </POIs>
 </OverlayData>
