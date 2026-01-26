@@ -1,5 +1,16 @@
 <OverlayData>
     <MarkerCategory name="cc" displayName="Convergence Corp">
+        <MarkerCategory name="mounts" displayName="Mount Markers">
+            <MarkerCategory name="raptor" displayName="Raptor" iconFile="Data/Icons/Mounts/Raptor_icon.png"/>
+            <MarkerCategory name="springer" displayName="Springer" iconFile="Data/Icons/Mounts/Springer_icon.png"/>
+            <MarkerCategory name="skimmer" displayName="Skimmer" iconFile="Data/Icons/Mounts/Skimmer_icon.png"/>
+            <MarkerCategory name="jackal" displayName="Jackal" iconFile="Data/Icons/Mounts/Jackal_icon.png"/>
+            <MarkerCategory name="griffon" displayName="Griffon" iconFile="Data/Icons/Mounts/Griffon_icon.png"/>
+            <MarkerCategory name="beetle" displayName="Roller Beetle" iconFile="Data/Icons/Mounts/Roller_Beetle_icon.png"/>
+            <MarkerCategory name="skyscale" displayName="Skyscale" iconFile="Data/Icons/Mounts/Skyscale_icon.png"/>
+            <MarkerCategory name="turtle" displayName="Turtle" iconFile="Data/Icons/Mounts/Siege_Turtle_icon.png"/>
+            <MarkerCategory name="warclaw" displayName="Warclaw" iconFile="Data/Icons/Mounts/Warclaw_icon.png"/>
+        </MarkerCategory>
         <MarkerCategory name="soto" displayName="SotO">
             <MarkerCategory name="wiztower" displayName="Wizards Tower">
                 <MarkerCategory 
@@ -15,7 +26,7 @@
                 <MarkerCategory 
                     name="JourneykinOutpost" 
                     displayName="JourneykinOutpost" 
-                    iconFile="Data/JW/Markers/Hearts/jopetthecats.png" 
+                    iconFile="Data/JW/Markers/Hearts/outpostPetTheCats.png" 
                     fadeNear="3000" fadeFar="3500"
                 />
             </MarkerCategory >
@@ -53,7 +64,7 @@
             <MarkerCategory 
                 name="hearttrails" 
                 displayName="Heart Trails" 
-                texture="Data/trail.png" 
+                texture="Data/Icons/heart_full.png" 
                 fadeNear="3000" fadeFar="3500" 
             />
         </MarkerCategory>
@@ -91,6 +102,9 @@
         inforange: distance that it's visible (default 2)
         Mount="jackal,springer,etc" (only shows if on the mount)
         tip, allows tooltips when hovering on map or categories in the dropdown
+        
+        
+        rotate: x tilt back and forth, y tilt left/right, z: actually rotate the way you want. positive Z: counter-clockwise
     -->
     <!-- Trails -->
     <!--
@@ -188,12 +202,16 @@
         <!-- 
             JW HEARTS
         -->
+        <!--
+            LOWLAND SHORE HEARTS
+        -->
+        <!-- Journeykin Outpost sign -->    
+        <POI iconSize="2" type="cc.jw.heartsignage.JourneykinOutpost" rotate="90,0,-90" MapID="1550" xpos="-727.3643" ypos="211.2242" zpos="-62.94103" GUID="fKXXlmrDRUKaXukHzHZUyQ=="/>
+       
+        <Trail type="cc.jw.hearttrails" trailData="Data/JW/Trails/Hearts/JourneykinOutpost.trl"/>
 
-        <!-- Journeykin Outpost sign -->
-        <POI iconSize="5" type="cc.jw.heartsignage.JourneykinOutpost" MapID="1550" xpos="-723.507751" ypos="211.167252" zpos="-66.299889" GUID="fKXXlmrDRUKaXukHzHZUyQ=="/>
-        
-        <Trail type="cc.jw.hearttrails" trailData="Data/JW/Trails/Hearts/JourneykinOutpost.trl" color="FFFF0000"/>
-
+        <!-- Griffon to arena -->
+        <POI type="cc.mounts.griffon" MapID="1550" xpos="475.9717" ypos="217.1331" zpos="137.6784" GUID="1OSw/I7ATkC7EzjgYemcbw=="/>
         <!-- Dodge training -->
         <POI MapID="1550" xpos="690.6953" ypos="92.96624" zpos="253.5366" GUID="uwwSm8oQiUqEwnyFTTOzIQ=="/>
         <!-- CC training -->
@@ -203,12 +221,31 @@
         <!-- forge -->
         <POI MapID="1550" xpos="555.3727" ypos="150.1755" zpos="160.1015" GUID="Ne+xuhUzfEe2ke6EkQIRpg=="/>
 
-        <Trail type="cc.jw.hearttrails" trailData="Data/JW/Trails/Hearts/HarvestDen.trl" color="FFFF0000"/>
+        <Trail type="cc.jw.hearttrails" trailData="Data/JW/Trails/Hearts/HarvestDen.trl"/>
+
+        <!--
+            JANTHIR SYNTRI HEARTS
+        -->
+        <Trail type="cc.jw.hearttrails" trailData="Data/JW/Trails/Hearts/ForagersHunt.trl"/>
+        <!-- Moa event -->
+        <POI MapID="1554" xpos="662.1693" ypos="1.022895" zpos="-567.0097" GUID="V/kNwlxol0uV55sjiFcR2w=="/>
+        <!-- Kill Deer sign-->
+        <POI MapID="1554" xpos="725.6097" ypos="1.751061" zpos="-543.8192" GUID="3uKGS1+aW0WMRqDdTi0J8Q=="/>
+        <!-- Ram Event-->
+        <POI MapID="1554" xpos="803.7288" ypos="15.78077" zpos="-460.2291" GUID="f5oOxX0H8E2/WHlUN/Ez8w=="/>
+        <!-- Iboga Event -->
+        <POI MapID="1554" xpos="862.1855" ypos="32.59081" zpos="-563.171" GUID="5XfJ/B2BIkWjg4H8HWBOVA=="/>
+        <!-- Kill more Deer sign -->
+        <POI MapID="1554" xpos="831.6049" ypos="28.16566" zpos="-647.8831" GUID="+l/NpTyRrk67AojidZPvBA=="/>
+        <!-- Boar event -->
+        <POI MapID="1554" xpos="642.7495" ypos="67.87406" zpos="-781.1295" GUID="kCIFBvexRkO1h5zVr3F9vA=="/>
+        <!-- Camp event -->
+        <POI MapID="1554" xpos="642.4767" ypos="0.3615246" zpos="-650.1081" GUID="Ocu6PWW+4UOc0363rN2uqQ=="/>
 
 
-        <Trail type="cc.jw.hearttrails" trailData="Data/JW/Trails/Hearts/ForagersHunt.trl" color="FFFF0000"/>
-        <Trail type="cc.jw.hearttrails" trailData="Data/JW/Trails/Hearts/FesteringBasin.trl" color="FFFF0000"/>
-
+        <Trail type="cc.jw.hearttrails" trailData="Data/JW/Trails/Hearts/FesteringBasin.trl"/>
+        <!-- Janthir Syntri:Save Woodland Creatures Adventure Sign -->
+        <POI MapID="1554" xpos="-320.1026" ypos="41.40677" zpos="-567.4286" GUID="zfaQsL/FuUaamGL6/vC0uQ=="/>
 
         <!-- 
             VISIONS OF ETERNITY 
