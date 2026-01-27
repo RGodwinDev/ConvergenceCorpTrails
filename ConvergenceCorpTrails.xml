@@ -25,8 +25,20 @@
             <MarkerCategory name="heartsignage" displayName="Heart Signs">
                 <MarkerCategory 
                     name="JourneykinOutpost" 
-                    displayName="JourneykinOutpost" 
+                    displayName="Pet the Warclaws Sign" 
                     iconFile="Data/JW/Markers/Hearts/outpostPetTheCats.png" 
+                    fadeNear="3000" fadeFar="3500"
+                />
+                <MarkerCategory
+                    name="dodgetrainer"
+                    displayName="Dodge Trainer Sign"
+                    iconFile="Data/JW/Markers/Hearts/HarvestDenDodgeTrainer.png"
+                    fadeNear="3000" fadeFar="3500"
+                />
+                <MarkerCategory
+                    name="breakbartrainer"
+                    displayName="Breakbar Trainer Sign"
+                    iconFile="Data/JW/Markers/Hearts/HarvestDenBreakbarTrainer.png"
                     fadeNear="3000" fadeFar="3500"
                 />
             </MarkerCategory >
@@ -213,9 +225,9 @@
         <!-- Griffon to arena -->
         <POI type="cc.mounts.griffon" MapID="1550" xpos="475.9717" ypos="217.1331" zpos="137.6784" GUID="1OSw/I7ATkC7EzjgYemcbw=="/>
         <!-- Dodge training -->
-        <POI MapID="1550" xpos="690.6953" ypos="92.96624" zpos="253.5366" GUID="uwwSm8oQiUqEwnyFTTOzIQ=="/>
+        <POI iconSize="2" type="cc.jw.heartsignage.dodgetrainer" rotate="90,0,0" MapID="1550" xpos="690.6953" ypos="92.96624" zpos="253.5366" GUID="uwwSm8oQiUqEwnyFTTOzIQ=="/>
         <!-- CC training -->
-        <POI MapID="1550" xpos="713.3734" ypos="92.96832" zpos="253.7412" GUID="JNxRvV5kRU29VsaPkaYvRw=="/>
+        <POI iconSize="2" type="cc.jw.heartsignage.breakbartrainer" rotate="90,0,0" MapID="1550" xpos="713.3734" ypos="92.96832" zpos="253.7412" GUID="JNxRvV5kRU29VsaPkaYvRw=="/>
         <!-- arena -->
         <POI MapID="1550" xpos="692.7314" ypos="94.29445" zpos="277.1239" GUID="VoSIFDOWd0iys/39kor7uQ=="/>
         <!-- forge -->
