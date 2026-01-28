@@ -16,7 +16,7 @@
                 <MarkerCategory 
                     name="wiztrail" 
                     displayName="Wizards Tower Convergence Entrance Trial"
-                    texture="Data/trail.png"
+                    texture="Data/TrailToConvergences.png"
                     fadeNear="3000" fadeFar="3500"
                 />
             </MarkerCategory>
@@ -41,6 +41,12 @@
                     iconFile="Data/JW/Markers/Hearts/HarvestDenBreakbarTrainer.png"
                     fadeNear="3000" fadeFar="3500"
                 />
+                <MarkerCategory
+                    name="HDenForge"
+                    displayName="Forge Sign"
+                    iconFile="Data/JW/Markers/Hearts/HarvestDenForge.png"
+                    fadeNear="3000" fadeFar="3500"
+                />
             </MarkerCategory >
             <MarkerCategory name="convergesignage" displayName="Convergence Signs">
                 <MarkerCategory
@@ -52,7 +58,7 @@
             <MarkerCategory
                 name="elct"
                 displayName="Lowland Shore Convergence Entrance Trail"
-                texture="Data/trail.png"
+                texture="Data/TrailToConvergences.png"
                 fadeNear="3000" fadeFar="3500"
             />
             <MarkerCategory
@@ -106,7 +112,7 @@
         All markers are a <POI />
         MapID: what map the marker is in https://api.guildwars2.com/v2/maps?ids=all
         xpos
-        ypos
+        ypos    Height
         zpos
         GUID: unique identifier
         iconSize: (default 1), float
@@ -124,8 +130,9 @@
         type="", what markercategory class is it.
         trailData="", what file the trail uses.
         color: 8digit hex RRGGBBAA 
-        COLOR is actually AARRGGBB
-        NOTE: COLOR IS BACKWARDS BBGGRRAA. I do not know why, but it's consistent between taco and blish at least.
+        
+        Note: COLOR is actually AARRGGBB
+        I do not know why, but it's consistent between taco and blish at least.
     -->
     <POIs>
         <!-- 
@@ -134,6 +141,8 @@
         <!-- Wizard Tower -->
         <!-- Wiz Tower Trail to Convergence Portal-->
         <Trail type="cc.soto.wiztower.wiztrail" trailData="Data/SotO/Trails/wiztower.trl" color="FFFFA500"/>
+        <!-- Zojja in Wiz Tower -->
+        <POI MapID="1509" xpos="-11.51686" ypos="326.742" zpos="-102.6878" GUID="0tV7GDOqUkWGwxKLTdK+eA=="/>
 
         <!-- CONVERGE -->
 
@@ -231,7 +240,7 @@
         <!-- arena -->
         <POI MapID="1550" xpos="692.7314" ypos="94.29445" zpos="277.1239" GUID="VoSIFDOWd0iys/39kor7uQ=="/>
         <!-- forge -->
-        <POI MapID="1550" xpos="555.3727" ypos="150.1755" zpos="160.1015" GUID="Ne+xuhUzfEe2ke6EkQIRpg=="/>
+        <POI iconSize="2" type="cc.jw.heartsignage.HDenForge" rotate="90,0,10" MapID="1550" xpos="560.0356" ypos="151.2159" zpos="139.7519" GUID="Ne+xuhUzfEe2ke6EkQIRpg=="/>
 
         <Trail type="cc.jw.hearttrails" trailData="Data/JW/Trails/Hearts/HarvestDen.trl"/>
 
