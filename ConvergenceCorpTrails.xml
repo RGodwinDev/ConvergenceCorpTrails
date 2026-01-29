@@ -104,6 +104,11 @@
                 rotate="90,0,0"
             >
                 <MarkerCategory
+                    name="donttouchsign"
+                    displayName="Don't touch"
+                    iconFile="Data/JW/Markers/Convergence/donttouch.png"
+                    />
+                <MarkerCategory
                     name="disruptspawns"
                     displayName="Disruptor Spawns"
                 />
@@ -116,12 +121,12 @@
             <MarkerCategory
                 name="dolyaktrail"
                 displayName="Dolyak Trail"
-                texture="Data/trail.png"
+                texture="Data/dolyaktrail.png"
             />
             <MarkerCategory
                 name="doortrail"
                 displayName="Door Trail"
-                texture="Data/trail.png"
+                texture="Data/warclawtrail.png"
             />
             <MarkerCategory
                 name="thumpertrail"
@@ -229,13 +234,10 @@
         <Trail type="cc.jw.elct" trailData="Data/JW/Trails/Convergence/lowlandentering.trl" color="FF00FF00" />
         <!-- left in start -->
         <POI MapID="1562" xpos="-240.1132" ypos="79.42603" zpos="-426.5479" GUID="UeX8M9rgUUaEL5VxTaA2Zg=="/>
-        <!-- behind bear in start -->
-        <POI MapID="1562" xpos="-205.3855" ypos="77.07713" zpos="-416.4498" GUID="koX79JepXkaWQjb5fJ75pg=="/>
-
+        <!-- Don't Touch the Bear! -->
+        <POI iconSize="4" type="cc.jw.convergesignage.donttouchsign" rotate="90,0,150" MapID="1562" xpos="-212.8266" ypos="76.50939" zpos="-422.0489" GUID="PyJ52emXv0ajjtmsmLmCrg=="/>
         <!-- Dolyak Trail -->
-        <Trail type="cc.jw.dolyaktrail" trailData="Data/JW/Trails/Convergence/dolyakRoute.trl" color="FF0000FF" />
-        <!-- dolyak start -->
-        <POI MapID="1562" xpos="-208.2204" ypos="76.94397" zpos="-418.2499" GUID="/XfKR3Q1tk+tLvfyOjbjJg=="/>
+        <Trail type="cc.jw.dolyaktrail" trailData="Data/JW/Trails/Convergence/dolyakRoute.trl" color="FFFFD700" />
         <!-- dolyak stop 1 -->
         <POI MapID="1562" xpos="-199.6675" ypos="100.1301" zpos="-296.8672" GUID="X07P9N3y9EOk7+SZULDMpQ=="/>
         <!-- dolyak stop 2 -->
@@ -244,8 +246,8 @@
         <POI MapID="1562" xpos="-73.17634" ypos="192.2892" zpos="-78.93548" GUID="uPx2vB+G1ES8XY3/AUYO+w=="/>
 
         <!-- DOORS -->
-        <Trail type="cc.jw.doortrail" trailData="Data/JW/Trails/Convergence/BombersToDoors.trl" color="FFFF00FF"/>
-        <Trail type="cc.jw.doortrail" trailData="Data/JW/Trails/Convergence/Doors.trl" color="FFFF00FF"/>
+        <Trail type="cc.jw.doortrail" trailData="Data/JW/Trails/Convergence/BombersToDoors.trl" color="FF22B14C"/>
+        <Trail type="cc.jw.doortrail" trailData="Data/JW/Trails/Convergence/Doors.trl" color="FF22B14C"/>
 
         <!-- THUMPER ROUTES -->
         <!-- West -->
