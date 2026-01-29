@@ -1,5 +1,10 @@
 <OverlayData>
-    <MarkerCategory name="cc" displayName="Convergence Corp">
+    <!-- Everything goes into this category -->
+    <MarkerCategory
+        name="cc"
+        displayName="Convergence Corp"
+        fadeNear="3000" fadeFar="3500"
+    >
         <MarkerCategory name="mounts" displayName="Mount Markers">
             <MarkerCategory name="raptor" displayName="Raptor" iconFile="Data/Icons/Mounts/Raptor_icon.png"/>
             <MarkerCategory name="springer" displayName="Springer" iconFile="Data/Icons/Mounts/Springer_icon.png"/>
@@ -17,73 +22,111 @@
                     name="wiztrail" 
                     displayName="Wizards Tower Convergence Entrance Trial"
                     texture="Data/TrailToConvergences.png"
-                    fadeNear="3000" fadeFar="3500"
                 />
             </MarkerCategory>
         </MarkerCategory>
         <MarkerCategory name="jw" displayName="JW">
-            <MarkerCategory name="heartsignage" displayName="Heart Signs">
+            <!-- JW HEART SIGNS -->
+            <MarkerCategory 
+                name="heartsignage" 
+                displayName="Heart Signs"
+                iconSize="2"
+                rotate="90,0,0"
+            >
+                <!-- Lowland Shore Signs -->
                 <MarkerCategory 
                     name="JourneykinOutpost" 
                     displayName="Pet the Warclaws Sign" 
                     iconFile="Data/JW/Markers/Hearts/outpostPetTheCats.png" 
-                    fadeNear="3000" fadeFar="3500"
                 />
                 <MarkerCategory
                     name="dodgetrainer"
                     displayName="Dodge Trainer Sign"
                     iconFile="Data/JW/Markers/Hearts/HarvestDenDodgeTrainer.png"
-                    fadeNear="3000" fadeFar="3500"
                 />
                 <MarkerCategory
                     name="breakbartrainer"
                     displayName="Breakbar Trainer Sign"
                     iconFile="Data/JW/Markers/Hearts/HarvestDenBreakbarTrainer.png"
-                    fadeNear="3000" fadeFar="3500"
                 />
                 <MarkerCategory
                     name="HDenForge"
                     displayName="Forge Sign"
                     iconFile="Data/JW/Markers/Hearts/HarvestDenForge.png"
-                    fadeNear="3000" fadeFar="3500"
+                />
+
+                <!-- Janthir Syntri Signs -->
+                <MarkerCategory
+                    name="JSMoaEvent"
+                    displayName="Moas Sign"
+                    iconFile="Data/JW/Markers/Hearts/ForagersMOA.png"
+                />
+                <MarkerCategory
+                    name="JSDeer"
+                    displayName = "Deer Sign"
+                    iconFile="Data/JW/Markers/Hearts/ForagersDEER.png"
+                 />
+                <MarkerCategory
+                    name="JSRam"
+                    displayName = "Ram Sign"
+                    iconFile="Data/JW/Markers/Hearts/ForagersRAM.png"
+                />
+                <MarkerCategory
+                    name="JSIboga"
+                    display = "Iboga Sign"
+                    iconFile="Data/JW/Markers/Hearts/ForagersIBOGA.png"
+                />
+                <MarkerCategory
+                    name="JSBoar"
+                    display = "Boar Sign"
+                    iconFile="Data/JW/Markers/Hearts/ForagersBOAR.png"
+                />
+                <MarkerCategory
+                    name="JSCamp"
+                    display = "Camp Sign"
+                    iconFile="Data/JW/Markers/Hearts/ForagersCAMP.png"
+                />
+                <MarkerCategory
+                    name="JSMMWarn"
+                    display = "M&amp;M Warning Sign"
+                    iconFile="Data/JW/Markers/Hearts/ForagersMMWARN.png"
                 />
             </MarkerCategory >
-            <MarkerCategory name="convergesignage" displayName="Convergence Signs">
+            <MarkerCategory 
+                name="convergesignage" 
+                displayName="Convergence Signs"
+                iconSize="2"
+                rotate="90,0,0"
+            >
                 <MarkerCategory
                     name="disruptspawns"
                     displayName="Disruptor Spawns"
-                    fadeNear="3000" fadeFar="3500"
                 />
             </MarkerCategory>
             <MarkerCategory
                 name="elct"
                 displayName="Lowland Shore Convergence Entrance Trail"
                 texture="Data/TrailToConvergences.png"
-                fadeNear="3000" fadeFar="3500"
             />
             <MarkerCategory
                 name="dolyaktrail"
                 displayName="Dolyak Trail"
                 texture="Data/trail.png"
-                fadeNear="3000" fadeFar="3500"
             />
             <MarkerCategory
                 name="doortrail"
                 displayName="Door Trail"
                 texture="Data/trail.png"
-                fadeNear="3000" fadeFar="3500"
             />
             <MarkerCategory
                 name="thumpertrail"
                 displayName="Thumper Trails"
                 texture="Data/trail.png"
-                fadeNear="3000" fadeFar="3500"
             />
             <MarkerCategory 
                 name="hearttrails" 
                 displayName="Heart Trails" 
-                texture="Data/Icons/heart_full.png" 
-                fadeNear="3000" fadeFar="3500" 
+                texture="Data/Icons/heart_full.png"
             />
         </MarkerCategory>
         <MarkerCategory name="voe" displayName="VoE">
@@ -138,7 +181,9 @@
         <!-- 
             SECRETS OF THE OBSCURE 
         -->
-        <!-- Wizard Tower -->
+        <!-- 
+            Wizard Tower 
+        -->
         <!-- Wiz Tower Trail to Convergence Portal-->
         <Trail type="cc.soto.wiztower.wiztrail" trailData="Data/SotO/Trails/wiztower.trl" color="FFFFA500"/>
         <!-- Zojja in Wiz Tower -->
@@ -234,36 +279,42 @@
         <!-- Griffon to arena -->
         <POI type="cc.mounts.griffon" MapID="1550" xpos="475.9717" ypos="217.1331" zpos="137.6784" GUID="1OSw/I7ATkC7EzjgYemcbw=="/>
         <!-- Dodge training -->
-        <POI iconSize="2" type="cc.jw.heartsignage.dodgetrainer" rotate="90,0,0" MapID="1550" xpos="690.6953" ypos="92.96624" zpos="253.5366" GUID="uwwSm8oQiUqEwnyFTTOzIQ=="/>
+        <POI type="cc.jw.heartsignage.dodgetrainer" rotate="90,0,0" MapID="1550" xpos="690.6953" ypos="92.96624" zpos="253.5366" GUID="uwwSm8oQiUqEwnyFTTOzIQ=="/>
         <!-- CC training -->
-        <POI iconSize="2" type="cc.jw.heartsignage.breakbartrainer" rotate="90,0,0" MapID="1550" xpos="713.3734" ypos="92.96832" zpos="253.7412" GUID="JNxRvV5kRU29VsaPkaYvRw=="/>
+        <POI type="cc.jw.heartsignage.breakbartrainer" rotate="90,0,0" MapID="1550" xpos="713.3734" ypos="92.96832" zpos="253.7412" GUID="JNxRvV5kRU29VsaPkaYvRw=="/>
         <!-- arena -->
-        <POI MapID="1550" xpos="692.7314" ypos="94.29445" zpos="277.1239" GUID="VoSIFDOWd0iys/39kor7uQ=="/>
+        <POI type="cc.jw.heartsignage.HDenArena" rotate="90,0,0" MapID="1550" xpos="692.7314" ypos="94.29445" zpos="277.1239" GUID="VoSIFDOWd0iys/39kor7uQ=="/>
         <!-- forge -->
-        <POI iconSize="2" type="cc.jw.heartsignage.HDenForge" rotate="90,0,10" MapID="1550" xpos="560.0356" ypos="151.2159" zpos="139.7519" GUID="Ne+xuhUzfEe2ke6EkQIRpg=="/>
+        <POI type="cc.jw.heartsignage.HDenForge" rotate="90,0,10" MapID="1550" xpos="560.0356" ypos="151.2159" zpos="139.7519" GUID="Ne+xuhUzfEe2ke6EkQIRpg=="/>
 
         <Trail type="cc.jw.hearttrails" trailData="Data/JW/Trails/Hearts/HarvestDen.trl"/>
 
         <!--
             JANTHIR SYNTRI HEARTS
         -->
+        <!-- 
+            Foragers Hunt 
+        -->
         <Trail type="cc.jw.hearttrails" trailData="Data/JW/Trails/Hearts/ForagersHunt.trl"/>
         <!-- Moa event -->
-        <POI MapID="1554" xpos="662.1693" ypos="1.022895" zpos="-567.0097" GUID="V/kNwlxol0uV55sjiFcR2w=="/>
+        <POI iconSize="4" type="cc.jw.heartsignage.JSMoaEvent" rotate="90,0,180" MapID="1554" xpos="662.1693" ypos="1.022895" zpos="-567.0097" GUID="V/kNwlxol0uV55sjiFcR2w=="/>
         <!-- Kill Deer sign-->
-        <POI MapID="1554" xpos="725.6097" ypos="1.751061" zpos="-543.8192" GUID="3uKGS1+aW0WMRqDdTi0J8Q=="/>
+        <POI iconSize="4" type="cc.jw.heartsignage.JSDeer" rotate="90,0,90" MapID="1554" xpos="725.6097" ypos="1.751061" zpos="-543.8192" GUID="3uKGS1+aW0WMRqDdTi0J8Q=="/>
         <!-- Ram Event-->
-        <POI MapID="1554" xpos="803.7288" ypos="15.78077" zpos="-460.2291" GUID="f5oOxX0H8E2/WHlUN/Ez8w=="/>
+        <POI iconSize="4" type="cc.jw.heartsignage.JSRam" rotate="90,0,150" MapID="1554" xpos="803.7288" ypos="15.78077" zpos="-460.2291" GUID="f5oOxX0H8E2/WHlUN/Ez8w=="/>
         <!-- Iboga Event -->
-        <POI MapID="1554" xpos="862.1855" ypos="32.59081" zpos="-563.171" GUID="5XfJ/B2BIkWjg4H8HWBOVA=="/>
+        <POI iconSize="4" type="cc.jw.heartsignage.JSIboga" rotate="90,0,90" MapID="1554" xpos="862.1855" ypos="35" zpos="-563.171" GUID="5XfJ/B2BIkWjg4H8HWBOVA=="/>
         <!-- Kill more Deer sign -->
-        <POI MapID="1554" xpos="831.6049" ypos="28.16566" zpos="-647.8831" GUID="+l/NpTyRrk67AojidZPvBA=="/>
+        <POI iconSize="4" type="cc.jw.heartsignage.JSDeer" MapID="1554" xpos="831.6049" ypos="30.0" zpos="-647.8831" GUID="+l/NpTyRrk67AojidZPvBA=="/>
         <!-- Boar event -->
-        <POI MapID="1554" xpos="642.7495" ypos="67.87406" zpos="-781.1295" GUID="kCIFBvexRkO1h5zVr3F9vA=="/>
+        <POI iconSize="4" type="cc.jw.heartsignage.JSBoar" rotate="90,0,270" MapID="1554" xpos="642.7495" ypos="67.87406" zpos="-781.1295" GUID="kCIFBvexRkO1h5zVr3F9vA=="/>
         <!-- Camp event -->
-        <POI MapID="1554" xpos="642.4767" ypos="0.3615246" zpos="-650.1081" GUID="Ocu6PWW+4UOc0363rN2uqQ=="/>
-
-
+        <POI iconSize="4" type="cc.jw.heartsignage.JSCamp" rotate="90,0,270" MapID="1554" xpos="642.4767" ypos="2" zpos="-650.1081" GUID="Ocu6PWW+4UOc0363rN2uqQ=="/>
+        <!-- M&M Warning -->
+        <POI iconSize="4" type="cc.jw.heartsignage.JSMMWarn" rotate="90,0,180" MapID="1554" xpos="611.6811" ypos="3.494772" zpos="-602.452" GUID="hD3KOLTFCUGFWkYbllmM8g=="/>
+        <!-- 
+            Festering Basin 
+        -->
         <Trail type="cc.jw.hearttrails" trailData="Data/JW/Trails/Hearts/FesteringBasin.trl"/>
         <!-- Janthir Syntri:Save Woodland Creatures Adventure Sign -->
         <POI MapID="1554" xpos="-320.1026" ypos="41.40677" zpos="-567.4286" GUID="zfaQsL/FuUaamGL6/vC0uQ=="/>
