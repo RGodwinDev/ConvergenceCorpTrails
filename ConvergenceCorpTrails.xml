@@ -91,6 +91,11 @@
                     display = "M&amp;M Warning Sign"
                     iconFile="Data/JW/Markers/Hearts/ForagersMMWARN.png"
                 />
+                <MarkerCategory
+                    name="JSFesteringBasin"
+                    display= "Festering Basin Adventure Sign"
+                    iconFile="Data/JW/Markers/Hearts/FesteringBasin.png"
+                />
             </MarkerCategory >
             <MarkerCategory 
                 name="convergesignage" 
@@ -317,8 +322,7 @@
         -->
         <Trail type="cc.jw.hearttrails" trailData="Data/JW/Trails/Hearts/FesteringBasin.trl"/>
         <!-- Janthir Syntri:Save Woodland Creatures Adventure Sign -->
-        <POI MapID="1554" xpos="-320.1026" ypos="41.40677" zpos="-567.4286" GUID="zfaQsL/FuUaamGL6/vC0uQ=="/>
-
+        <POI iconSize="4" type="cc.jw.heartsignage.JSFesteringBasin" rotate="90,0,200"MapID="1554" xpos="-315.75" ypos="43.17654" zpos="-562.5" GUID="3RzVtzBKFk2P5di2VUpSeA=="/>
         <!-- 
             VISIONS OF ETERNITY 
         -->
