@@ -97,6 +97,8 @@
                     iconFile="Data/JW/Markers/Hearts/FesteringBasin.png"
                 />
             </MarkerCategory >
+
+            <!-- Convergence Signs -->
             <MarkerCategory 
                 name="convergesignage" 
                 displayName="Convergence Signs"
@@ -112,6 +114,36 @@
                     name="disruptspawns"
                     displayName="Disruptor Spawns"
                 />
+                <MarkerCategory
+                    name="directionsigns"
+                    displayName="Directional Signs"
+                >
+                    <MarkerCategory 
+                        name="west"
+                        displayName="West"
+                        iconFile="Data/JW/Markers/Convergence/WESTSign.png"
+                    />
+                    <MarkerCategory
+                        name="east"
+                        displayName="East"
+                        iconFile="Data/JW/Markers/Convergence/EASTSign.png"
+                    />
+                    <MarkerCategory
+                        name="center"
+                        displayName="Center"
+                        iconFile="Data/JW/Markers/Convergence/CENTERSign.png"
+                    />
+                    <MarkerCategory
+                        name="north"
+                        displayName="North"
+                        iconFile="Data/JW/Markers/Convergence/NORTHSign.png"
+                    />
+                    <MarkerCategory
+                        name="southeast"
+                        displayName="South East"
+                        iconFile="Data/JW/Markers/Convergence/SOUTHEASTSign.png"
+                    />
+                </MarkerCategory>
             </MarkerCategory>
             <MarkerCategory
                 name="elct"
@@ -200,7 +232,8 @@
         <POI MapID="1509" xpos="-11.51686" ypos="326.742" zpos="-102.6878" GUID="0tV7GDOqUkWGwxKLTdK+eA=="/>
 
         <!-- CONVERGE -->
-
+        <!-- Behind group at spawn -->
+        <POI MapID="1527" xpos="-2.438369" ypos="10.15999" zpos="-7.218506" GUID="WSau5+TusEmEMrBxvEGBmQ=="/>
         <!-- Zojja in Mid -->
         <POI MapID="1527" xpos="-5.937211" ypos="9.723023" zpos="26.18845" GUID="uUv6LbWbaUiB2vEtQi6W3A=="/>
         <!-- West spawn -->
@@ -209,6 +242,16 @@
         <POI MapID="1527" xpos="60.90176" ypos="2.150495" zpos="97.59732" GUID="4q4BR2yS6kSIa4xqZQOeUQ=="/>
         <!-- SE spawn -->
         <POI MapID="1527" xpos="99.69678" ypos="1.175588" zpos="-48.04602" GUID="u78hVYM+z06OtPsv88EHuQ=="/>
+
+        <!-- Trebs -->
+        <!-- Treb 1 -->
+        <POI MapID="1527" xpos="-113.6404" ypos="8.738906" zpos="-153.4124" GUID="xb/reyxGfEOLupKj8V0ELw=="/>
+        <!-- Treb 2 -->
+        <POI MapID="1527" xpos="-158.7059" ypos="10.62339" zpos="74.74903" GUID="lnaLDc50ZUub7pbSmE1Rnw=="/>
+        <!-- Treb 3 -->
+        <POI MapID="1527" xpos="243.9198" ypos="24.69224" zpos="85.08665" GUID="Y6j58+q74kemhZJfne3CLw=="/>
+        <!-- Treb 4 -->
+        <POI MapID="1527" xpos="219.3486" ypos="9.317378" zpos="-122.5843" GUID="X5ZQiTNjh0iqcC7VE09D4Q=="/>
 
         <!-- NE -->
         <!-- NE Lt 1-->
@@ -242,8 +285,7 @@
         <POI MapID="1562" xpos="-199.6675" ypos="100.1301" zpos="-296.8672" GUID="X07P9N3y9EOk7+SZULDMpQ=="/>
         <!-- dolyak stop 2 -->
         <POI MapID="1562" xpos="-159.2413" ypos="144.9497" zpos="-128.847" GUID="HkETPJ7FEk+nePIgMkTdmg=="/>
-        <!-- dolyak stop 3 -->
-        <POI MapID="1562" xpos="-73.17634" ypos="192.2892" zpos="-78.93548" GUID="uPx2vB+G1ES8XY3/AUYO+w=="/>
+        
 
         <!-- DOORS -->
         <Trail type="cc.jw.doortrail" trailData="Data/JW/Trails/Convergence/BombersToDoors.trl" color="FF22B14C"/>
@@ -252,26 +294,47 @@
         <!-- THUMPER ROUTES -->
         <!-- West -->
         <Trail type="cc.jw.thumpertrail" trailData="Data/JW/Trails/Convergence/thumperWest.trl" color="FFFF0000"/>
+        <!-- Sign to West -->
+        <POI type="cc.jw.convergesignage.directionsigns.west" rotate="90,0,215" MapID="1562" xpos="-99.80734" ypos="187.7406" zpos="50.59799" GUID="DhVYmdmDvEmLbmAoLuJyCA=="/>
 
         <!-- Center -->
         <Trail type="cc.jw.thumpertrail" trailData="Data/JW/Trails/Convergence/thumpertocenter.trl" color="FF007BFF"/>
+        <!-- Sign to Center-->
+        <POI type="cc.jw.convergesignage.directionsigns.center" rotate="90,0,145" MapID="1562" xpos="-41.88879" ypos="206.5132" zpos="71.34435" GUID="ZzLPxQBjo0CUhxTdrLsm4A=="/>
 
         <!-- North -->
         <Trail type="cc.jw.thumpertrail" trailData="Data/JW/Trails/Convergence/thumperNorth.trl" color="FFFFEE00"/>
+        <!-- Sign to North-->
+        <POI type="cc.jw.convergesignage.directionsigns.north" rotate="90,0,190" MapID="1562" xpos="-64.16886" ypos="199.9709" zpos="76.68574" GUID="JxLj0Mp9XUygNSeph5Vj9A=="/>
         <!-- PPR sign for north -->
-        <POI MapID="1562" xpos="17.20025" ypos="209.4248" zpos="375.4267" GUID="P4GbsI8wQEiilhQ6B9IVxw=="/>
+        <POI rotate="90,0,0" MapID="1562" xpos="17.20025" ypos="209.4248" zpos="375.4267" GUID="P4GbsI8wQEiilhQ6B9IVxw=="/>
 
         <!-- East -->
         <Trail type="cc.jw.thumpertrail" trailData="Data/JW/Trails/Convergence/thumperEast.trl" color="FFFF00E1"/>
+        <!-- Sign to East -->
+        <POI type="cc.jw.convergesignage.directionsigns.east" rotate="90,0,70" MapID="1562" xpos="59.56338" ypos="188.886" zpos="-105.9963" GUID="/QTAKMcwDUqveUlAVuSYdA=="/>
         <!-- PPR sign for east -->
-        <POI MapID="1562" xpos="220.7027" ypos="144.4143" zpos="110.7152" GUID="HeNTX8MnS0WDvs3MN/3zxQ=="/>
+        <POI MapID="1562" rotate="90,0,0" xpos="220.7027" ypos="144.4143" zpos="110.7152" GUID="HeNTX8MnS0WDvs3MN/3zxQ=="/>
 
         <!-- SouthEast -->
         <Trail type="cc.jw.thumpertrail" trailData="Data/JW/Trails/Convergence/thumpertoSouthEast.trl" color="FFFF8800"/>
+        <!-- Sign to SE -->
+        <POI type="cc.jw.convergesignage.directionsigns.southeast" rotate="90,0,75" MapID="1562" xpos="43.64621" ypos="178.8479" zpos="-83.13187" GUID="W0eDyWLJvUirRfjdiD8RoQ=="/>
+        
         <!-- Base Camp -->
+        <POI rotate="90,0,0" MapID="1562" xpos="-73.17634" ypos="192.2892" zpos="-78.93548" GUID="uPx2vB+G1ES8XY3/AUYO+w=="/>
 
-        
-        
+        <!-- Disruptor Spawns -->
+        <!-- East -->
+        <POI type="cc.jw.convergesignage.disruptspawns" rotate="90,0,-15" MapID="1562" xpos="202.5548" ypos="144.0904" zpos="102.1084" GUID="K5IcO8cY2EuPuMRuuX4/RA=="/>
+        <!-- North -->
+        <POI type="cc.jw.convergesignage.disruptspawns" rotate="90,0,195" MapID="1562" xpos="1.752995" ypos="210.8867" zpos="444.2741" GUID="LPeYlA4kCk65SBTK9Og1HA=="/>
+        <!-- West -->
+        <POI type="cc.jw.convergesignage.disruptspawns" rotate="90,0,-80" MapID="1562" xpos="-256.1359" ypos="139.587" zpos="108.6553" GUID="NOgnHII3j0250skkXNgCJg=="/>
+        <!-- Center -->
+        <POI type="cc.jw.convergesignage.disruptspawns" rotate="90,0,65" MapID="1562" xpos="-15.35554" ypos="254.3838" zpos="203.2453" GUID="0+oEnynbf0aVfZGF9q/lQQ=="/>
+        <!-- SE -->
+        <POI type="cc.jw.convergesignage.disruptspawns" rotate="90,0,15" MapID="1562" xpos="162.6032" ypos="103.1782" zpos="-249.3528" GUID="0SGLftP460S0Q828poRa0w=="/>
         <!-- 
             JW HEARTS
         -->
@@ -324,7 +387,7 @@
         -->
         <Trail type="cc.jw.hearttrails" trailData="Data/JW/Trails/Hearts/FesteringBasin.trl"/>
         <!-- Janthir Syntri:Save Woodland Creatures Adventure Sign -->
-        <POI iconSize="4" type="cc.jw.heartsignage.JSFesteringBasin" rotate="90,0,200"MapID="1554" xpos="-315.75" ypos="43.17654" zpos="-562.5" GUID="3RzVtzBKFk2P5di2VUpSeA=="/>
+        <POI iconSize="4" type="cc.jw.heartsignage.JSFesteringBasin" rotate="90,0,200" MapID="1554" xpos="-315.75" ypos="43.17654" zpos="-562.5" GUID="3RzVtzBKFk2P5di2VUpSeA=="/>
         <!-- 
             VISIONS OF ETERNITY 
         -->
