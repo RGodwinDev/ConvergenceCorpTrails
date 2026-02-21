@@ -17,6 +17,7 @@
             <MarkerCategory name="warclaw" displayName="Warclaw" iconFile="Data/Icons/Mounts/Warclaw_icon.png"/>
         </MarkerCategory>
         <MarkerCategory name="soto" displayName="SotO">
+            <!-- Wizards Tower-->
             <MarkerCategory name="wiztower" displayName="Wizards Tower">
                 <MarkerCategory 
                     name="wiztrail" 
@@ -24,7 +25,37 @@
                     texture="Data/TrailToConvergences.png"
                 />
             </MarkerCategory>
+            <!-- Convergence -->
+            <MarkerCategory name="outernayos" displayName="Outer Nayos">
+                <MarkerCategory name="signs" displayName="Signs">
+
+                </MarkerCategory>
+                <MarkerCategory name="trails" displayName="Trails" texture="Data/trail.png">
+                    <MarkerCategory
+                        name="trebroute"
+                        displayName="Treb Route"
+                        trailData="Data/SotO/Trails/trebs.trl"
+                    />
+                    <MarkerCategory
+                        name="se" 
+                        displayName="South East"
+                    />
+                    <MarkerCategory
+                        name="nw"
+                        displayName="North West"
+                    />
+                    <MarkerCategory
+                        name="sw"
+                        displayName="South West"
+                    />
+                    <MarkerCategory
+                        name="ne"
+                        displayName="North East"
+                    />
+                </MarkerCategory>
+            </MarkerCategory>
         </MarkerCategory>
+        <!-- JANTHIR WILDS-->
         <MarkerCategory name="jw" displayName="JW">
             <!-- JW HEART SIGNS -->
             <MarkerCategory 
@@ -145,6 +176,7 @@
                     />
                 </MarkerCategory>
             </MarkerCategory>
+            <!-- JW Trails -->
             <MarkerCategory
                 name="elct"
                 displayName="Lowland Shore Convergence Entrance Trail"
@@ -234,16 +266,22 @@
         <!-- CONVERGE -->
         <!-- Behind group at spawn -->
         <POI MapID="1527" xpos="-2.438369" ypos="10.15999" zpos="-7.218506" GUID="WSau5+TusEmEMrBxvEGBmQ=="/>
+
         <!-- Zojja in Mid -->
         <POI MapID="1527" xpos="-5.937211" ypos="9.723023" zpos="26.18845" GUID="uUv6LbWbaUiB2vEtQi6W3A=="/>
-        <!-- West spawn -->
+
+        <!-- Spite Spawns-->
+        <!-- West -->
         <POI MapID="1527" xpos="-95.10444" ypos="5.815973" zpos="17.24136" GUID="WYC2y7Oe10K920+8L2obGA=="/>
-        <!-- NE spawn -->
+        <!-- NE -->
         <POI MapID="1527" xpos="60.90176" ypos="2.150495" zpos="97.59732" GUID="4q4BR2yS6kSIa4xqZQOeUQ=="/>
-        <!-- SE spawn -->
+        <!-- SE -->
         <POI MapID="1527" xpos="99.69678" ypos="1.175588" zpos="-48.04602" GUID="u78hVYM+z06OtPsv88EHuQ=="/>
 
         <!-- Trebs -->
+        <!--Treb trail start-->
+        <POI MapID="1527" xpos="-83.44451" ypos="6.986386" zpos="-4.118439" GUID="UwBxaylPsUWU4uzNwq74+Q=="/>
+        <Trail type="cc.soto.outernayos.trails.trebroute" trailData="Data/SotO/Trails/trebs.trl" color="FFFF00A5"/>
         <!-- Treb 1 -->
         <POI MapID="1527" xpos="-113.6404" ypos="8.738906" zpos="-153.4124" GUID="xb/reyxGfEOLupKj8V0ELw=="/>
         <!-- Treb 2 -->
@@ -253,7 +291,13 @@
         <!-- Treb 4 -->
         <POI MapID="1527" xpos="219.3486" ypos="9.317378" zpos="-122.5843" GUID="X5ZQiTNjh0iqcC7VE09D4Q=="/>
 
-        <!-- NE -->
+        <!--
+            CORNERS!!!!!
+        -->
+        <!-- 
+            NORTH EAST
+         -->
+         <Trail type="cc.soto.outernayos.trails.ne" trailData="Data/SotO/Trails/sotone.trl" color="FFFF69B4"/>
         <!-- NE Lt 1-->
         <POI MapID="1527" xpos="128.8051" ypos="44.66696" zpos="107.8083" GUID="PD7nmToGVU2f9EoqBqJjQg=="/>
         <!-- NE Lt 2 -->
@@ -267,7 +311,70 @@
         <!-- NE Gen -->
         <POI MapID="1527" xpos="256.5778" ypos="24.46374" zpos="135.1871" GUID="qKLug9Dw0EiSpslzXyS3oA=="/>
         
-        
+        <!-- 
+            SOUTH EAST
+        -->
+        <Trail type="cc.soto.outernayos.trails.se" trailData="Data/SotO/Trails/sotose.trl" color="FF008000"/>
+        <!-- launcher -->
+        <POI MapID="1527" xpos="36.82627" ypos="9.366185" zpos="-52.33984" GUID="0qR/wtJA4UmYGx7FryJxAw=="/>
+        <!-- LT 1 -->
+        <POI MapID="1527" xpos="140.401" ypos="44.62931" zpos="-120.009" GUID="2vedUwdp2k2COeIpriYvMg=="/>
+        <!-- LT 2 -->
+        <POI MapID="1527" xpos="274.5993" ypos="9.339524" zpos="-88.93973" GUID="INGM7jVZDUO0GiJiRdzfGQ=="/>
+        <!-- LT 3 -->
+        <POI MapID="1527" xpos="191.0303" ypos="2.311903" zpos="-177.2362" GUID="P2toGZRdDUW6KcKlHLjyIg=="/>
+        <!-- LT 4 -->
+        <POI MapID="1527" xpos="143.3544" ypos="1.97536" zpos="-251.2353" GUID="TCgMtDgZUE6a+bF/bCuWHg=="/>
+        <!-- LT 5 -->
+        <POI MapID="1527" xpos="60.59518" ypos="9.708329" zpos="-207.0533" GUID="kgeEtfh7m0yNCWSzYck/0w=="/>
+        <!-- GEN -->
+        <POI MapID="1527" xpos="159.0841" ypos="0.7490059" zpos="-193.0363" GUID="yHScyQ+iTUmFg0DPQP5ifA=="/>
+
+        <!-- 
+            SOUTH WEST
+        -->
+        <Trail type="cc.soto.outernayos.trails.sw" trailData="Data/SotO/Trails/sotosw.trl" color="FF9ACD32"/>
+        <!-- enter portal spot -->
+        <POI MapID="1527" xpos="-189.6443" ypos="0.514817" zpos="-13.02011" GUID="fcC3pGWSKkiC8ud4voCKcg=="/>
+        <!-- exit portal spot-->
+        <POI MapID="1527" xpos="-179.5431" ypos="69.54257" zpos="-4.191826" GUID="Ccxlf3GvQEabFPSCJ847oQ=="/>
+        <!-- LT 1 -->
+        <POI MapID="1527" xpos="-171.2769" ypos="10.36569" zpos="-170.9912" GUID="sKNy4+Jvq0issG/LVFnd4A=="/>
+        <!-- LT 2 -->
+        <POI MapID="1527" xpos="-216.1797" ypos="0.4359338" zpos="10.69067" GUID="mJNa4Tv+mki9Nt+jAjw6LQ=="/>
+        <!-- LT 3 -->
+        <POI MapID="1527" xpos="-163.0182" ypos="68.8933" zpos="-12.7481" GUID="vqSmrxJ5GEispAWIZJA+EA=="/>
+        <!-- LT 4 -->
+        <POI MapID="1527" xpos="-264.5795" ypos="68.93647" zpos="-76.04044" GUID="y+sctY97+UGd/ipVkcMBxw=="/>
+        <!-- LT 5 -->
+        <POI MapID="1527" xpos="-225.5359" ypos="68.93631" zpos="-151.8126" GUID="vp5HLx0K3kiujiDw1iXw0w=="/>
+        <!-- GEN -->
+        <POI MapID="1527" xpos="-252.5647" ypos="68.93631" zpos="-102.783" GUID="kafiQuBRhkCmjsrGd5TDDQ=="/>
+
+        <!--
+            NORTH WEST
+        -->
+        <Trail type="cc.soto.outernayos.trails.nw" trailData="Data/SotO/Trails/sotonw.trl" color="FF00FFFF"/>
+        <!-- enter portal spot -->
+        <POI MapID="1527" xpos="-23.76622" ypos="22.08933" zpos="215.9271" GUID="pTFZetCTr0abGW9k14qf/w=="/>
+        <!-- exit portal spot -->
+        <POI MapID="1527" xpos="-30.70688" ypos="143.5947" zpos="239.2566" GUID="9+dVL75QlUWF1/Vykbu2Jw=="/>
+        <!-- Glide marker -->
+        <POI MapID="1527" xpos="55.64286" ypos="135.9574" zpos="203.5959" GUID="/GoMPZrXukOPSZUnBEYehw=="/>
+        <!-- LT 1 -->
+        <POI MapID="1527" xpos="-198.2547" ypos="10.68106" zpos="119.8244" GUID="HmOTzMXabUm6yCo6mY24HA=="/>
+        <!-- LT 2 -->
+        <POI MapID="1527" xpos="-127.7188" ypos="12.43933" zpos="179.9055" GUID="2Fl7LP9rF0u3DNt58BE1Pg=="/>
+        <!-- LT 3 -->
+        <POI MapID="1527" xpos="-79.75864" ypos="33.72616" zpos="223.4025" GUID="WLISVV0rq0arm/rsioL7ug=="/>
+        <!-- LT 4 -->
+        <POI MapID="1527" xpos="-31.58907" ypos="15.44616" zpos="194.9396" GUID="vTF6UpKQYUWgMQ+TxlrVGw=="/>
+        <!-- LT 5 -->
+        <POI MapID="1527" xpos="-30.43628" ypos="147.1377" zpos="256.4232" GUID="TMNLxOP5/0OVMhl9RDYXTw=="/>
+        <!-- GEN -->
+        <POI MapID="1527" xpos="-133.1928" ypos="10.62167" zpos="95.65817" GUID="5kpC5RYz10qBKUqkQL1Zxg=="/>
+
+
         <!-- 
             JANTHIR WILDS 
         -->
