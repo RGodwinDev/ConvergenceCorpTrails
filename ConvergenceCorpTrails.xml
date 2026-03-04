@@ -16,6 +16,21 @@
             <MarkerCategory name="turtle" displayName="Turtle" iconFile="Data/Icons/Mounts/Siege_Turtle_icon.png"/>
             <MarkerCategory name="warclaw" displayName="Warclaw" iconFile="Data/Icons/Mounts/Warclaw_icon.png"/>
         </MarkerCategory>
+
+        <MarkerCategory name="icons" displayName="Icons">
+            <MarkerCategory name="tpin" displayName="Teleport Entrance" iconFile="Data/Icons/portal_entre.png"/>
+            <MarkerCategory name="tpout" displayName="Teleport Exit" iconFile="Data/Icons/portal_exuent.png"/>
+            <MarkerCategory name="glideboost" displayName="Glider Booster" iconFile="Data/Icons/Jade_Bot_Glide_Booster.png"/>
+            <MarkerCategory name="ridetheleyline" displayName="Ride the Ley Line" iconFile="Data/Icons/Ride_the_Ley_Line.png"/>
+            <MarkerCategory name="trebicon" displayName="Treb" iconFile="Data/Icons/Blue_Trebuchet.png" />
+            <MarkerCategory name="numbers" displayName="Numbers">
+                <MarkerCategory name="one" displayName="One" iconFile="Data/Icons/Numbers/One.png"/>
+                <MarkerCategory name="two" displayName="Two" iconFile="Data/Icons/Numbers/Two.png"/>
+                <MarkerCategory name="three" displayName="Three" iconFile="Data/Icons/Numbers/Three.png"/>
+                <MarkerCategory name="four" displayName="Four" iconFile="Data/Icons/Numbers/Four.png"/>
+            </MarkerCategory>
+        </MarkerCategory>
+
         <MarkerCategory name="soto" displayName="SotO">
             <!-- Wizards Tower-->
             <MarkerCategory name="wiztower" displayName="Wizards Tower">
@@ -24,11 +39,68 @@
                     displayName="Wizards Tower Convergence Entrance Trial"
                     texture="Data/TrailToConvergences.png"
                 />
+                <MarkerCategory name="signs" displayName="Signs">
+                    
+                    <MarkerCategory
+                        name="splitmid"
+                        displayName="Split Phase Mid" 
+                        iconFile="Data/SotO/Markers/Tower/SotOSplitMidv2.png" 
+                    />
+                    <MarkerCategory
+                        name="splitse"
+                        displayName="Split Phase SE" 
+                        iconFile="Data/SotO/Markers/Tower/SotOSplitSEv2.png" 
+                    />
+                    <MarkerCategory
+                        name="splitne"
+                        displayName="Split Phase NE" 
+                        iconFile="Data/SotO/Markers/Tower/SotOSplitNEv2.png" 
+                    />
+                    <MarkerCategory
+                        name="splitnw"
+                        displayName="Split Phase NW" 
+                        iconFile="Data/SotO/Markers/Tower/SotOSplitNWv2.png" 
+                    />
+                    <MarkerCategory
+                        name="splitsw"
+                        displayName="Split Phase SW" 
+                        iconFile="Data/SotO/Markers/Tower/SotOSplitSWv2.png" 
+                    />
+                    <MarkerCategory
+                        name="splits"
+                        displayName="Splits"
+                        iconFile="Data/SotO/Markers/Tower/SotOConvergenceSplitsv2.png"
+                    />
+                </MarkerCategory>
             </MarkerCategory>
             <!-- Convergence -->
             <MarkerCategory name="outernayos" displayName="Outer Nayos">
                 <MarkerCategory name="signs" displayName="Signs">
-
+                    <MarkerCategory
+                        name="trebroutesign"
+                        displayName="Treb Route Sign"
+                        iconFile="Data/SotO/Markers/Convergence/TrebRouteSign.png"
+                    />
+                    <MarkerCategory
+                        name="swroutesign"
+                        displayName="SW Route Sign"
+                        iconFile="Data/SotO/Markers/Convergence/SWRouteSign.png"
+                    />
+                    <MarkerCategory
+                        name="seroutesign"
+                        displayName="SE Route Sign"
+                        iconFile="Data/SotO/Markers/Convergence/SERouteSign.png"
+                    />
+                    <MarkerCategory
+                        name="nwroutesign"
+                        displayName="NW Route Sign"
+                        iconFile="Data/SotO/Markers/Convergence/NWRouteSign.png"
+                    />
+                    <MarkerCategory
+                        name="neroutesign"
+                        displayName="NE Route Sign"
+                        iconFile="Data/SotO/Markers/Convergence/NERouteSign.png"
+                    />
                 </MarkerCategory>
                 <MarkerCategory name="trails" displayName="Trails" texture="Data/trail.png">
                     <MarkerCategory
@@ -55,7 +127,7 @@
                 </MarkerCategory>
             </MarkerCategory>
         </MarkerCategory>
-        <!-- JANTHIR WILDS-->
+
         <MarkerCategory name="jw" displayName="JW">
             <!-- JW HEART SIGNS -->
             <MarkerCategory 
@@ -203,7 +275,11 @@
                 texture="Data/Icons/heart_full.png"
             />
         </MarkerCategory>
+
         <MarkerCategory name="voe" displayName="VoE">
+            <MarkerCategory name="cvrg" displayName="Coming Soon...">
+
+            </MarkerCategory>
         </MarkerCategory>
 
         <!-- NOTE: Do NOT use './Data/...', use 'Data/...' -->
@@ -263,33 +339,37 @@
         <!-- Zojja in Wiz Tower -->
         <POI MapID="1509" xpos="-11.51686" ypos="326.742" zpos="-102.6878" GUID="0tV7GDOqUkWGwxKLTdK+eA=="/>
 
-        <!-- CONVERGE -->
-        <!-- Behind group at spawn -->
-        <POI MapID="1527" xpos="-2.438369" ypos="10.15999" zpos="-7.218506" GUID="WSau5+TusEmEMrBxvEGBmQ=="/>
-
-        <!-- Zojja in Mid -->
-        <POI MapID="1527" xpos="-5.937211" ypos="9.723023" zpos="26.18845" GUID="uUv6LbWbaUiB2vEtQi6W3A=="/>
+        <POI iconSize="4" rotate="90,0,35" type="cc.soto.wiztower.signs.splitmid" MapID="1509" xpos="-7.686641" ypos="328" zpos="-138.3005" GUID="plVkWttWG0m2J8XXm132/Q=="/>
+        <POI iconSize="4" rotate="90,0,35" type="cc.soto.wiztower.signs.splitnw" MapID="1509" xpos="-23.31211" ypos="328" zpos="-148.3034" GUID="NDkwVmFuK0Oa18Gc6zVwcQ=="/>
+        <POI iconSize="4" rotate="90,0,-55" type="cc.soto.wiztower.signs.splitne" MapID="1509" xpos="-36.50421" ypos="328" zpos="-133.2016" GUID="RO+JPWEoCEeFcjhLtWHnWQ=="/>
+        <POI iconSize="4" rotate="90,0,-55" type="cc.soto.wiztower.signs.splitse" MapID="1509" xpos="-43.42783" ypos="328" zpos="-123.285" GUID="j8aRCN25pUaghFjXBsmfaw=="/>
+        <POI iconSize="4" rotate="90,0,125" type="cc.soto.wiztower.signs.splitsw" MapID="1509" xpos="-23.7562" ypos="328" zpos="-109.7743" GUID="qhxIu5O2A0qW5lWXtjMRJQ=="/>
+        <POI iconSize="4" rotate="90,0,125" type="cc.soto.wiztower.signs.splits" MapID="1509" xpos="-16.61322" ypos="328" zpos="-118.9729" GUID="9mFXVEGJnkSau0OmlQnLOg=="/>
+        
+        <!-- 
+            IN THE CONVERGENCE! 
+        -->
 
         <!-- Spite Spawns-->
         <!-- West -->
-        <POI MapID="1527" xpos="-95.10444" ypos="5.815973" zpos="17.24136" GUID="WYC2y7Oe10K920+8L2obGA=="/>
+        <POI type="cc.icons.numbers.one" color="FFFF0000" MapID="1527" xpos="-95.10444" ypos="5.815973" zpos="17.24136" GUID="WYC2y7Oe10K920+8L2obGA=="/>
         <!-- NE -->
-        <POI MapID="1527" xpos="60.90176" ypos="2.150495" zpos="97.59732" GUID="4q4BR2yS6kSIa4xqZQOeUQ=="/>
+        <POI type="cc.icons.numbers.three" color="FFFF0000" MapID="1527" xpos="60.90176" ypos="2.150495" zpos="97.59732" GUID="4q4BR2yS6kSIa4xqZQOeUQ=="/>
         <!-- SE -->
-        <POI MapID="1527" xpos="99.69678" ypos="1.175588" zpos="-48.04602" GUID="u78hVYM+z06OtPsv88EHuQ=="/>
+        <POI type="cc.icons.numbers.two" color="FFFF0000" MapID="1527" xpos="99.69678" ypos="1.175588" zpos="-48.04602" GUID="u78hVYM+z06OtPsv88EHuQ=="/>
 
         <!-- Trebs -->
         <!--Treb trail start-->
-        <POI MapID="1527" xpos="-83.44451" ypos="6.986386" zpos="-4.118439" GUID="UwBxaylPsUWU4uzNwq74+Q=="/>
+        <POI iconSize="4" type="cc.soto.outernayos.signs.trebroutesign" MapID="1527" xpos="-83.44451" ypos="6.986386" zpos="-4.118439" GUID="UwBxaylPsUWU4uzNwq74+Q=="/>
         <Trail type="cc.soto.outernayos.trails.trebroute" trailData="Data/SotO/Trails/trebs.trl" color="FFFF00A5"/>
         <!-- Treb 1 -->
-        <POI MapID="1527" xpos="-113.6404" ypos="8.738906" zpos="-153.4124" GUID="xb/reyxGfEOLupKj8V0ELw=="/>
+        <POI type="cc.icons.trebicon" MapID="1527" xpos="-113.6404" ypos="8.738906" zpos="-153.4124" GUID="xb/reyxGfEOLupKj8V0ELw=="/>
         <!-- Treb 2 -->
-        <POI MapID="1527" xpos="-158.7059" ypos="10.62339" zpos="74.74903" GUID="lnaLDc50ZUub7pbSmE1Rnw=="/>
+        <POI type="cc.icons.trebicon" MapID="1527" xpos="-158.7059" ypos="10.62339" zpos="74.74903" GUID="lnaLDc50ZUub7pbSmE1Rnw=="/>
         <!-- Treb 3 -->
-        <POI MapID="1527" xpos="243.9198" ypos="24.69224" zpos="85.08665" GUID="Y6j58+q74kemhZJfne3CLw=="/>
+        <POI type="cc.icons.trebicon" MapID="1527" xpos="243.9198" ypos="24.69224" zpos="85.08665" GUID="Y6j58+q74kemhZJfne3CLw=="/>
         <!-- Treb 4 -->
-        <POI MapID="1527" xpos="219.3486" ypos="9.317378" zpos="-122.5843" GUID="X5ZQiTNjh0iqcC7VE09D4Q=="/>
+        <POI type="cc.icons.trebicon" MapID="1527" xpos="219.3486" ypos="9.317378" zpos="-122.5843" GUID="X5ZQiTNjh0iqcC7VE09D4Q=="/>
 
         <!--
             CORNERS!!!!!
@@ -297,83 +377,46 @@
         <!-- 
             NORTH EAST
          -->
+         <!-- NE Trail Start -->
+         <POI iconSize="4" type="cc.soto.outernayos.signs.neroutesign" MapID="1527" xpos="66.61755" ypos="10.08728" zpos="35.87255" GUID="REScGZ4DVEmJIZH/aEQ3Vg=="/>
          <Trail type="cc.soto.outernayos.trails.ne" trailData="Data/SotO/Trails/sotone.trl" color="FFFF69B4"/>
-        <!-- NE Lt 1-->
-        <POI MapID="1527" xpos="128.8051" ypos="44.66696" zpos="107.8083" GUID="PD7nmToGVU2f9EoqBqJjQg=="/>
-        <!-- NE Lt 2 -->
-        <POI MapID="1527" xpos="116.2756" ypos="0.5130234" zpos="191.7773" GUID="kcL9QjdX7EyhJU41jS64/w=="/>
-        <!-- NE Lt 3 -->
-        <POI MapID="1527" xpos="151.796" ypos="0.5136161" zpos="143.2215" GUID="kmRjjpuKMUGjhHsfAZeqAQ=="/>
-        <!-- NE Lt 4 -->
-        <POI MapID="1527" xpos="215.9564" ypos="11.20963" zpos="200.7138" GUID="amDrYayDdEiZEGsGyhI43Q=="/>
-        <!-- NE Lt 5 -->
-        <POI MapID="1527" xpos="259.54" ypos="24.45555" zpos="133.2821" GUID="/kzaxKamsUePd+sRj8Xx3w=="/>
-        <!-- NE Gen -->
-        <POI MapID="1527" xpos="256.5778" ypos="24.46374" zpos="135.1871" GUID="qKLug9Dw0EiSpslzXyS3oA=="/>
         
         <!-- 
             SOUTH EAST
         -->
+        <!-- SE Trail Start-->
+        <POI iconSize="4" type="cc.soto.outernayos.signs.seroutesign" MapID="1527" xpos="33.50863" ypos="9.14325" zpos="-29.15386" GUID="CDW/FIeb20ez6pMDueFQGQ=="/>
         <Trail type="cc.soto.outernayos.trails.se" trailData="Data/SotO/Trails/sotose.trl" color="FF008000"/>
         <!-- launcher -->
         <POI MapID="1527" xpos="36.82627" ypos="9.366185" zpos="-52.33984" GUID="0qR/wtJA4UmYGx7FryJxAw=="/>
-        <!-- LT 1 -->
-        <POI MapID="1527" xpos="140.401" ypos="44.62931" zpos="-120.009" GUID="2vedUwdp2k2COeIpriYvMg=="/>
-        <!-- LT 2 -->
-        <POI MapID="1527" xpos="274.5993" ypos="9.339524" zpos="-88.93973" GUID="INGM7jVZDUO0GiJiRdzfGQ=="/>
-        <!-- LT 3 -->
-        <POI MapID="1527" xpos="191.0303" ypos="2.311903" zpos="-177.2362" GUID="P2toGZRdDUW6KcKlHLjyIg=="/>
-        <!-- LT 4 -->
-        <POI MapID="1527" xpos="143.3544" ypos="1.97536" zpos="-251.2353" GUID="TCgMtDgZUE6a+bF/bCuWHg=="/>
-        <!-- LT 5 -->
-        <POI MapID="1527" xpos="60.59518" ypos="9.708329" zpos="-207.0533" GUID="kgeEtfh7m0yNCWSzYck/0w=="/>
-        <!-- GEN -->
-        <POI MapID="1527" xpos="159.0841" ypos="0.7490059" zpos="-193.0363" GUID="yHScyQ+iTUmFg0DPQP5ifA=="/>
 
         <!-- 
             SOUTH WEST
         -->
+        <!-- SW Trail Start -->
+        <POI iconSize="4" type="cc.soto.outernayos.signs.swroutesign" MapID="1527" xpos="-90.21806" ypos="7.717021" zpos="-25.23571" GUID="4j0bImiQ+0WAcPVhrEoOoA=="/>
         <Trail type="cc.soto.outernayos.trails.sw" trailData="Data/SotO/Trails/sotosw.trl" color="FF9ACD32"/>
         <!-- enter portal spot -->
-        <POI MapID="1527" xpos="-189.6443" ypos="0.514817" zpos="-13.02011" GUID="fcC3pGWSKkiC8ud4voCKcg=="/>
+        <POI type="cc.icons.tpin" MapID="1527" xpos="-189.6443" ypos="0.514817" zpos="-13.02011" GUID="fcC3pGWSKkiC8ud4voCKcg=="/>
         <!-- exit portal spot-->
-        <POI MapID="1527" xpos="-179.5431" ypos="69.54257" zpos="-4.191826" GUID="Ccxlf3GvQEabFPSCJ847oQ=="/>
-        <!-- LT 1 -->
-        <POI MapID="1527" xpos="-171.2769" ypos="10.36569" zpos="-170.9912" GUID="sKNy4+Jvq0issG/LVFnd4A=="/>
-        <!-- LT 2 -->
-        <POI MapID="1527" xpos="-216.1797" ypos="0.4359338" zpos="10.69067" GUID="mJNa4Tv+mki9Nt+jAjw6LQ=="/>
-        <!-- LT 3 -->
-        <POI MapID="1527" xpos="-163.0182" ypos="68.8933" zpos="-12.7481" GUID="vqSmrxJ5GEispAWIZJA+EA=="/>
-        <!-- LT 4 -->
-        <POI MapID="1527" xpos="-264.5795" ypos="68.93647" zpos="-76.04044" GUID="y+sctY97+UGd/ipVkcMBxw=="/>
-        <!-- LT 5 -->
-        <POI MapID="1527" xpos="-225.5359" ypos="68.93631" zpos="-151.8126" GUID="vp5HLx0K3kiujiDw1iXw0w=="/>
-        <!-- GEN -->
-        <POI MapID="1527" xpos="-252.5647" ypos="68.93631" zpos="-102.783" GUID="kafiQuBRhkCmjsrGd5TDDQ=="/>
+        <POI type="cc.icons.tpout" MapID="1527" xpos="-179.5431" ypos="69.54257" zpos="-4.191826" GUID="Ccxlf3GvQEabFPSCJ847oQ=="/>
 
         <!--
             NORTH WEST
         -->
+        <!-- NW Trail Start -->
+        <POI iconSize="4" type="cc.soto.outernayos.signs.nwroutesign" MapID="1527" xpos="-94.97888" ypos="7.896499" zpos="40.9082" GUID="hwzyf/MJGkexaY0zgGaGXA=="/>
         <Trail type="cc.soto.outernayos.trails.nw" trailData="Data/SotO/Trails/sotonw.trl" color="FF00FFFF"/>
         <!-- enter portal spot -->
-        <POI MapID="1527" xpos="-23.76622" ypos="22.08933" zpos="215.9271" GUID="pTFZetCTr0abGW9k14qf/w=="/>
+        <POI type="cc.icons.tpin"  MapID="1527" xpos="-23.76622" ypos="22.08933" zpos="215.9271" GUID="pTFZetCTr0abGW9k14qf/w=="/>
         <!-- exit portal spot -->
-        <POI MapID="1527" xpos="-30.70688" ypos="143.5947" zpos="239.2566" GUID="9+dVL75QlUWF1/Vykbu2Jw=="/>
+        <POI type="cc.icons.tpout" MapID="1527" xpos="-30.70688" ypos="143.5947" zpos="239.2566" GUID="9+dVL75QlUWF1/Vykbu2Jw=="/>
         <!-- Glide marker -->
-        <POI MapID="1527" xpos="55.64286" ypos="135.9574" zpos="203.5959" GUID="/GoMPZrXukOPSZUnBEYehw=="/>
-        <!-- LT 1 -->
-        <POI MapID="1527" xpos="-198.2547" ypos="10.68106" zpos="119.8244" GUID="HmOTzMXabUm6yCo6mY24HA=="/>
-        <!-- LT 2 -->
-        <POI MapID="1527" xpos="-127.7188" ypos="12.43933" zpos="179.9055" GUID="2Fl7LP9rF0u3DNt58BE1Pg=="/>
-        <!-- LT 3 -->
-        <POI MapID="1527" xpos="-79.75864" ypos="33.72616" zpos="223.4025" GUID="WLISVV0rq0arm/rsioL7ug=="/>
-        <!-- LT 4 -->
-        <POI MapID="1527" xpos="-31.58907" ypos="15.44616" zpos="194.9396" GUID="vTF6UpKQYUWgMQ+TxlrVGw=="/>
-        <!-- LT 5 -->
-        <POI MapID="1527" xpos="-30.43628" ypos="147.1377" zpos="256.4232" GUID="TMNLxOP5/0OVMhl9RDYXTw=="/>
-        <!-- GEN -->
-        <POI MapID="1527" xpos="-133.1928" ypos="10.62167" zpos="95.65817" GUID="5kpC5RYz10qBKUqkQL1Zxg=="/>
-
+        <POI type="cc.icons.glideboost" MapID="1527" xpos="55.64286" ypos="135.9574" zpos="203.5959" GUID="/GoMPZrXukOPSZUnBEYehw=="/>
+        <!-- Ride the Ley Line -->
+        <POI type="cc.icons.ridetheleyline" MapID="1527" xpos="41.14293" ypos="164.569" zpos="211.2152" GUID="5jlnqKpRxE+dlDgU2YN8rw=="/>
+        <!-- Griffon Marker -->
+        <POI type="cc.mounts.griffon" MapID="1527" xpos="-46.93878" ypos="144.5372" zpos="237.8821" GUID="2T1pK4K6rUm0FRHuWytMiw=="/>
 
         <!-- 
             JANTHIR WILDS 
@@ -489,14 +532,21 @@
         <POI iconSize="4" type="cc.jw.heartsignage.JSCamp" rotate="90,0,270" MapID="1554" xpos="642.4767" ypos="2" zpos="-650.1081" GUID="Ocu6PWW+4UOc0363rN2uqQ=="/>
         <!-- M&M Warning -->
         <POI iconSize="4" type="cc.jw.heartsignage.JSMMWarn" rotate="90,0,180" MapID="1554" xpos="611.6811" ypos="3.494772" zpos="-602.452" GUID="hD3KOLTFCUGFWkYbllmM8g=="/>
+        
         <!-- 
             Festering Basin 
         -->
         <Trail type="cc.jw.hearttrails" trailData="Data/JW/Trails/Hearts/FesteringBasin.trl"/>
         <!-- Janthir Syntri:Save Woodland Creatures Adventure Sign -->
         <POI iconSize="4" type="cc.jw.heartsignage.JSFesteringBasin" rotate="90,0,200" MapID="1554" xpos="-315.75" ypos="43.17654" zpos="-562.5" GUID="3RzVtzBKFk2P5di2VUpSeA=="/>
+        
+        
         <!-- 
             VISIONS OF ETERNITY 
         -->
+
+
+
+
     </POIs>
 </OverlayData>
