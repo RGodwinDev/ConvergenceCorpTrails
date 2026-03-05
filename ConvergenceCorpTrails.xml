@@ -166,37 +166,37 @@
                 />
                 <MarkerCategory
                     name="JSDeer"
-                    displayName = "Deer Sign"
+                    displayName="Deer Sign"
                     iconFile="Data/JW/Markers/Hearts/ForagersDEER.png"
                  />
                 <MarkerCategory
                     name="JSRam"
-                    displayName = "Ram Sign"
+                    displayName="Ram Sign"
                     iconFile="Data/JW/Markers/Hearts/ForagersRAM.png"
                 />
                 <MarkerCategory
                     name="JSIboga"
-                    display = "Iboga Sign"
+                    displayName="Iboga Sign"
                     iconFile="Data/JW/Markers/Hearts/ForagersIBOGA.png"
                 />
                 <MarkerCategory
                     name="JSBoar"
-                    display = "Boar Sign"
+                    displayName="Boar Sign"
                     iconFile="Data/JW/Markers/Hearts/ForagersBOAR.png"
                 />
                 <MarkerCategory
                     name="JSCamp"
-                    display = "Camp Sign"
+                    displayName="Camp Sign"
                     iconFile="Data/JW/Markers/Hearts/ForagersCAMP.png"
                 />
                 <MarkerCategory
                     name="JSMMWarn"
-                    display = "M&amp;M Warning Sign"
+                    displayName="M&amp;M Warning Sign"
                     iconFile="Data/JW/Markers/Hearts/ForagersMMWARN.png"
                 />
                 <MarkerCategory
                     name="JSFesteringBasin"
-                    display= "Festering Basin Adventure Sign"
+                    displayName="Festering Basin Adventure Sign"
                     iconFile="Data/JW/Markers/Hearts/FesteringBasin.png"
                 />
             </MarkerCategory >
@@ -334,10 +334,11 @@
         <!-- 
             Wizard Tower 
         -->
+        <!-- 1509 = wiz tower -->
+        <!-- 1523 = soto public -->
+        <!-- 1527 = soto private -->
         <!-- Wiz Tower Trail to Convergence Portal-->
         <Trail type="cc.soto.wiztower.wiztrail" trailData="Data/SotO/Trails/wiztower.trl" color="FFFFA500"/>
-        <!-- Zojja in Wiz Tower -->
-        <POI MapID="1509" xpos="-11.51686" ypos="326.742" zpos="-102.6878" GUID="0tV7GDOqUkWGwxKLTdK+eA=="/>
 
         <POI iconSize="4" rotate="90,0,35" type="cc.soto.wiztower.signs.splitmid" MapID="1509" xpos="-7.686641" ypos="328" zpos="-138.3005" GUID="plVkWttWG0m2J8XXm132/Q=="/>
         <POI iconSize="4" rotate="90,0,35" type="cc.soto.wiztower.signs.splitnw" MapID="1509" xpos="-23.31211" ypos="328" zpos="-148.3034" GUID="NDkwVmFuK0Oa18Gc6zVwcQ=="/>
@@ -349,26 +350,36 @@
         <!-- 
             IN THE CONVERGENCE! 
         -->
-
+        <!-- -->
         <!-- Spite Spawns-->
         <!-- West -->
+        <POI type="cc.icons.numbers.one" color="FFFF0000" MapID="1523" xpos="-95.10444" ypos="5.815973" zpos="17.24136" GUID="j+Nc0EWNxke2owWRQQa/EQ=="/>
         <POI type="cc.icons.numbers.one" color="FFFF0000" MapID="1527" xpos="-95.10444" ypos="5.815973" zpos="17.24136" GUID="WYC2y7Oe10K920+8L2obGA=="/>
         <!-- NE -->
+        <POI type="cc.icons.numbers.three" color="FFFF0000" MapID="1523" xpos="60.90176" ypos="2.150495" zpos="97.59732" GUID="HMCMR/fgq0a2JeZgOe8IaA=="/>
         <POI type="cc.icons.numbers.three" color="FFFF0000" MapID="1527" xpos="60.90176" ypos="2.150495" zpos="97.59732" GUID="4q4BR2yS6kSIa4xqZQOeUQ=="/>
         <!-- SE -->
+        <POI type="cc.icons.numbers.two" color="FFFF0000" MapID="1523" xpos="99.69678" ypos="1.175588" zpos="-48.04602" GUID="F1ogtR6ExEK2QUBSJm0wXQ=="/>
         <POI type="cc.icons.numbers.two" color="FFFF0000" MapID="1527" xpos="99.69678" ypos="1.175588" zpos="-48.04602" GUID="u78hVYM+z06OtPsv88EHuQ=="/>
 
         <!-- Trebs -->
         <!--Treb trail start-->
+        <POI iconSize="4" type="cc.soto.outernayos.signs.trebroutesign" MapID="1523" xpos="-83.44451" ypos="6.986386" zpos="-4.118439" GUID="Fv4nBYZ1ZE2P0n42uCeGJg=="/>
         <POI iconSize="4" type="cc.soto.outernayos.signs.trebroutesign" MapID="1527" xpos="-83.44451" ypos="6.986386" zpos="-4.118439" GUID="UwBxaylPsUWU4uzNwq74+Q=="/>
+        <Trail type="cc.soto.outernayos.trails.trebroute" trailData="Data/SotO/Trails/trebsPublic.trl" color="FFFF00A5"/>
         <Trail type="cc.soto.outernayos.trails.trebroute" trailData="Data/SotO/Trails/trebs.trl" color="FFFF00A5"/>
+
         <!-- Treb 1 -->
+        <POI type="cc.icons.trebicon" MapID="1523" xpos="-113.6404" ypos="8.738906" zpos="-153.4124" GUID="yh2cD6jE+02o1RLGZfkBLQ=="/>
         <POI type="cc.icons.trebicon" MapID="1527" xpos="-113.6404" ypos="8.738906" zpos="-153.4124" GUID="xb/reyxGfEOLupKj8V0ELw=="/>
         <!-- Treb 2 -->
+        <POI type="cc.icons.trebicon" MapID="1523" xpos="-158.7059" ypos="10.62339" zpos="74.74903" GUID="rPJzy5SWlEOP4xrCYymqFQ=="/>
         <POI type="cc.icons.trebicon" MapID="1527" xpos="-158.7059" ypos="10.62339" zpos="74.74903" GUID="lnaLDc50ZUub7pbSmE1Rnw=="/>
         <!-- Treb 3 -->
+        <POI type="cc.icons.trebicon" MapID="1523" xpos="243.9198" ypos="24.69224" zpos="85.08665" GUID="/DgRdfUvREusmnwoY5ZTJA=="/>
         <POI type="cc.icons.trebicon" MapID="1527" xpos="243.9198" ypos="24.69224" zpos="85.08665" GUID="Y6j58+q74kemhZJfne3CLw=="/>
         <!-- Treb 4 -->
+        <POI type="cc.icons.trebicon" MapID="1523" xpos="219.3486" ypos="9.317378" zpos="-122.5843" GUID="X5ZQiTNjh0iqcC7VE09D4Q=="/>
         <POI type="cc.icons.trebicon" MapID="1527" xpos="219.3486" ypos="9.317378" zpos="-122.5843" GUID="X5ZQiTNjh0iqcC7VE09D4Q=="/>
 
         <!--
@@ -378,44 +389,63 @@
             NORTH EAST
          -->
          <!-- NE Trail Start -->
+         <POI iconSize="4" type="cc.soto.outernayos.signs.neroutesign" MapID="1523" xpos="66.61755" ypos="10.08728" zpos="35.87255" GUID="0YLuf72WVkijodtNX/iBFw=="/>
          <POI iconSize="4" type="cc.soto.outernayos.signs.neroutesign" MapID="1527" xpos="66.61755" ypos="10.08728" zpos="35.87255" GUID="REScGZ4DVEmJIZH/aEQ3Vg=="/>
+         <Trail type="cc.soto.outernayos.trails.ne" trailData="Data/SotO/Trails/sotonePublic.trl" color="FFFF69B4"/>
          <Trail type="cc.soto.outernayos.trails.ne" trailData="Data/SotO/Trails/sotone.trl" color="FFFF69B4"/>
         
         <!-- 
             SOUTH EAST
         -->
         <!-- SE Trail Start-->
+        <POI iconSize="4" type="cc.soto.outernayos.signs.seroutesign" MapID="1523" xpos="33.50863" ypos="9.14325" zpos="-29.15386" GUID="1ZHvjw7wSkaGcbE0G1l4Hw=="/>
         <POI iconSize="4" type="cc.soto.outernayos.signs.seroutesign" MapID="1527" xpos="33.50863" ypos="9.14325" zpos="-29.15386" GUID="CDW/FIeb20ez6pMDueFQGQ=="/>
+        <Trail type="cc.soto.outernayos.trails.se" trailData="Data/SotO/Trails/sotosePublic.trl" color="FF008000"/>
         <Trail type="cc.soto.outernayos.trails.se" trailData="Data/SotO/Trails/sotose.trl" color="FF008000"/>
         <!-- launcher -->
-        <POI MapID="1527" xpos="36.82627" ypos="9.366185" zpos="-52.33984" GUID="0qR/wtJA4UmYGx7FryJxAw=="/>
+        <POI type="cc.mounts.skyscale" MapID="1523" xpos="36.82627" ypos="9.366185" zpos="-52.33984" GUID="AIl3BtSPhkS016gncLryGg=="/>
+        <POI type="cc.mounts.skyscale" MapID="1527" xpos="36.82627" ypos="9.366185" zpos="-52.33984" GUID="0qR/wtJA4UmYGx7FryJxAw=="/>
 
         <!-- 
             SOUTH WEST
         -->
         <!-- SW Trail Start -->
+        <POI iconSize="4" type="cc.soto.outernayos.signs.swroutesign" MapID="1523" xpos="-90.21806" ypos="7.717021" zpos="-25.23571" GUID="vBEQQuhaYEuqmWBp/TsLEQ=="/>
         <POI iconSize="4" type="cc.soto.outernayos.signs.swroutesign" MapID="1527" xpos="-90.21806" ypos="7.717021" zpos="-25.23571" GUID="4j0bImiQ+0WAcPVhrEoOoA=="/>
+        <Trail type="cc.soto.outernayos.trails.sw" trailData="Data/SotO/Trails/sotoswPublic.trl" color="FF9ACD32"/>
         <Trail type="cc.soto.outernayos.trails.sw" trailData="Data/SotO/Trails/sotosw.trl" color="FF9ACD32"/>
+        <!-- Skyscale -->
+        <POI type="cc.mounts.skyscale" MapID="1523" xpos="-187.3823" ypos="0.5148168" zpos="-9.456933" GUID="3fn0TosCZUCPdAQxXI6pCw=="/>
+        <POI type="cc.mounts.skyscale" MapID="1527" xpos="-187.3823" ypos="0.5148168" zpos="-9.456933" GUID="3fn0TosCZUCPdAQxXI6pCw=="/>
         <!-- enter portal spot -->
+        <POI type="cc.icons.tpin" MapID="1523" xpos="-189.6443" ypos="0.514817" zpos="-13.02011" GUID="2b/MXT8aN0uu+XcD+mCEdA=="/>
         <POI type="cc.icons.tpin" MapID="1527" xpos="-189.6443" ypos="0.514817" zpos="-13.02011" GUID="fcC3pGWSKkiC8ud4voCKcg=="/>
         <!-- exit portal spot-->
+        <POI type="cc.icons.tpout" MapID="1523" xpos="-179.5431" ypos="69.54257" zpos="-4.191826" GUID="wXxPlL3U/U+VpOoy4uIBlA=="/>
         <POI type="cc.icons.tpout" MapID="1527" xpos="-179.5431" ypos="69.54257" zpos="-4.191826" GUID="Ccxlf3GvQEabFPSCJ847oQ=="/>
 
         <!--
             NORTH WEST
         -->
         <!-- NW Trail Start -->
+        <POI iconSize="4" type="cc.soto.outernayos.signs.nwroutesign" MapID="1523" xpos="-94.97888" ypos="7.896499" zpos="40.9082" GUID="c3RLvRQrVUmTMsZ5Qq+3rA=="/>
         <POI iconSize="4" type="cc.soto.outernayos.signs.nwroutesign" MapID="1527" xpos="-94.97888" ypos="7.896499" zpos="40.9082" GUID="hwzyf/MJGkexaY0zgGaGXA=="/>
+        <Trail type="cc.soto.outernayos.trails.nw" trailData="Data/SotO/Trails/sotonwPublic.trl" color="FF00FFFF"/>
         <Trail type="cc.soto.outernayos.trails.nw" trailData="Data/SotO/Trails/sotonw.trl" color="FF00FFFF"/>
         <!-- enter portal spot -->
+        <POI type="cc.icons.tpin"  MapID="1523" xpos="-23.76622" ypos="22.08933" zpos="215.9271" GUID="nHlyi3WrYUqBprcgubieCg=="/>
         <POI type="cc.icons.tpin"  MapID="1527" xpos="-23.76622" ypos="22.08933" zpos="215.9271" GUID="pTFZetCTr0abGW9k14qf/w=="/>
         <!-- exit portal spot -->
+        <POI type="cc.icons.tpout" MapID="1523" xpos="-30.70688" ypos="143.5947" zpos="239.2566" GUID="uzSKQaBW/ke1tBWN8vG28w=="/>
         <POI type="cc.icons.tpout" MapID="1527" xpos="-30.70688" ypos="143.5947" zpos="239.2566" GUID="9+dVL75QlUWF1/Vykbu2Jw=="/>
         <!-- Glide marker -->
+        <POI type="cc.icons.glideboost" MapID="1523" xpos="55.64286" ypos="135.9574" zpos="203.5959" GUID="U/6ddRdyvkKw2HhtoWM5Nw=="/>
         <POI type="cc.icons.glideboost" MapID="1527" xpos="55.64286" ypos="135.9574" zpos="203.5959" GUID="/GoMPZrXukOPSZUnBEYehw=="/>
         <!-- Ride the Ley Line -->
+        <POI type="cc.icons.ridetheleyline" MapID="1523" xpos="41.14293" ypos="164.569" zpos="211.2152" GUID="Yb5ITfFQz0y01ckYkMIDvg=="/>
         <POI type="cc.icons.ridetheleyline" MapID="1527" xpos="41.14293" ypos="164.569" zpos="211.2152" GUID="5jlnqKpRxE+dlDgU2YN8rw=="/>
         <!-- Griffon Marker -->
+        <POI type="cc.mounts.griffon" MapID="1523" xpos="-46.93878" ypos="144.5372" zpos="237.8821" GUID="awNcufB0dUKNtAdXVOMPBQ=="/>
         <POI type="cc.mounts.griffon" MapID="1527" xpos="-46.93878" ypos="144.5372" zpos="237.8821" GUID="2T1pK4K6rUm0FRHuWytMiw=="/>
 
         <!-- 
@@ -424,73 +454,105 @@
         <!-- 
             CONVERGE 
         -->
+        <!-- 1571 = jw public -->
+        <!-- 1562 = jw private -->
+        <!-- trail to cvrg in lowland shore -->
         <Trail type="cc.jw.elct" trailData="Data/JW/Trails/Convergence/lowlandentering.trl" color="FF00FF00" />
         <!-- left in start -->
+        <POI MapID="1571" xpos="-240.1132" ypos="79.42603" zpos="-426.5479" GUID="ge/0zj+/VEWVD52AwjpCyA=="/>
         <POI MapID="1562" xpos="-240.1132" ypos="79.42603" zpos="-426.5479" GUID="UeX8M9rgUUaEL5VxTaA2Zg=="/>
         <!-- Don't Touch the Bear! -->
+        <POI iconSize="4" type="cc.jw.convergesignage.donttouchsign" rotate="90,0,150" MapID="1571" xpos="-212.8266" ypos="76.50939" zpos="-422.0489" GUID="Ivx8petEAU2PJkH7hoAJKw=="/>
         <POI iconSize="4" type="cc.jw.convergesignage.donttouchsign" rotate="90,0,150" MapID="1562" xpos="-212.8266" ypos="76.50939" zpos="-422.0489" GUID="PyJ52emXv0ajjtmsmLmCrg=="/>
         <!-- Dolyak Trail -->
+        <Trail type="cc.jw.dolyaktrail" trailData="Data/JW/Trails/Convergence/dolyakRoutePublic.trl" color="FFFFD700" />
         <Trail type="cc.jw.dolyaktrail" trailData="Data/JW/Trails/Convergence/dolyakRoute.trl" color="FFFFD700" />
         <!-- dolyak stop 1 -->
+        <POI MapID="1571" xpos="-199.6675" ypos="100.1301" zpos="-296.8672" GUID="XDB320rM6kS4292PMgzTBg=="/>
         <POI MapID="1562" xpos="-199.6675" ypos="100.1301" zpos="-296.8672" GUID="X07P9N3y9EOk7+SZULDMpQ=="/>
         <!-- dolyak stop 2 -->
+        <POI MapID="1571" xpos="-159.2413" ypos="144.9497" zpos="-128.847" GUID="pnXs3pV9oUaGoFlFeoWDmQ=="/>
         <POI MapID="1562" xpos="-159.2413" ypos="144.9497" zpos="-128.847" GUID="HkETPJ7FEk+nePIgMkTdmg=="/>
         
 
         <!-- DOORS -->
+        <Trail type="cc.jw.doortrail" trailData="Data/JW/Trails/Convergence/BombersToDoorsPublic.trl" color="FF22B14C"/>
+        <Trail type="cc.jw.doortrail" trailData="Data/JW/Trails/Convergence/DoorsPublic.trl" color="FF22B14C"/>
         <Trail type="cc.jw.doortrail" trailData="Data/JW/Trails/Convergence/BombersToDoors.trl" color="FF22B14C"/>
         <Trail type="cc.jw.doortrail" trailData="Data/JW/Trails/Convergence/Doors.trl" color="FF22B14C"/>
 
         <!-- THUMPER ROUTES -->
         <!-- West -->
+        <Trail type="cc.jw.thumpertrail" trailData="Data/JW/Trails/Convergence/thumperWestPublic.trl" color="FFFF0000"/>
         <Trail type="cc.jw.thumpertrail" trailData="Data/JW/Trails/Convergence/thumperWest.trl" color="FFFF0000"/>
         <!-- Sign to West -->
+        <POI type="cc.jw.convergesignage.directionsigns.west" rotate="90,0,215" MapID="1571" xpos="-99.80734" ypos="187.7406" zpos="50.59799" GUID="hjZ5wClfZ0W7Ml6r8FjQpw=="/>
         <POI type="cc.jw.convergesignage.directionsigns.west" rotate="90,0,215" MapID="1562" xpos="-99.80734" ypos="187.7406" zpos="50.59799" GUID="DhVYmdmDvEmLbmAoLuJyCA=="/>
 
         <!-- Center -->
+        <Trail type="cc.jw.thumpertrail" trailData="Data/JW/Trails/Convergence/thumpertocenterPublic.trl" color="FF007BFF"/>
         <Trail type="cc.jw.thumpertrail" trailData="Data/JW/Trails/Convergence/thumpertocenter.trl" color="FF007BFF"/>
         <!-- Sign to Center-->
+        <POI type="cc.jw.convergesignage.directionsigns.center" rotate="90,0,145" MapID="1571" xpos="-41.88879" ypos="206.5132" zpos="71.34435" GUID="wkmOjzQsEUOpPmKIxRBrQA=="/>
         <POI type="cc.jw.convergesignage.directionsigns.center" rotate="90,0,145" MapID="1562" xpos="-41.88879" ypos="206.5132" zpos="71.34435" GUID="ZzLPxQBjo0CUhxTdrLsm4A=="/>
 
         <!-- North -->
+        <Trail type="cc.jw.thumpertrail" trailData="Data/JW/Trails/Convergence/thumperNorthPublic.trl" color="FFFFEE00"/>
         <Trail type="cc.jw.thumpertrail" trailData="Data/JW/Trails/Convergence/thumperNorth.trl" color="FFFFEE00"/>
         <!-- Sign to North-->
+        <POI type="cc.jw.convergesignage.directionsigns.north" rotate="90,0,190" MapID="1571" xpos="-64.16886" ypos="199.9709" zpos="76.68574" GUID="8pQpxwzMS0alDcRw+aFixw=="/>
         <POI type="cc.jw.convergesignage.directionsigns.north" rotate="90,0,190" MapID="1562" xpos="-64.16886" ypos="199.9709" zpos="76.68574" GUID="JxLj0Mp9XUygNSeph5Vj9A=="/>
         <!-- PPR sign for north -->
+        <POI rotate="90,0,0" MapID="1571" xpos="17.20025" ypos="209.4248" zpos="375.4267" GUID="rgZZLyuoKEKnjnvQoIfpsg=="/>
         <POI rotate="90,0,0" MapID="1562" xpos="17.20025" ypos="209.4248" zpos="375.4267" GUID="P4GbsI8wQEiilhQ6B9IVxw=="/>
 
         <!-- East -->
+        <Trail type="cc.jw.thumpertrail" trailData="Data/JW/Trails/Convergence/thumperEastPublic.trl" color="FFFF00E1"/>
         <Trail type="cc.jw.thumpertrail" trailData="Data/JW/Trails/Convergence/thumperEast.trl" color="FFFF00E1"/>
         <!-- Sign to East -->
+        <POI type="cc.jw.convergesignage.directionsigns.east" rotate="90,0,70" MapID="1571" xpos="59.56338" ypos="188.886" zpos="-105.9963" GUID="ybBSlHmKD0yHdxEWWQcLCg=="/>
         <POI type="cc.jw.convergesignage.directionsigns.east" rotate="90,0,70" MapID="1562" xpos="59.56338" ypos="188.886" zpos="-105.9963" GUID="/QTAKMcwDUqveUlAVuSYdA=="/>
         <!-- PPR sign for east -->
+        <POI MapID="1571" rotate="90,0,0" xpos="220.7027" ypos="144.4143" zpos="110.7152" GUID="FpAQhzr+7UqgBU/qCbYz3w=="/>
         <POI MapID="1562" rotate="90,0,0" xpos="220.7027" ypos="144.4143" zpos="110.7152" GUID="HeNTX8MnS0WDvs3MN/3zxQ=="/>
 
         <!-- SouthEast -->
+        <Trail type="cc.jw.thumpertrail" trailData="Data/JW/Trails/Convergence/thumpertoSouthEastPublic.trl" color="FFFF8800"/>
         <Trail type="cc.jw.thumpertrail" trailData="Data/JW/Trails/Convergence/thumpertoSouthEast.trl" color="FFFF8800"/>
         <!-- Sign to SE -->
+        <POI type="cc.jw.convergesignage.directionsigns.southeast" rotate="90,0,75" MapID="1571" xpos="43.64621" ypos="178.8479" zpos="-83.13187" GUID="Su7bXSqQkEKPHm4W55HDLw=="/>
         <POI type="cc.jw.convergesignage.directionsigns.southeast" rotate="90,0,75" MapID="1562" xpos="43.64621" ypos="178.8479" zpos="-83.13187" GUID="W0eDyWLJvUirRfjdiD8RoQ=="/>
         
         <!-- Base Camp -->
+        <POI rotate="90,0,0" MapID="1571" xpos="-73.17634" ypos="192.2892" zpos="-78.93548" GUID="TyqiAMDcOUa80CqbvKh5Yg=="/>
         <POI rotate="90,0,0" MapID="1562" xpos="-73.17634" ypos="192.2892" zpos="-78.93548" GUID="uPx2vB+G1ES8XY3/AUYO+w=="/>
 
         <!-- Disruptor Spawns -->
         <!-- East -->
+        <POI type="cc.jw.convergesignage.disruptspawns" rotate="90,0,-15" MapID="1571" xpos="202.5548" ypos="144.0904" zpos="102.1084" GUID="TzyVEb5NDU6v9490MgtxDg=="/>
         <POI type="cc.jw.convergesignage.disruptspawns" rotate="90,0,-15" MapID="1562" xpos="202.5548" ypos="144.0904" zpos="102.1084" GUID="K5IcO8cY2EuPuMRuuX4/RA=="/>
         <!-- North -->
+        <POI type="cc.jw.convergesignage.disruptspawns" rotate="90,0,195" MapID="1571" xpos="1.752995" ypos="210.8867" zpos="444.2741" GUID="22Vm8N0bgk2bx+eqIHkObw=="/>
         <POI type="cc.jw.convergesignage.disruptspawns" rotate="90,0,195" MapID="1562" xpos="1.752995" ypos="210.8867" zpos="444.2741" GUID="LPeYlA4kCk65SBTK9Og1HA=="/>
         <!-- West -->
+        <POI type="cc.jw.convergesignage.disruptspawns" rotate="90,0,-80" MapID="1571" xpos="-256.1359" ypos="139.587" zpos="108.6553" GUID="z/cDzRnG+UiJcqXQ8deZrA=="/>
         <POI type="cc.jw.convergesignage.disruptspawns" rotate="90,0,-80" MapID="1562" xpos="-256.1359" ypos="139.587" zpos="108.6553" GUID="NOgnHII3j0250skkXNgCJg=="/>
         <!-- Center -->
+        <POI type="cc.jw.convergesignage.disruptspawns" rotate="90,0,65" MapID="1571" xpos="-15.35554" ypos="254.3838" zpos="203.2453" GUID="T9SuQA7di0e2X1Ea3r/R3g=="/>
         <POI type="cc.jw.convergesignage.disruptspawns" rotate="90,0,65" MapID="1562" xpos="-15.35554" ypos="254.3838" zpos="203.2453" GUID="0+oEnynbf0aVfZGF9q/lQQ=="/>
         <!-- SE -->
+        <POI type="cc.jw.convergesignage.disruptspawns" rotate="90,0,15" MapID="1571" xpos="162.6032" ypos="103.1782" zpos="-249.3528" GUID="+aUZ4XXO/0SH4i5wvFPraA=="/>
         <POI type="cc.jw.convergesignage.disruptspawns" rotate="90,0,15" MapID="1562" xpos="162.6032" ypos="103.1782" zpos="-249.3528" GUID="0SGLftP460S0Q828poRa0w=="/>
+
+
         <!-- 
             JW HEARTS
         -->
         <!--
             LOWLAND SHORE HEARTS
         -->
+        <!-- 1550 = Lowland Shore -->
+        <!-- 1554 = Janthir Syntri -->
         <!-- Journeykin Outpost sign -->    
         <POI iconSize="2" type="cc.jw.heartsignage.JourneykinOutpost" rotate="90,0,-90" MapID="1550" xpos="-727.3643" ypos="211.2242" zpos="-62.94103" GUID="fKXXlmrDRUKaXukHzHZUyQ=="/>
        
