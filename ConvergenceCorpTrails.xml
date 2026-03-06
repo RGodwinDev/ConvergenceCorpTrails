@@ -29,6 +29,7 @@
                 <MarkerCategory name="three" displayName="Three" iconFile="Data/Icons/Numbers/Three.png"/>
                 <MarkerCategory name="four" displayName="Four" iconFile="Data/Icons/Numbers/Four.png"/>
             </MarkerCategory>
+            <MarkerCategory name="ppr" displayName="Prototype Position Rewinder" iconFile="Data/Icons/PrototypePositionRewinder.png"/>
         </MarkerCategory>
 
         <MarkerCategory name="soto" displayName="SotO">
@@ -379,7 +380,7 @@
         <POI type="cc.icons.trebicon" MapID="1523" xpos="243.9198" ypos="24.69224" zpos="85.08665" GUID="/DgRdfUvREusmnwoY5ZTJA=="/>
         <POI type="cc.icons.trebicon" MapID="1527" xpos="243.9198" ypos="24.69224" zpos="85.08665" GUID="Y6j58+q74kemhZJfne3CLw=="/>
         <!-- Treb 4 -->
-        <POI type="cc.icons.trebicon" MapID="1523" xpos="219.3486" ypos="9.317378" zpos="-122.5843" GUID="X5ZQiTNjh0iqcC7VE09D4Q=="/>
+        <POI type="cc.icons.trebicon" MapID="1523" xpos="219.3486" ypos="9.317378" zpos="-122.5843" GUID="eJUB0PjfO0S0P0SzW+WoXQ=="/>
         <POI type="cc.icons.trebicon" MapID="1527" xpos="219.3486" ypos="9.317378" zpos="-122.5843" GUID="X5ZQiTNjh0iqcC7VE09D4Q=="/>
 
         <!--
@@ -415,7 +416,7 @@
         <Trail type="cc.soto.outernayos.trails.sw" trailData="Data/SotO/Trails/sotoswPublic.trl" color="FF9ACD32"/>
         <Trail type="cc.soto.outernayos.trails.sw" trailData="Data/SotO/Trails/sotosw.trl" color="FF9ACD32"/>
         <!-- Skyscale -->
-        <POI type="cc.mounts.skyscale" MapID="1523" xpos="-187.3823" ypos="0.5148168" zpos="-9.456933" GUID="3fn0TosCZUCPdAQxXI6pCw=="/>
+        <POI type="cc.mounts.skyscale" MapID="1523" xpos="-187.3823" ypos="0.5148168" zpos="-9.456933" GUID="CJoSYiJNCEK75vpmMAqEMA=="/>
         <POI type="cc.mounts.skyscale" MapID="1527" xpos="-187.3823" ypos="0.5148168" zpos="-9.456933" GUID="3fn0TosCZUCPdAQxXI6pCw=="/>
         <!-- enter portal spot -->
         <POI type="cc.icons.tpin" MapID="1523" xpos="-189.6443" ypos="0.514817" zpos="-13.02011" GUID="2b/MXT8aN0uu+XcD+mCEdA=="/>
@@ -459,20 +460,25 @@
         <!-- trail to cvrg in lowland shore -->
         <Trail type="cc.jw.elct" trailData="Data/JW/Trails/Convergence/lowlandentering.trl" color="FF00FF00" />
         <!-- left in start -->
+        <!--
         <POI MapID="1571" xpos="-240.1132" ypos="79.42603" zpos="-426.5479" GUID="ge/0zj+/VEWVD52AwjpCyA=="/>
         <POI MapID="1562" xpos="-240.1132" ypos="79.42603" zpos="-426.5479" GUID="UeX8M9rgUUaEL5VxTaA2Zg=="/>
+        -->
         <!-- Don't Touch the Bear! -->
-        <POI iconSize="4" type="cc.jw.convergesignage.donttouchsign" rotate="90,0,150" MapID="1571" xpos="-212.8266" ypos="76.50939" zpos="-422.0489" GUID="Ivx8petEAU2PJkH7hoAJKw=="/>
         <POI iconSize="4" type="cc.jw.convergesignage.donttouchsign" rotate="90,0,150" MapID="1562" xpos="-212.8266" ypos="76.50939" zpos="-422.0489" GUID="PyJ52emXv0ajjtmsmLmCrg=="/>
         <!-- Dolyak Trail -->
         <Trail type="cc.jw.dolyaktrail" trailData="Data/JW/Trails/Convergence/dolyakRoutePublic.trl" color="FFFFD700" />
         <Trail type="cc.jw.dolyaktrail" trailData="Data/JW/Trails/Convergence/dolyakRoute.trl" color="FFFFD700" />
         <!-- dolyak stop 1 -->
+        <!--
         <POI MapID="1571" xpos="-199.6675" ypos="100.1301" zpos="-296.8672" GUID="XDB320rM6kS4292PMgzTBg=="/>
         <POI MapID="1562" xpos="-199.6675" ypos="100.1301" zpos="-296.8672" GUID="X07P9N3y9EOk7+SZULDMpQ=="/>
+        -->
         <!-- dolyak stop 2 -->
+        <!--
         <POI MapID="1571" xpos="-159.2413" ypos="144.9497" zpos="-128.847" GUID="pnXs3pV9oUaGoFlFeoWDmQ=="/>
         <POI MapID="1562" xpos="-159.2413" ypos="144.9497" zpos="-128.847" GUID="HkETPJ7FEk+nePIgMkTdmg=="/>
+        -->
         
 
         <!-- DOORS -->
@@ -503,8 +509,8 @@
         <POI type="cc.jw.convergesignage.directionsigns.north" rotate="90,0,190" MapID="1571" xpos="-64.16886" ypos="199.9709" zpos="76.68574" GUID="8pQpxwzMS0alDcRw+aFixw=="/>
         <POI type="cc.jw.convergesignage.directionsigns.north" rotate="90,0,190" MapID="1562" xpos="-64.16886" ypos="199.9709" zpos="76.68574" GUID="JxLj0Mp9XUygNSeph5Vj9A=="/>
         <!-- PPR sign for north -->
-        <POI rotate="90,0,0" MapID="1571" xpos="17.20025" ypos="209.4248" zpos="375.4267" GUID="rgZZLyuoKEKnjnvQoIfpsg=="/>
-        <POI rotate="90,0,0" MapID="1562" xpos="17.20025" ypos="209.4248" zpos="375.4267" GUID="P4GbsI8wQEiilhQ6B9IVxw=="/>
+        <POI type="cc.icons.ppr" rotate="90,0,0" MapID="1571" xpos="17.20025" ypos="209.4248" zpos="375.4267" GUID="rgZZLyuoKEKnjnvQoIfpsg=="/>
+        <POI type="cc.icons.ppr" rotate="90,0,0" MapID="1562" xpos="17.20025" ypos="209.4248" zpos="375.4267" GUID="P4GbsI8wQEiilhQ6B9IVxw=="/>
 
         <!-- East -->
         <Trail type="cc.jw.thumpertrail" trailData="Data/JW/Trails/Convergence/thumperEastPublic.trl" color="FFFF00E1"/>
@@ -513,8 +519,8 @@
         <POI type="cc.jw.convergesignage.directionsigns.east" rotate="90,0,70" MapID="1571" xpos="59.56338" ypos="188.886" zpos="-105.9963" GUID="ybBSlHmKD0yHdxEWWQcLCg=="/>
         <POI type="cc.jw.convergesignage.directionsigns.east" rotate="90,0,70" MapID="1562" xpos="59.56338" ypos="188.886" zpos="-105.9963" GUID="/QTAKMcwDUqveUlAVuSYdA=="/>
         <!-- PPR sign for east -->
-        <POI MapID="1571" rotate="90,0,0" xpos="220.7027" ypos="144.4143" zpos="110.7152" GUID="FpAQhzr+7UqgBU/qCbYz3w=="/>
-        <POI MapID="1562" rotate="90,0,0" xpos="220.7027" ypos="144.4143" zpos="110.7152" GUID="HeNTX8MnS0WDvs3MN/3zxQ=="/>
+        <POI type="cc.icons.ppr" MapID="1571" rotate="90,0,0" xpos="220.7027" ypos="144.4143" zpos="110.7152" GUID="FpAQhzr+7UqgBU/qCbYz3w=="/>
+        <POI type="cc.icons.ppr" MapID="1562" rotate="90,0,0" xpos="220.7027" ypos="144.4143" zpos="110.7152" GUID="HeNTX8MnS0WDvs3MN/3zxQ=="/>
 
         <!-- SouthEast -->
         <Trail type="cc.jw.thumpertrail" trailData="Data/JW/Trails/Convergence/thumpertoSouthEastPublic.trl" color="FFFF8800"/>
@@ -524,26 +530,36 @@
         <POI type="cc.jw.convergesignage.directionsigns.southeast" rotate="90,0,75" MapID="1562" xpos="43.64621" ypos="178.8479" zpos="-83.13187" GUID="W0eDyWLJvUirRfjdiD8RoQ=="/>
         
         <!-- Base Camp -->
+        <!--
         <POI rotate="90,0,0" MapID="1571" xpos="-73.17634" ypos="192.2892" zpos="-78.93548" GUID="TyqiAMDcOUa80CqbvKh5Yg=="/>
         <POI rotate="90,0,0" MapID="1562" xpos="-73.17634" ypos="192.2892" zpos="-78.93548" GUID="uPx2vB+G1ES8XY3/AUYO+w=="/>
-
+        -->
         <!-- Disruptor Spawns -->
         <!-- East -->
+        <!-- removed until we can make an icon for the disruptors
         <POI type="cc.jw.convergesignage.disruptspawns" rotate="90,0,-15" MapID="1571" xpos="202.5548" ypos="144.0904" zpos="102.1084" GUID="TzyVEb5NDU6v9490MgtxDg=="/>
         <POI type="cc.jw.convergesignage.disruptspawns" rotate="90,0,-15" MapID="1562" xpos="202.5548" ypos="144.0904" zpos="102.1084" GUID="K5IcO8cY2EuPuMRuuX4/RA=="/>
+        -->
         <!-- North -->
+        <!--
         <POI type="cc.jw.convergesignage.disruptspawns" rotate="90,0,195" MapID="1571" xpos="1.752995" ypos="210.8867" zpos="444.2741" GUID="22Vm8N0bgk2bx+eqIHkObw=="/>
         <POI type="cc.jw.convergesignage.disruptspawns" rotate="90,0,195" MapID="1562" xpos="1.752995" ypos="210.8867" zpos="444.2741" GUID="LPeYlA4kCk65SBTK9Og1HA=="/>
+        -->
         <!-- West -->
+        <!--
         <POI type="cc.jw.convergesignage.disruptspawns" rotate="90,0,-80" MapID="1571" xpos="-256.1359" ypos="139.587" zpos="108.6553" GUID="z/cDzRnG+UiJcqXQ8deZrA=="/>
         <POI type="cc.jw.convergesignage.disruptspawns" rotate="90,0,-80" MapID="1562" xpos="-256.1359" ypos="139.587" zpos="108.6553" GUID="NOgnHII3j0250skkXNgCJg=="/>
+        -->
         <!-- Center -->
+        <!--
         <POI type="cc.jw.convergesignage.disruptspawns" rotate="90,0,65" MapID="1571" xpos="-15.35554" ypos="254.3838" zpos="203.2453" GUID="T9SuQA7di0e2X1Ea3r/R3g=="/>
         <POI type="cc.jw.convergesignage.disruptspawns" rotate="90,0,65" MapID="1562" xpos="-15.35554" ypos="254.3838" zpos="203.2453" GUID="0+oEnynbf0aVfZGF9q/lQQ=="/>
+        -->
         <!-- SE -->
-        <POI type="cc.jw.convergesignage.disruptspawns" rotate="90,0,15" MapID="1571" xpos="162.6032" ypos="103.1782" zpos="-249.3528" GUID="+aUZ4XXO/0SH4i5wvFPraA=="/>
-        <POI type="cc.jw.convergesignage.disruptspawns" rotate="90,0,15" MapID="1562" xpos="162.6032" ypos="103.1782" zpos="-249.3528" GUID="0SGLftP460S0Q828poRa0w=="/>
-
+        <!--
+        <POI type="cc.jw.convergesignage.disruptspawns" MapID="1571" xpos="129.5898" ypos="112.6844" zpos="-246.6988" GUID="mu4hlAwHN0Wj56hbeXtk5Q=="/>
+        <POI type="cc.jw.convergesignage.disruptspawns" MapID="1562" xpos="129.5898" ypos="112.6844" zpos="-246.6988" GUID="RfFZtTaQd0+AGf3zrGJ9Kw=="/>
+        -->
 
         <!-- 
             JW HEARTS
@@ -565,7 +581,9 @@
         <!-- CC training -->
         <POI type="cc.jw.heartsignage.breakbartrainer" rotate="90,0,0" MapID="1550" xpos="713.3734" ypos="92.96832" zpos="253.7412" GUID="JNxRvV5kRU29VsaPkaYvRw=="/>
         <!-- arena -->
+        <!-- Need to make a arena sign.
         <POI type="cc.jw.heartsignage.HDenArena" rotate="90,0,0" MapID="1550" xpos="692.7314" ypos="94.29445" zpos="277.1239" GUID="VoSIFDOWd0iys/39kor7uQ=="/>
+        -->
         <!-- forge -->
         <POI type="cc.jw.heartsignage.HDenForge" rotate="90,0,10" MapID="1550" xpos="560.0356" ypos="151.2159" zpos="139.7519" GUID="Ne+xuhUzfEe2ke6EkQIRpg=="/>
 
