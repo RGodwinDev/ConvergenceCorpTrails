@@ -5,7 +5,7 @@
         displayName="Convergence Corp"
         fadeNear="3000" fadeFar="3500"
     >
-        <MarkerCategory name="mounts" displayName="Mount Markers">
+        <MarkerCategory name="mounts" displayName="Mount Markers" miniMapVisibility="0" mapVisibility="0">
             <MarkerCategory name="raptor" displayName="Raptor" iconFile="Data/Icons/Mounts/Raptor_icon.png"/>
             <MarkerCategory name="springer" displayName="Springer" iconFile="Data/Icons/Mounts/Springer_icon.png"/>
             <MarkerCategory name="skimmer" displayName="Skimmer" iconFile="Data/Icons/Mounts/Skimmer_icon.png"/>
@@ -130,6 +130,18 @@
         </MarkerCategory>
 
         <MarkerCategory name="jw" displayName="JW">
+            <MarkerCategory
+                name="lowlandinfosigns" 
+                displayName="Convergence Info in Lowland"
+                iconSize="4"
+                rotate="90,0,0"
+            >
+                <MarkerCategory
+                    name="thumperroutes"
+                    displayName="Thumper Routes"
+                    iconFile="Data/JW/Markers/Lowland/ThumperRoutesv2.png"
+                 />
+            </MarkerCategory>
             <!-- JW HEART SIGNS -->
             <MarkerCategory 
                 name="heartsignage" 
@@ -265,6 +277,11 @@
                 displayName="Door Trail"
                 texture="Data/warclawtrail.png"
             />
+            <MarkerCategory 
+                name="doortrailalternate"
+                displayName="Alternate Door Trail"
+                texture="Data/warclawtrail.png"
+            />
             <MarkerCategory
                 name="thumpertrail"
                 displayName="Thumper Trails"
@@ -341,6 +358,7 @@
         <!-- Wiz Tower Trail to Convergence Portal-->
         <Trail type="cc.soto.wiztower.wiztrail" trailData="Data/SotO/Trails/wiztower.trl" color="FFFFA500"/>
 
+        <!-- corner maps in the tower -->
         <POI iconSize="4" rotate="90,0,35" type="cc.soto.wiztower.signs.splitmid" MapID="1509" xpos="-7.686641" ypos="328" zpos="-138.3005" GUID="plVkWttWG0m2J8XXm132/Q=="/>
         <POI iconSize="4" rotate="90,0,35" type="cc.soto.wiztower.signs.splitnw" MapID="1509" xpos="-23.31211" ypos="328" zpos="-148.3034" GUID="NDkwVmFuK0Oa18Gc6zVwcQ=="/>
         <POI iconSize="4" rotate="90,0,-55" type="cc.soto.wiztower.signs.splitne" MapID="1509" xpos="-36.50421" ypos="328" zpos="-133.2016" GUID="RO+JPWEoCEeFcjhLtWHnWQ=="/>
@@ -452,20 +470,30 @@
         <!-- 
             JANTHIR WILDS 
         -->
+        <!-- 1550 = Lowland Shore -->
+        <!-- 1554 = Janthir Syntri -->
+        <!-- 1571 = jw public -->
+        <!-- 1562 = jw private -->
+        <!--
+            Lowland Shore (around cvrg entrance)
+        -->
+        <!-- trail to cvrg in lowland shore -->
+        <Trail type="cc.jw.elct" trailData="Data/JW/Trails/Convergence/lowlandentering.trl" color="FF00FF00" />
+
+        <!-- Thumper Route Sign near entrance -->
+        <POI type="cc.jw.lowlandinfosigns.thumperroutes" rotate="90,0,180" MapID="1550" xpos="566.1149" ypos="220" zpos="74.49866" GUID="vd7IW9xJ4ECkcncZ9A0oow=="/>
+        
+        
         <!-- 
             CONVERGE 
         -->
-        <!-- 1571 = jw public -->
-        <!-- 1562 = jw private -->
-        <!-- trail to cvrg in lowland shore -->
-        <Trail type="cc.jw.elct" trailData="Data/JW/Trails/Convergence/lowlandentering.trl" color="FF00FF00" />
         <!-- left in start -->
         <!--
         <POI MapID="1571" xpos="-240.1132" ypos="79.42603" zpos="-426.5479" GUID="ge/0zj+/VEWVD52AwjpCyA=="/>
         <POI MapID="1562" xpos="-240.1132" ypos="79.42603" zpos="-426.5479" GUID="UeX8M9rgUUaEL5VxTaA2Zg=="/>
         -->
         <!-- Don't Touch the Bear! -->
-        <POI iconSize="4" type="cc.jw.convergesignage.donttouchsign" rotate="90,0,150" MapID="1562" xpos="-212.8266" ypos="76.50939" zpos="-422.0489" GUID="PyJ52emXv0ajjtmsmLmCrg=="/>
+        <POI iconSize="4" type="cc.jw.convergesignage.donttouchsign" rotate="90,0,150" MapID="1562" xpos="-212.8266" ypos="78" zpos="-422.0489" GUID="PyJ52emXv0ajjtmsmLmCrg=="/>
         <!-- Dolyak Trail -->
         <Trail type="cc.jw.dolyaktrail" trailData="Data/JW/Trails/Convergence/dolyakRoutePublic.trl" color="FFFFD700" />
         <Trail type="cc.jw.dolyaktrail" trailData="Data/JW/Trails/Convergence/dolyakRoute.trl" color="FFFFD700" />
@@ -486,6 +514,7 @@
         <Trail type="cc.jw.doortrail" trailData="Data/JW/Trails/Convergence/DoorsPublic.trl" color="FF22B14C"/>
         <Trail type="cc.jw.doortrail" trailData="Data/JW/Trails/Convergence/BombersToDoors.trl" color="FF22B14C"/>
         <Trail type="cc.jw.doortrail" trailData="Data/JW/Trails/Convergence/Doors.trl" color="FF22B14C"/>
+        <Trail type="cc.jw.doortrailalternate" trailData="Data/JW/Trails/Convergence/DoorsAlternate1.trl" color="FF00AF83"/>
 
         <!-- THUMPER ROUTES -->
         <!-- West -->
