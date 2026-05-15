@@ -1,0 +1,104 @@
+<OverlayData>
+    <MarkerCategory
+        name="cc"
+        displayName="Convergence Corp"
+        fadeNear="3000" fadeFar="3500"
+    >
+        <MarkerCategory name="soto" displayName="SotO">
+        <!-- Wizards Tower-->
+            <MarkerCategory name="wiztower" displayName="Wizards Tower">
+                <MarkerCategory 
+                    name="wiztrail" 
+                    displayName="Wizards Tower Convergence Entrance Trial"
+                    texture="Data/TrailToConvergences.png"
+                />
+                <MarkerCategory name="signs" displayName="Signs">
+                    
+                    <MarkerCategory
+                        name="splitmid"
+                        displayName="Split Phase Mid" 
+                        iconFile="Data/SotO/Markers/Tower/SotOSplitMidv2.png" 
+                    />
+                    <MarkerCategory
+                        name="splitse"
+                        displayName="Split Phase SE" 
+                        iconFile="Data/SotO/Markers/Tower/SotOSplitSEv2.png" 
+                    />
+                    <MarkerCategory
+                        name="splitne"
+                        displayName="Split Phase NE" 
+                        iconFile="Data/SotO/Markers/Tower/SotOSplitNEv2.png" 
+                    />
+                    <MarkerCategory
+                        name="splitnw"
+                        displayName="Split Phase NW" 
+                        iconFile="Data/SotO/Markers/Tower/SotOSplitNWv2.png" 
+                    />
+                    <MarkerCategory
+                        name="splitsw"
+                        displayName="Split Phase SW" 
+                        iconFile="Data/SotO/Markers/Tower/SotOSplitSWv2.png" 
+                    />
+                    <MarkerCategory
+                        name="splits"
+                        displayName="Splits"
+                        iconFile="Data/SotO/Markers/Tower/SotOConvergenceSplitsv2.png"
+                    />
+                </MarkerCategory>
+            </MarkerCategory>
+            <!-- Convergence -->
+            <MarkerCategory name="outernayos" displayName="Outer Nayos">
+                <MarkerCategory name="signs" displayName="Signs">
+                    <MarkerCategory
+                        name="trebroutesign"
+                        displayName="Treb Route Sign"
+                        iconFile="Data/SotO/Markers/Convergence/TrebRouteSign.png"
+                    />
+                    <MarkerCategory
+                        name="swroutesign"
+                        displayName="SW Route Sign"
+                        iconFile="Data/SotO/Markers/Convergence/SWRouteSign.png"
+                    />
+                    <MarkerCategory
+                        name="seroutesign"
+                        displayName="SE Route Sign"
+                        iconFile="Data/SotO/Markers/Convergence/SERouteSign.png"
+                    />
+                    <MarkerCategory
+                        name="nwroutesign"
+                        displayName="NW Route Sign"
+                        iconFile="Data/SotO/Markers/Convergence/NWRouteSign.png"
+                    />
+                    <MarkerCategory
+                        name="neroutesign"
+                        displayName="NE Route Sign"
+                        iconFile="Data/SotO/Markers/Convergence/NERouteSign.png"
+                    />
+                </MarkerCategory>
+                <MarkerCategory name="trails" displayName="Trails" texture="Data/trail.png">
+                    <MarkerCategory
+                        name="trebroute"
+                        displayName="Treb Route"
+                        trailData="Data/SotO/Trails/trebs.trl"
+                    />
+                    <MarkerCategory
+                        name="se" 
+                        displayName="South East"
+                    />
+                    <MarkerCategory
+                        name="nw"
+                        displayName="North West"
+                    />
+                    <MarkerCategory
+                        name="sw"
+                        displayName="South West"
+                    />
+                    <MarkerCategory
+                        name="ne"
+                        displayName="North East"
+                    />
+                </MarkerCategory>
+            </MarkerCategory>
+        </MarkerCategory>
+    </MarkerCategory>
+</OverlayData>

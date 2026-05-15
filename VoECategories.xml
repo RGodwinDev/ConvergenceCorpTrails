@@ -1,0 +1,20 @@
+<OverlayData>
+    <MarkerCategory
+        name="cc"
+        displayName="Convergence Corp"
+        fadeNear="3000" fadeFar="3500"
+    >
+        <MarkerCategory name="voe" displayName="VoE">
+            <MarkerCategory name="adventure" displayName="Adventures">
+                <MarkerCategory name="scour" displayName="Scour for Seer Relics">
+                    <MarkerCategory name="trail" displayName="Trail" texture="Data/Trail.png" />
+                    <MarkerCategory name="ok" displayName="OK Circles" iconFile="Data/Icons/OKCircle.png"/>
+                    <MarkerCategory name="bad" displayName="Bad X" iconFile="Data/Icons/BadX.png"/>
+                </MarkerCategory>
+            </MarkerCategory>
+            <MarkerCategory name="cvrg" displayName="Coming Soon...">
+
+            </MarkerCategory>
+        </MarkerCategory>
+    </MarkerCategory>
+</OverlayData>

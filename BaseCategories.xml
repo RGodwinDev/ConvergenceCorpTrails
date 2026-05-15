@@ -1,0 +1,33 @@
+<OverlayData>
+    <MarkerCategory
+        name="cc"
+        displayName="Convergence Corp"
+        fadeNear="3000" fadeFar="3500"
+    >
+        <MarkerCategory name="mounts" displayName="Mount Markers" miniMapVisibility="0" mapVisibility="0">
+            <MarkerCategory name="raptor" displayName="Raptor" iconFile="Data/Icons/Mounts/Raptor_icon.png"/>
+            <MarkerCategory name="springer" displayName="Springer" iconFile="Data/Icons/Mounts/Springer_icon.png"/>
+            <MarkerCategory name="skimmer" displayName="Skimmer" iconFile="Data/Icons/Mounts/Skimmer_icon.png"/>
+            <MarkerCategory name="jackal" displayName="Jackal" iconFile="Data/Icons/Mounts/Jackal_icon.png"/>
+            <MarkerCategory name="griffon" displayName="Griffon" iconFile="Data/Icons/Mounts/Griffon_icon.png"/>
+            <MarkerCategory name="beetle" displayName="Roller Beetle" iconFile="Data/Icons/Mounts/Roller_Beetle_icon.png"/>
+            <MarkerCategory name="skyscale" displayName="Skyscale" iconFile="Data/Icons/Mounts/Skyscale_icon.png"/>
+            <MarkerCategory name="turtle" displayName="Turtle" iconFile="Data/Icons/Mounts/Siege_Turtle_icon.png"/>
+            <MarkerCategory name="warclaw" displayName="Warclaw" iconFile="Data/Icons/Mounts/Warclaw_icon.png"/>
+        </MarkerCategory>
+        <MarkerCategory name="icons" displayName="Icons">
+            <MarkerCategory name="tpin" displayName="Teleport Entrance" iconFile="Data/Icons/portal_entre.png"/>
+            <MarkerCategory name="tpout" displayName="Teleport Exit" iconFile="Data/Icons/portal_exuent.png"/>
+            <MarkerCategory name="glideboost" displayName="Glider Booster" iconFile="Data/Icons/Jade_Bot_Glide_Booster.png"/>
+            <MarkerCategory name="ridetheleyline" displayName="Ride the Ley Line" iconFile="Data/Icons/Ride_the_Ley_Line.png"/>
+            <MarkerCategory name="trebicon" displayName="Treb" iconFile="Data/Icons/Blue_Trebuchet.png" />
+            <MarkerCategory name="numbers" displayName="Numbers">
+                <MarkerCategory name="one" displayName="One" iconFile="Data/Icons/Numbers/One.png"/>
+                <MarkerCategory name="two" displayName="Two" iconFile="Data/Icons/Numbers/Two.png"/>
+                <MarkerCategory name="three" displayName="Three" iconFile="Data/Icons/Numbers/Three.png"/>
+                <MarkerCategory name="four" displayName="Four" iconFile="Data/Icons/Numbers/Four.png"/>
+            </MarkerCategory>
+            <MarkerCategory name="ppr" displayName="Prototype Position Rewinder" iconFile="Data/Icons/PrototypePositionRewinder.png"/>
+        </MarkerCategory>
+    </MarkerCategory>
+</OverlayData>
