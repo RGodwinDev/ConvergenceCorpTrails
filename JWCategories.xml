@@ -5,6 +5,22 @@
             fadeNear="3000" fadeFar="3500"
         >
         <MarkerCategory name="jw" displayName="JW">
+            <MarkerCategory 
+                name="adventures"
+                displayName="Adventures"
+            >
+                <MarkerCategory
+                    name="stwlc"
+                    displayName="Save the Woodland Creatures"
+                    texture="Data/warclawtrail.png"
+                />
+                <MarkerCategory
+                    name="digsign"
+                    displayName="Dig Signs"
+                    iconFile="Data/Icons/Uncover.png"
+                />
+
+            </MarkerCategory>
             <MarkerCategory
                 name="lowlandinfosigns" 
                 displayName="Convergence Info in Lowland"
