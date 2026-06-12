@@ -177,6 +177,9 @@
         <!-- 
             Festering Basin 
         -->
+        
+        <POI iconSize="4" type="cc.jw.heartsignage.JSFesteringBasinGrub" rotate="90,0,-30" MapID="1554" xpos="-333.5664" ypos="8" zpos="-483.9853" GUID="7gmHAQSHTk6Iq60RZQF2oQ=="/>
+        
         <Trail type="cc.jw.hearttrails" trailData="Data/JW/Trails/Hearts/FesteringBasin.trl"/>
 
         

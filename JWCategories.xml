@@ -103,6 +103,11 @@
                     displayName="Festering Basin Adventure Sign"
                     iconFile="Data/JW/Markers/Hearts/FesteringBasin.png"
                 />
+                <MarkerCategory
+                    name="JSFesteringBasinGrub"
+                    displayName="Festering Basin Grub Sign"
+                    iconFile="Data/JW/Markers/Hearts/GreerGrub.png"
+                />
             </MarkerCategory >
 
             <!-- Convergence Signs -->
