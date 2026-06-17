@@ -1,0 +1,63 @@
+<OverlayData>
+    <POIs>
+        <!--
+            LOWLAND SHORE HEARTS
+        -->
+        <!-- 1550 = Lowland Shore -->
+        <!-- Journeykin Outpost sign -->    
+        <POI iconSize="2" type="cc.jw.heartsignage.JourneykinOutpost" rotate="90,0,-90" MapID="1550" xpos="-727.3643" ypos="211.2242" zpos="-62.94103" GUID="fKXXlmrDRUKaXukHzHZUyQ=="/>
+       
+        <!-- Petting the warclaws trail -->
+        <Trail type="cc.jw.hearttrails" trailData="Data/JW/Trails/Hearts/JourneykinOutpost.trl"/>
+
+        <!-- Griffon to arena -->
+        <POI type="cc.mounts.griffon" MapID="1550" xpos="475.9717" ypos="217.1331" zpos="137.6784" GUID="1OSw/I7ATkC7EzjgYemcbw=="/>
+        <!-- Dodge training -->
+        <POI type="cc.jw.heartsignage.dodgetrainer" rotate="90,0,0" MapID="1550" xpos="690.6953" ypos="92.96624" zpos="253.5366" GUID="uwwSm8oQiUqEwnyFTTOzIQ=="/>
+        <!-- CC training -->
+        <POI type="cc.jw.heartsignage.breakbartrainer" rotate="90,0,0" MapID="1550" xpos="713.3734" ypos="92.96832" zpos="253.7412" GUID="JNxRvV5kRU29VsaPkaYvRw=="/>
+        <!-- arena -->
+        <!-- Need to make a arena sign.
+        <POI type="cc.jw.heartsignage.HDenArena" rotate="90,0,0" MapID="1550" xpos="692.7314" ypos="94.29445" zpos="277.1239" GUID="VoSIFDOWd0iys/39kor7uQ=="/>
+        -->
+        <!-- forge -->
+        <POI type="cc.jw.heartsignage.HDenForge" rotate="90,0,10" MapID="1550" xpos="560.0356" ypos="151.2159" zpos="139.7519" GUID="Ne+xuhUzfEe2ke6EkQIRpg=="/>
+
+        <!-- Trail to the arena and forge -->
+        <Trail type="cc.jw.hearttrails" trailData="Data/JW/Trails/Hearts/HarvestDen.trl"/>
+
+
+        <!--
+            JANTHIR SYNTRI HEARTS
+        -->
+        <!-- 1554 = Janthir Syntri -->
+        <!-- 
+            Foragers Hunt Heart
+        -->
+        <Trail type="cc.jw.hearttrails" trailData="Data/JW/Trails/Hearts/ForagersHunt.trl"/>
+        <!-- Moa event -->
+        <POI iconSize="4" type="cc.jw.heartsignage.JSMoaEvent" rotate="90,0,180" MapID="1554" xpos="662.1693" ypos="1.022895" zpos="-567.0097" GUID="V/kNwlxol0uV55sjiFcR2w=="/>
+        <!-- Kill Deer sign-->
+        <POI iconSize="4" type="cc.jw.heartsignage.JSDeer" rotate="90,0,90" MapID="1554" xpos="725.6097" ypos="1.751061" zpos="-543.8192" GUID="3uKGS1+aW0WMRqDdTi0J8Q=="/>
+        <!-- Ram Event-->
+        <POI iconSize="4" type="cc.jw.heartsignage.JSRam" rotate="90,0,150" MapID="1554" xpos="803.7288" ypos="15.78077" zpos="-460.2291" GUID="f5oOxX0H8E2/WHlUN/Ez8w=="/>
+        <!-- Iboga Event -->
+        <POI iconSize="4" type="cc.jw.heartsignage.JSIboga" rotate="90,0,90" MapID="1554" xpos="862.1855" ypos="35" zpos="-563.171" GUID="5XfJ/B2BIkWjg4H8HWBOVA=="/>
+        <!-- Kill more Deer sign -->
+        <POI iconSize="4" type="cc.jw.heartsignage.JSDeer" MapID="1554" xpos="831.6049" ypos="30.0" zpos="-647.8831" GUID="+l/NpTyRrk67AojidZPvBA=="/>
+        <!-- Boar event -->
+        <POI iconSize="4" type="cc.jw.heartsignage.JSBoar" rotate="90,0,270" MapID="1554" xpos="642.7495" ypos="67.87406" zpos="-781.1295" GUID="kCIFBvexRkO1h5zVr3F9vA=="/>
+        <!-- Camp event -->
+        <POI iconSize="4" type="cc.jw.heartsignage.JSCamp" rotate="90,0,270" MapID="1554" xpos="642.4767" ypos="2" zpos="-650.1081" GUID="Ocu6PWW+4UOc0363rN2uqQ=="/>
+        <!-- M&M Warning -->
+        <POI iconSize="4" type="cc.jw.heartsignage.JSMMWarn" rotate="90,0,180" MapID="1554" xpos="611.6811" ypos="3.494772" zpos="-602.452" GUID="hD3KOLTFCUGFWkYbllmM8g=="/>
+        
+        <!-- 
+            Festering Basin Heart
+        -->
+        <!-- Heart Sign -->
+        <POI iconSize="4" type="cc.jw.heartsignage.JSFesteringBasinGrub" rotate="90,0,-30" MapID="1554" xpos="-333.5664" ypos="8" zpos="-483.9853" GUID="7gmHAQSHTk6Iq60RZQF2oQ=="/>
+        <!-- Heart Trail -->
+        <Trail type="cc.jw.hearttrails" trailData="Data/JW/Trails/Hearts/FesteringBasin.trl"/>
+    </POIs>
+</OverlayData>

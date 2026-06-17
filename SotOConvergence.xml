@@ -1,0 +1,105 @@
+<OverlayData>
+    <POIs>
+        <!--
+            Map IDs
+            Public: 1523
+            Private: 1527
+        -->
+        <!-- Spite Spawns-->
+        <!-- West -->
+        <POI type="cc.icons.numbers.one" color="FFFF0000" MapID="1523" xpos="-95.10444" ypos="5.815973" zpos="17.24136" GUID="j+Nc0EWNxke2owWRQQa/EQ=="/>
+        <POI type="cc.icons.numbers.one" color="FFFF0000" MapID="1527" xpos="-95.10444" ypos="5.815973" zpos="17.24136" GUID="WYC2y7Oe10K920+8L2obGA=="/>
+        <!-- NE -->
+        <POI type="cc.icons.numbers.three" color="FFFF0000" MapID="1523" xpos="60.90176" ypos="2.150495" zpos="97.59732" GUID="HMCMR/fgq0a2JeZgOe8IaA=="/>
+        <POI type="cc.icons.numbers.three" color="FFFF0000" MapID="1527" xpos="60.90176" ypos="2.150495" zpos="97.59732" GUID="4q4BR2yS6kSIa4xqZQOeUQ=="/>
+        <!-- SE -->
+        <POI type="cc.icons.numbers.two" color="FFFF0000" MapID="1523" xpos="99.69678" ypos="1.175588" zpos="-48.04602" GUID="F1ogtR6ExEK2QUBSJm0wXQ=="/>
+        <POI type="cc.icons.numbers.two" color="FFFF0000" MapID="1527" xpos="99.69678" ypos="1.175588" zpos="-48.04602" GUID="u78hVYM+z06OtPsv88EHuQ=="/>
+
+        <!-- Trebs -->
+        <!--Treb trail start-->
+        <POI iconSize="4" type="cc.soto.outernayos.signs.trebroutesign" MapID="1523" xpos="-83.44451" ypos="6.986386" zpos="-4.118439" GUID="Fv4nBYZ1ZE2P0n42uCeGJg=="/>
+        <POI iconSize="4" type="cc.soto.outernayos.signs.trebroutesign" MapID="1527" xpos="-83.44451" ypos="6.986386" zpos="-4.118439" GUID="UwBxaylPsUWU4uzNwq74+Q=="/>
+        <Trail type="cc.soto.outernayos.trails.trebroute" trailData="Data/SotO/Trails/trebsPublic.trl" color="FFFF00A5"/>
+        <Trail type="cc.soto.outernayos.trails.trebroute" trailData="Data/SotO/Trails/trebs.trl" color="FFFF00A5"/>
+
+        <!-- Treb 1 -->
+        <POI type="cc.icons.trebicon" MapID="1523" xpos="-113.6404" ypos="8.738906" zpos="-153.4124" GUID="yh2cD6jE+02o1RLGZfkBLQ=="/>
+        <POI type="cc.icons.trebicon" MapID="1527" xpos="-113.6404" ypos="8.738906" zpos="-153.4124" GUID="xb/reyxGfEOLupKj8V0ELw=="/>
+        <!-- Treb 2 -->
+        <POI type="cc.icons.trebicon" MapID="1523" xpos="-158.7059" ypos="10.62339" zpos="74.74903" GUID="rPJzy5SWlEOP4xrCYymqFQ=="/>
+        <POI type="cc.icons.trebicon" MapID="1527" xpos="-158.7059" ypos="10.62339" zpos="74.74903" GUID="lnaLDc50ZUub7pbSmE1Rnw=="/>
+        <!-- Treb 3 -->
+        <POI type="cc.icons.trebicon" MapID="1523" xpos="243.9198" ypos="24.69224" zpos="85.08665" GUID="/DgRdfUvREusmnwoY5ZTJA=="/>
+        <POI type="cc.icons.trebicon" MapID="1527" xpos="243.9198" ypos="24.69224" zpos="85.08665" GUID="Y6j58+q74kemhZJfne3CLw=="/>
+        <!-- Treb 4 -->
+        <POI type="cc.icons.trebicon" MapID="1523" xpos="219.3486" ypos="9.317378" zpos="-122.5843" GUID="eJUB0PjfO0S0P0SzW+WoXQ=="/>
+        <POI type="cc.icons.trebicon" MapID="1527" xpos="219.3486" ypos="9.317378" zpos="-122.5843" GUID="X5ZQiTNjh0iqcC7VE09D4Q=="/>
+
+        <!--
+            CORNERS!!!!!
+        -->
+        <!-- 
+            NORTH EAST
+         -->
+         <!-- NE Trail Start -->
+         <POI iconSize="4" type="cc.soto.outernayos.signs.neroutesign" MapID="1523" xpos="66.61755" ypos="10.08728" zpos="35.87255" GUID="0YLuf72WVkijodtNX/iBFw=="/>
+         <POI iconSize="4" type="cc.soto.outernayos.signs.neroutesign" MapID="1527" xpos="66.61755" ypos="10.08728" zpos="35.87255" GUID="REScGZ4DVEmJIZH/aEQ3Vg=="/>
+         <Trail type="cc.soto.outernayos.trails.ne" trailData="Data/SotO/Trails/sotonePublic.trl" color="FFFF69B4"/>
+         <Trail type="cc.soto.outernayos.trails.ne" trailData="Data/SotO/Trails/sotone.trl" color="FFFF69B4"/>
+        
+        <!-- 
+            SOUTH EAST
+        -->
+        <!-- SE Trail Start-->
+        <POI iconSize="4" type="cc.soto.outernayos.signs.seroutesign" MapID="1523" xpos="33.50863" ypos="9.14325" zpos="-29.15386" GUID="1ZHvjw7wSkaGcbE0G1l4Hw=="/>
+        <POI iconSize="4" type="cc.soto.outernayos.signs.seroutesign" MapID="1527" xpos="33.50863" ypos="9.14325" zpos="-29.15386" GUID="CDW/FIeb20ez6pMDueFQGQ=="/>
+        <Trail type="cc.soto.outernayos.trails.se" trailData="Data/SotO/Trails/sotosePublic.trl" color="FF008000"/>
+        <Trail type="cc.soto.outernayos.trails.se" trailData="Data/SotO/Trails/sotose.trl" color="FF008000"/>
+        <!-- launcher -->
+        <POI type="cc.mounts.skyscale" MapID="1523" xpos="36.82627" ypos="9.366185" zpos="-52.33984" GUID="AIl3BtSPhkS016gncLryGg=="/>
+        <POI type="cc.mounts.skyscale" MapID="1527" xpos="36.82627" ypos="9.366185" zpos="-52.33984" GUID="0qR/wtJA4UmYGx7FryJxAw=="/>
+
+        <!-- 
+            SOUTH WEST
+        -->
+        <!-- SW Trail Start -->
+        <POI iconSize="4" type="cc.soto.outernayos.signs.swroutesign" MapID="1523" xpos="-90.21806" ypos="7.717021" zpos="-25.23571" GUID="vBEQQuhaYEuqmWBp/TsLEQ=="/>
+        <POI iconSize="4" type="cc.soto.outernayos.signs.swroutesign" MapID="1527" xpos="-90.21806" ypos="7.717021" zpos="-25.23571" GUID="4j0bImiQ+0WAcPVhrEoOoA=="/>
+        <Trail type="cc.soto.outernayos.trails.sw" trailData="Data/SotO/Trails/sotoswPublic.trl" color="FF9ACD32"/>
+        <Trail type="cc.soto.outernayos.trails.sw" trailData="Data/SotO/Trails/sotosw.trl" color="FF9ACD32"/>
+        <!-- Skyscale -->
+        <POI type="cc.mounts.skyscale" MapID="1523" xpos="-187.3823" ypos="0.5148168" zpos="-9.456933" GUID="CJoSYiJNCEK75vpmMAqEMA=="/>
+        <POI type="cc.mounts.skyscale" MapID="1527" xpos="-187.3823" ypos="0.5148168" zpos="-9.456933" GUID="3fn0TosCZUCPdAQxXI6pCw=="/>
+        <!-- enter portal spot -->
+        <POI type="cc.icons.tpin" MapID="1523" xpos="-189.6443" ypos="0.514817" zpos="-13.02011" GUID="2b/MXT8aN0uu+XcD+mCEdA=="/>
+        <POI type="cc.icons.tpin" MapID="1527" xpos="-189.6443" ypos="0.514817" zpos="-13.02011" GUID="fcC3pGWSKkiC8ud4voCKcg=="/>
+        <!-- exit portal spot-->
+        <POI type="cc.icons.tpout" MapID="1523" xpos="-179.5431" ypos="69.54257" zpos="-4.191826" GUID="wXxPlL3U/U+VpOoy4uIBlA=="/>
+        <POI type="cc.icons.tpout" MapID="1527" xpos="-179.5431" ypos="69.54257" zpos="-4.191826" GUID="Ccxlf3GvQEabFPSCJ847oQ=="/>
+
+        <!--
+            NORTH WEST
+        -->
+        <!-- NW Trail Start -->
+        <POI iconSize="4" type="cc.soto.outernayos.signs.nwroutesign" MapID="1523" xpos="-94.97888" ypos="7.896499" zpos="40.9082" GUID="c3RLvRQrVUmTMsZ5Qq+3rA=="/>
+        <POI iconSize="4" type="cc.soto.outernayos.signs.nwroutesign" MapID="1527" xpos="-94.97888" ypos="7.896499" zpos="40.9082" GUID="hwzyf/MJGkexaY0zgGaGXA=="/>
+        <Trail type="cc.soto.outernayos.trails.nw" trailData="Data/SotO/Trails/sotonwPublic.trl" color="FF00FFFF"/>
+        <Trail type="cc.soto.outernayos.trails.nw" trailData="Data/SotO/Trails/sotonw.trl" color="FF00FFFF"/>
+        <!-- enter portal spot -->
+        <POI type="cc.icons.tpin"  MapID="1523" xpos="-23.76622" ypos="22.08933" zpos="215.9271" GUID="nHlyi3WrYUqBprcgubieCg=="/>
+        <POI type="cc.icons.tpin"  MapID="1527" xpos="-23.76622" ypos="22.08933" zpos="215.9271" GUID="pTFZetCTr0abGW9k14qf/w=="/>
+        <!-- exit portal spot -->
+        <POI type="cc.icons.tpout" MapID="1523" xpos="-30.70688" ypos="143.5947" zpos="239.2566" GUID="uzSKQaBW/ke1tBWN8vG28w=="/>
+        <POI type="cc.icons.tpout" MapID="1527" xpos="-30.70688" ypos="143.5947" zpos="239.2566" GUID="9+dVL75QlUWF1/Vykbu2Jw=="/>
+        <!-- Glide marker -->
+        <POI type="cc.icons.glideboost" MapID="1523" xpos="55.64286" ypos="135.9574" zpos="203.5959" GUID="U/6ddRdyvkKw2HhtoWM5Nw=="/>
+        <POI type="cc.icons.glideboost" MapID="1527" xpos="55.64286" ypos="135.9574" zpos="203.5959" GUID="/GoMPZrXukOPSZUnBEYehw=="/>
+        <!-- Ride the Ley Line -->
+        <POI type="cc.icons.ridetheleyline" MapID="1523" xpos="41.14293" ypos="164.569" zpos="211.2152" GUID="Yb5ITfFQz0y01ckYkMIDvg=="/>
+        <POI type="cc.icons.ridetheleyline" MapID="1527" xpos="41.14293" ypos="164.569" zpos="211.2152" GUID="5jlnqKpRxE+dlDgU2YN8rw=="/>
+        <!-- Griffon Marker -->
+        <POI type="cc.mounts.griffon" MapID="1523" xpos="-46.93878" ypos="144.5372" zpos="237.8821" GUID="awNcufB0dUKNtAdXVOMPBQ=="/>
+        <POI type="cc.mounts.griffon" MapID="1527" xpos="-46.93878" ypos="144.5372" zpos="237.8821" GUID="2T1pK4K6rUm0FRHuWytMiw=="/>
+    </POIs>
+</OverlayData>

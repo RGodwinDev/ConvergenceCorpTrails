@@ -1,0 +1,37 @@
+<OverlayData>
+    <POIs>
+        <!-- 1550 = Lowland Shore -->
+        <!-- 1554 = Janthir Syntri -->
+        <!-- Mistburned Barens -->
+        <!-- Bava Nisos -->
+
+        <!-- Janthir Syntri -->
+        <!-- Save Woodland Creatures Adventure Sign -->
+        <POI iconSize="4" type="cc.jw.heartsignage.JSFesteringBasin" rotate="90,0,200" MapID="1554" xpos="-315.75" ypos="43.17654" zpos="-562.5" GUID="3RzVtzBKFk2P5di2VUpSeA=="/>
+    
+        <Trail type="cc.jw.adventures.stwlc" trailData="Data/JW/Trails/Adventures/SaveWoodlandCreatures.trl" color="FFA61B42"/>
+
+        <!-- Save Woodland Creatures Sniffa Spots-->
+        <POI type="cc.jw.adventures.digsign" MapID="1554" xpos="-326.2718" ypos="46.2529" zpos="-605.836" GUID="DG+5eIUt0UezUv2qcXMnYA=="/>
+        <POI type="cc.jw.adventures.digsign" MapID="1554" xpos="-298.9891" ypos="56.93839" zpos="-657.103" GUID="itjoJxvMp02z+A20v0WcKQ=="/>
+        <POI type="cc.jw.adventures.digsign" MapID="1554" xpos="-284.2277" ypos="47.05508" zpos="-706.5449" GUID="kSGneyDwWkmTd7JcnzRTXA=="/>
+        <POI type="cc.jw.adventures.digsign" MapID="1554" xpos="-211.1006" ypos="80.04194" zpos="-597.816" GUID="r5iB/mbfCEOFgrWrJPxiDA=="/>
+        <POI type="cc.jw.adventures.digsign" MapID="1554" xpos="-239.7411" ypos="68.7326" zpos="-594.2338" GUID="+FO7Ew6Oqkqvo1rz8iBqtA=="/>
+        <POI type="cc.jw.adventures.digsign" MapID="1554" xpos="-256.1099" ypos="52.48989" zpos="-567.2554" GUID="jmRcNyBxaUGaYoUORS+X7g=="/>
+        <POI type="cc.jw.adventures.digsign" MapID="1554" xpos="-264.9609" ypos="27.3951" zpos="-532.487" GUID="M3xorl3+DkCsdHOpQbB3+g=="/>
+        <POI type="cc.jw.adventures.digsign" MapID="1554" xpos="-285.3783" ypos="10.35921" zpos="-478.6235" GUID="Sx55oS8RTEi9BwDw+u6SmQ=="/>
+        <POI type="cc.jw.adventures.digsign" MapID="1554" xpos="-312.7463" ypos="18.826" zpos="-529.168" GUID="2nODuiUJ1ESQ3HfFJw3+YQ=="/>
+        <POI type="cc.jw.adventures.digsign" MapID="1554" xpos="-384.3787" ypos="10.73282" zpos="-518.5344" GUID="KU/iqSg71k2U2hrZTJWjcw=="/>
+        <POI type="cc.jw.adventures.digsign" MapID="1554" xpos="-381.7877" ypos="6.104265" zpos="-565.4937" GUID="yd+DO6Vk9EqrCLTN+EW2ow=="/>
+        <POI type="cc.jw.adventures.digsign" MapID="1554" xpos="-391.3457" ypos="32.85321" zpos="-647.1157" GUID="b9BGy0PI4EitfJ0fmaz4bw=="/>
+    
+        <!-- View from the Top -->
+        <Trail type="cc.jw.adventures.vftt" trailData="Data/JW/Trails/Adventures/ViewFromTheTopEasyGold.trl" color="FF02FFFA"/>
+
+        <!-- Mistburned Barens -->
+        <!-- Search and Rescue -->
+        <Trail type="cc.jw.adventures.snr" trailData="Data/JW/Trails/Adventures/SearchAndRescue.trl" color="FF02FFFA"/>
+
+    
+    </POIs>
+</OverlayData>

@@ -15,6 +15,16 @@
                     texture="Data/warclawtrail.png"
                 />
                 <MarkerCategory
+                    name="snr"
+                    displayName="Search and Rescue"
+                    texture="Data/warclawtrail.png"
+                />
+                <MarkerCategory
+                    name="vftt"
+                    displayName="View From the Top"
+                    texture="Data/trail.png"
+                />
+                <MarkerCategory
                     name="digsign"
                     displayName="Dig Signs"
                     iconFile="Data/Icons/Uncover.png"

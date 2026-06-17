@@ -12,6 +12,17 @@
                     <MarkerCategory name="bad" displayName="Bad X" iconFile="Data/Icons/BadX.png"/>
                 </MarkerCategory>
             </MarkerCategory>
+            <MarkerCategory name="jps" displayName="Jump Puzzles">
+                <MarkerCategory name="birdiebenefactor" displayName="Birdie Benefactor">
+                    <MarkerCategory name="trail" displayName="Trail" texture="Data/ZBirdTrail.png"/>
+                    <MarkerCategory name="signs" displayName="Nest Signs">
+                        <MarkerCategory name="nest1" displayName="Nest 1 Sign" iconFile="Data/BBNest1.png"/>
+                        <MarkerCategory name="nest2" displayName="Nest 2 Sign" iconFile="Data/BBNest2.png"/>
+                        <MarkerCategory name="nest3" displayName="Nest 3 Sign" iconFile="Data/BBNest3.png"/>
+                    </MarkerCategory>
+                    
+                </MarkerCategory>
+            </MarkerCategory>
             <MarkerCategory name="cvrg" displayName="Coming Soon...">
 
             </MarkerCategory>

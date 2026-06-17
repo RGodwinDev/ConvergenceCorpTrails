@@ -1,42 +1,26 @@
 <OverlayData>
     <POIs>
         <!-- Shipwreck Strand -->
+            <!-- Map ID 1595 -->
+            
         <!-- Starlit Weald -->
+            <!-- Map ID 1593 -->
+
+        <!-- Birdie Benefactor JP -->
+        <Trail type="cc.voe.jps.birdiebenefactor.trail" trailData="Data/VoE/Trails/JPBirdieBenefactor.trl" color="FFFF00A5"/>
+        <!-- BB start -->
+        <!--
+        <POI MapID="1593" xpos="133.8189" ypos="10.45827" zpos="-463.552" GUID="cVavcAr9jEqFIis1F1xTOw=="/>
+        -->
+        <!-- BB nest 1 -->
+        <POI type="cc.voe.jps.birdiebenefactor.signs.nest1" MapID="1593" xpos="151.1166" ypos="43.21682" zpos="-475.7564" GUID="NJY4zi/+fU2HKzxCSGtvsA=="/>
+        <!-- BB nest 2 -->
+        <POI type="cc.voe.jps.birdiebenefactor.signs.nest2" MapID="1593" xpos="145.1261" ypos="92.88569" zpos="-525.3588" GUID="dwv7gjHRl0SDBe3DdwEt+A=="/>
+        <!-- BB nest 3 -->
+        <POI type="cc.voe.jps.birdiebenefactor.signs.nest3" MapID="1593" xpos="91.16193" ypos="219.6285" zpos="-525.3012" GUID="nGEUVrLf3U+kfbe6W2ehKg=="/>
+
 
         <!-- Eternity's Garden -->
-        <!-- Adventure: Scour for Seer Relics -->
-        <Trail type="cc.voe.adventure.scour.trail" trailData="Data/VoE/Trails/adventurescour.trl" color="FF00AF83"/>
-
-        <!-- first room -->
-        <POI type="cc.voe.adventure.scour.ok" MapID="1622" xpos="144.3992" ypos="140.5163" zpos="571.5903" GUID="/DXAyRSjokuPfQYX00QB7Q=="/>
-        <POI type="cc.voe.adventure.scour.bad" MapID="1622" xpos="131.5824" ypos="139.7643" zpos="567.2397" GUID="OXt9b5i+Dkyc390g9egBdA=="/>
-        <POI type="cc.voe.adventure.scour.ok" MapID="1622" xpos="137.6041" ypos="148.2607" zpos="539.1005" GUID="FrXkDuMRO0u98V5mdz+Fvg=="/>
-        
-        <!--first stair -->
-        <POI type="cc.voe.adventure.scour.ok" MapID="1622" xpos="114.6209" ypos="171.5508" zpos="543.3348" GUID="jPNvaQOeEkOQgigDdTDobg=="/>
-
-        <!-- upstairs first room -->
-        <POI type="cc.voe.adventure.scour.bad" MapID="1622" xpos="148.6304" ypos="179.7534" zpos="538.2334" GUID="rL0Mpcm3bkmQuqYrNIEy3g=="/>
-        <POI type="cc.voe.adventure.scour.ok" MapID="1622" xpos="141.596" ypos="187.1958" zpos="530.5952" GUID="9qalG6osbUOZZuUZrnOXkQ=="/>
-        <POI type="cc.voe.adventure.scour.ok" MapID="1622" xpos="139.0771" ypos="179.0506" zpos="571.4966" GUID="kPl7wyFVGk6Vw3m5xOdmLw=="/>
-
-        <!-- upstairs second room -->
-        <POI type="cc.voe.adventure.scour.ok" MapID="1622" xpos="222.0474" ypos="179.6202" zpos="525.5005" GUID="m1NXUjfPREmAk6UP6BtEjA=="/>
-        <POI type="cc.voe.adventure.scour.ok" MapID="1622" xpos="228.3586" ypos="183.519" zpos="510.437" GUID="D5n8nGtcwEeQndxVV9uvtg=="/>
-        <POI type="cc.voe.adventure.scour.bad" MapID="1622" xpos="249.4747" ypos="179.7329" zpos="490.8354" GUID="8bO3hGA7pUqcexAzQiXXrw=="/>
-    
-        <!-- downstairs -->
-        <POI type="cc.voe.adventure.scour.bad" MapID="1622" xpos="237.8152" ypos="140.6565" zpos="515.8653" GUID="abl7JvULRUaDNzxb8tNdzQ=="/>
-        <POI type="cc.voe.adventure.scour.ok" MapID="1622" xpos="252.8169" ypos="140.6565" zpos="522.9195" GUID="PnmJZQVKSUaZmMqK9rszmg=="/>
-        <POI type="cc.voe.adventure.scour.ok" MapID="1622" xpos="209.4045" ypos="139.9993" zpos="526.476" GUID="9VjChubzzECurKGidlTimg=="/>
-    
-        <!-- downstairs 3 -->
-        <POI type="cc.voe.adventure.scour.ok" MapID="1622" xpos="298.0899" ypos="140.7499" zpos="521.8049" GUID="aMCHrgE90kyG0POHHUzIhA=="/>
-        <POI type="cc.voe.adventure.scour.bad" MapID="1622" xpos="311.4201" ypos="140.594" zpos="523.6564" GUID="PdgwYZnQQEWDB6968UJDDg=="/>
-        <POI type="cc.voe.adventure.scour.ok" MapID="1622" xpos="337.9632" ypos="140.5987" zpos="507.513" GUID="o8EKTnM0L0WLgFl2gaqp3w=="/>
-
-        <!-- downstairs 4 -->
-        <POI type="cc.voe.adventure.scour.ok" MapID="1622" xpos="359.6968" ypos="141.1908" zpos="605.2897" GUID="rkJa+0knkEemCL0KYRhQ4g=="/>
-        <POI type="cc.voe.adventure.scour.bad" MapID="1622" xpos="335.3253" ypos="139.9458" zpos="612.8318" GUID="5+Azvou6BkaC9HqZfdBb7Q=="/>
+            <!-- Map ID 1622 -->
     </POIs>
 </OverlayData> 
