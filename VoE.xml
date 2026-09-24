@@ -22,5 +22,12 @@
 
         <!-- Eternity's Garden -->
             <!-- Map ID 1622 -->
+
+        <!-- Leyspring Hollows-->
+            <!-- Map ID 1633 -->
+        <!--sign for convergence path start-->
+        <POI type="cc.voe.cvrg.signs.start" MapID="1633" xpos="160.4878" ypos="63.26712" zpos="-393.4799" GUID="ndS/fmlSukKprJvFAHScWw==" color="FF00AF83"/>
+        <!-- Trail to the VoE Convergence from Hall of Assemblage -->
+        <Trail type="cc.voe.cvrg.trails.pathtoconverge" trailData="Data/VoE/Trails/PathtoConverge.trl" color="FF00AF83"/>
     </POIs>
 </OverlayData> 

@@ -23,8 +23,17 @@
                     
                 </MarkerCategory>
             </MarkerCategory>
-            <MarkerCategory name="cvrg" displayName="Coming Soon...">
-
+            <MarkerCategory name="cvrg" displayName="Convergence">
+                <MarkerCategory name="signs" displayName="Signs">
+                    <MarkerCategory name="start" displayName="Convergence Path Start Sign" iconFile="Data/ToConvergenceSign.png"/>
+                </MarkerCategory>
+                <MarkerCategory name="trails" displayName="Trails" texture="Data/Trail.png">
+                    <MarkerCategory 
+                        name="pathtoconverge" 
+                        displayName="Path to Convergence" 
+                        trailData="Data/VoE/Trails/PathtoConverge.trl"
+                    />
+                </MarkerCategory>
             </MarkerCategory>
         </MarkerCategory>
     </MarkerCategory>

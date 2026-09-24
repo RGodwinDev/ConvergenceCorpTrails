@@ -8,6 +8,9 @@
 
         <!-- Eternity's Garden -->
             <!-- Map ID 1622 -->
+        
+        <!-- Leyspring Hollows-->
+            <!-- Map ID 1633 -->
 
         <!-- Adventure: Scour for Seer Relics -->
         <Trail type="cc.voe.adventure.scour.trail" trailData="Data/VoE/Trails/adventurescour.trl" color="FF00AF83"/>
