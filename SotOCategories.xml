@@ -4,14 +4,18 @@
         displayName="Convergence Corp"
         fadeNear="3000" fadeFar="3500"
     >
-        <MarkerCategory name="soto" displayName="SotO">
+        <MarkerCategory name="soto" displayName="Secrets of the Obscure">
         <!-- Wizards Tower-->
             <MarkerCategory name="wiztower" displayName="Wizards Tower">
                 <MarkerCategory 
-                    name="wiztrail" 
-                    displayName="Wizards Tower Convergence Entrance Trial"
-                    texture="Data/TrailToConvergences.png"
-                />
+                    name="trails" 
+                    displayName="Trails">
+                    <MarkerCategory 
+                        name="wiztrail" 
+                        displayName="Trail to Convergence Portal"
+                        texture="Data/trail.png"
+                    />
+                </MarkerCategory>
                 <MarkerCategory name="signs" displayName="Signs">
                     
                     <MarkerCategory
@@ -43,6 +47,11 @@
                         name="splits"
                         displayName="Splits"
                         iconFile="Data/SotO/Markers/Tower/SotOConvergenceSplitsv2.png"
+                    />
+                    <MarkerCategory
+                        name="toconvergence"
+                        displayName="To Convergence Sign"
+                        iconFile="Data/ToConvergenceSign.png"
                     />
                 </MarkerCategory>
             </MarkerCategory>

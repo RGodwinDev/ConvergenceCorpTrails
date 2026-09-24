@@ -10,11 +10,13 @@
         <!--
             Lowland Shore (around cvrg entrance)
         -->
+        <!-- Sign to convergence -->
+        <POI MapID="1550" type="cc.jw.cvrg.signs.toconverge" xpos="533.686" ypos="218.53" zpos="49.263" GUID="6Sr2NhIew0mBbaXxyX4+ig==" color="FF00FF00"/>
         <!-- trail to cvrg in lowland shore -->
-        <Trail type="cc.jw.elct" trailData="Data/JW/Trails/Convergence/lowlandentering.trl" color="FF00FF00" />
+        <Trail type="cc.jw.cvrg.trails.elct" trailData="Data/JW/Trails/Convergence/lowlandentering.trl" color="FF00FF00" />
 
         <!-- Thumper Route Sign near entrance -->
-        <POI type="cc.jw.lowlandinfosigns.thumperroutes" rotate="90,0,180" MapID="1550" xpos="566.1149" ypos="220" zpos="74.49866" GUID="vd7IW9xJ4ECkcncZ9A0oow=="/>
+        <POI iconSize="4.0" type="cc.jw.cvrg.signs.thumperroutes" rotate="90,0,180" MapID="1550" xpos="566.1149" ypos="220" zpos="74.49866" GUID="vd7IW9xJ4ECkcncZ9A0oow=="/>
         
     </POIs>
 </OverlayData>

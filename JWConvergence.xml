@@ -11,10 +11,10 @@
         <POI MapID="1562" xpos="-240.1132" ypos="79.42603" zpos="-426.5479" GUID="UeX8M9rgUUaEL5VxTaA2Zg=="/>
         -->
         <!-- Don't Touch the Bear! -->
-        <POI iconSize="4" type="cc.jw.convergesignage.donttouchsign" rotate="90,0,150" MapID="1562" xpos="-212.8266" ypos="78" zpos="-422.0489" GUID="PyJ52emXv0ajjtmsmLmCrg=="/>
+        <POI iconSize="4" type="cc.jw.cvrg.signs.donttouch" rotate="90,0,150" MapID="1562" xpos="-212.8266" ypos="78" zpos="-422.0489" GUID="PyJ52emXv0ajjtmsmLmCrg=="/>
         <!-- Dolyak Trail -->
-        <Trail type="cc.jw.dolyaktrail" trailData="Data/JW/Trails/Convergence/dolyakRoutePublic.trl" color="FFFFD700" />
-        <Trail type="cc.jw.dolyaktrail" trailData="Data/JW/Trails/Convergence/dolyakRoute.trl" color="FFFFD700" />
+        <Trail type="cc.jw.cvrg.trails.dolyaktrail" trailData="Data/JW/Trails/Convergence/dolyakRoutePublic.trl" color="FFFFD700" />
+        <Trail type="cc.jw.cvrg.trails.dolyaktrail" trailData="Data/JW/Trails/Convergence/dolyakRoute.trl" color="FFFFD700" />
         <!-- dolyak stop 1 -->
         <!--
         <POI MapID="1571" xpos="-199.6675" ypos="100.1301" zpos="-296.8672" GUID="XDB320rM6kS4292PMgzTBg=="/>
@@ -27,53 +27,53 @@
         -->
 
         <!-- DOORS -->
-        <Trail type="cc.jw.doortrail" trailData="Data/JW/Trails/Convergence/BombersToDoorsPublic.trl" color="FF22B14C"/>
-        <Trail type="cc.jw.doortrail" trailData="Data/JW/Trails/Convergence/DoorsPublic.trl" color="FF22B14C"/>
-        <Trail type="cc.jw.doortrail" trailData="Data/JW/Trails/Convergence/BombersToDoors.trl" color="FF22B14C"/>
-        <Trail type="cc.jw.doortrail" trailData="Data/JW/Trails/Convergence/Doors.trl" color="FF22B14C"/>
-        <Trail type="cc.jw.doortrailalternate" trailData="Data/JW/Trails/Convergence/DoorsAlternate1.trl" color="FF00AF83"/>
+        <Trail type="cc.jw.cvrg.trails.doortrail" trailData="Data/JW/Trails/Convergence/BombersToDoorsPublic.trl" color="FF22B14C"/>
+        <Trail type="cc.jw.cvrg.trails.doortrail" trailData="Data/JW/Trails/Convergence/DoorsPublic.trl" color="FF22B14C"/>
+        <Trail type="cc.jw.cvrg.trails.doortrail" trailData="Data/JW/Trails/Convergence/BombersToDoors.trl" color="FF22B14C"/>
+        <Trail type="cc.jw.cvrg.trails.doortrail" trailData="Data/JW/Trails/Convergence/Doors.trl" color="FF22B14C"/>
+        <Trail type="cc.jw.cvrg.trails.doortrailalternate" trailData="Data/JW/Trails/Convergence/DoorsAlternate1.trl" color="FF00AF83"/>
 
         <!-- THUMPER ROUTES -->
         <!-- West -->
-        <Trail type="cc.jw.thumpertrail" trailData="Data/JW/Trails/Convergence/thumperWestPublic.trl" color="FFFF0000"/>
-        <Trail type="cc.jw.thumpertrail" trailData="Data/JW/Trails/Convergence/thumperWest.trl" color="FFFF0000"/>
+        <Trail type="cc.jw.cvrg.trails.thumpertrail" trailData="Data/JW/Trails/Convergence/thumperWestPublic.trl" color="FFFF0000"/>
+        <Trail type="cc.jw.cvrg.trails.thumpertrail" trailData="Data/JW/Trails/Convergence/thumperWest.trl" color="FFFF0000"/>
         <!-- Sign to West -->
-        <POI type="cc.jw.convergesignage.directionsigns.west" rotate="90,0,215" MapID="1571" xpos="-99.80734" ypos="187.7406" zpos="50.59799" GUID="hjZ5wClfZ0W7Ml6r8FjQpw=="/>
-        <POI type="cc.jw.convergesignage.directionsigns.west" rotate="90,0,215" MapID="1562" xpos="-99.80734" ypos="187.7406" zpos="50.59799" GUID="DhVYmdmDvEmLbmAoLuJyCA=="/>
+        <POI type="cc.jw.cvrg.signs.directionsigns.west" rotate="90,0,215" MapID="1571" xpos="-99.80734" ypos="187.7406" zpos="50.59799" GUID="hjZ5wClfZ0W7Ml6r8FjQpw=="/>
+        <POI type="cc.jw.cvrg.signs.directionsigns.west" rotate="90,0,215" MapID="1562" xpos="-99.80734" ypos="187.7406" zpos="50.59799" GUID="DhVYmdmDvEmLbmAoLuJyCA=="/>
 
         <!-- Center -->
-        <Trail type="cc.jw.thumpertrail" trailData="Data/JW/Trails/Convergence/thumpertocenterPublic.trl" color="FF007BFF"/>
-        <Trail type="cc.jw.thumpertrail" trailData="Data/JW/Trails/Convergence/thumpertocenter.trl" color="FF007BFF"/>
+        <Trail type="cc.jw.cvrg.trails.thumpertrail" trailData="Data/JW/Trails/Convergence/thumpertocenterPublic.trl" color="FF007BFF"/>
+        <Trail type="cc.jw.cvrg.trails.thumpertrail" trailData="Data/JW/Trails/Convergence/thumpertocenter.trl" color="FF007BFF"/>
         <!-- Sign to Center-->
-        <POI type="cc.jw.convergesignage.directionsigns.center" rotate="90,0,145" MapID="1571" xpos="-41.88879" ypos="206.5132" zpos="71.34435" GUID="wkmOjzQsEUOpPmKIxRBrQA=="/>
-        <POI type="cc.jw.convergesignage.directionsigns.center" rotate="90,0,145" MapID="1562" xpos="-41.88879" ypos="206.5132" zpos="71.34435" GUID="ZzLPxQBjo0CUhxTdrLsm4A=="/>
+        <POI type="cc.jw.cvrg.signs.directionsigns.center" rotate="90,0,145" MapID="1571" xpos="-41.88879" ypos="206.5132" zpos="71.34435" GUID="wkmOjzQsEUOpPmKIxRBrQA=="/>
+        <POI type="cc.jw.cvrg.signs.directionsigns.center" rotate="90,0,145" MapID="1562" xpos="-41.88879" ypos="206.5132" zpos="71.34435" GUID="ZzLPxQBjo0CUhxTdrLsm4A=="/>
 
         <!-- North -->
-        <Trail type="cc.jw.thumpertrail" trailData="Data/JW/Trails/Convergence/thumperNorthPublic.trl" color="FFFFEE00"/>
-        <Trail type="cc.jw.thumpertrail" trailData="Data/JW/Trails/Convergence/thumperNorth.trl" color="FFFFEE00"/>
+        <Trail type="cc.jw.cvrg.trails.thumpertrail" trailData="Data/JW/Trails/Convergence/thumperNorthPublic.trl" color="FFFFEE00"/>
+        <Trail type="cc.jw.cvrg.trails.thumpertrail" trailData="Data/JW/Trails/Convergence/thumperNorth.trl" color="FFFFEE00"/>
         <!-- Sign to North-->
-        <POI type="cc.jw.convergesignage.directionsigns.north" rotate="90,0,190" MapID="1571" xpos="-64.16886" ypos="199.9709" zpos="76.68574" GUID="8pQpxwzMS0alDcRw+aFixw=="/>
-        <POI type="cc.jw.convergesignage.directionsigns.north" rotate="90,0,190" MapID="1562" xpos="-64.16886" ypos="199.9709" zpos="76.68574" GUID="JxLj0Mp9XUygNSeph5Vj9A=="/>
+        <POI type="cc.jw.cvrg.signs.directionsigns.north" rotate="90,0,190" MapID="1571" xpos="-64.16886" ypos="199.9709" zpos="76.68574" GUID="8pQpxwzMS0alDcRw+aFixw=="/>
+        <POI type="cc.jw.cvrg.signs.directionsigns.north" rotate="90,0,190" MapID="1562" xpos="-64.16886" ypos="199.9709" zpos="76.68574" GUID="JxLj0Mp9XUygNSeph5Vj9A=="/>
         <!-- PPR sign for north -->
         <POI type="cc.icons.ppr" rotate="90,0,0" MapID="1571" xpos="17.20025" ypos="209.4248" zpos="375.4267" GUID="rgZZLyuoKEKnjnvQoIfpsg=="/>
         <POI type="cc.icons.ppr" rotate="90,0,0" MapID="1562" xpos="17.20025" ypos="209.4248" zpos="375.4267" GUID="P4GbsI8wQEiilhQ6B9IVxw=="/>
 
         <!-- East -->
-        <Trail type="cc.jw.thumpertrail" trailData="Data/JW/Trails/Convergence/thumperEastPublic.trl" color="FFFF00E1"/>
-        <Trail type="cc.jw.thumpertrail" trailData="Data/JW/Trails/Convergence/thumperEast.trl" color="FFFF00E1"/>
+        <Trail type="cc.jw.cvrg.trails.thumpertrail" trailData="Data/JW/Trails/Convergence/thumperEastPublic.trl" color="FFFF00E1"/>
+        <Trail type="cc.jw.cvrg.trails.thumpertrail" trailData="Data/JW/Trails/Convergence/thumperEast.trl" color="FFFF00E1"/>
         <!-- Sign to East -->
-        <POI type="cc.jw.convergesignage.directionsigns.east" rotate="90,0,70" MapID="1571" xpos="59.56338" ypos="188.886" zpos="-105.9963" GUID="ybBSlHmKD0yHdxEWWQcLCg=="/>
-        <POI type="cc.jw.convergesignage.directionsigns.east" rotate="90,0,70" MapID="1562" xpos="59.56338" ypos="188.886" zpos="-105.9963" GUID="/QTAKMcwDUqveUlAVuSYdA=="/>
+        <POI type="cc.jw.cvrg.signs.directionsigns.east" rotate="90,0,70" MapID="1571" xpos="59.56338" ypos="188.886" zpos="-105.9963" GUID="ybBSlHmKD0yHdxEWWQcLCg=="/>
+        <POI type="cc.jw.cvrg.signs.directionsigns.east" rotate="90,0,70" MapID="1562" xpos="59.56338" ypos="188.886" zpos="-105.9963" GUID="/QTAKMcwDUqveUlAVuSYdA=="/>
         <!-- PPR sign for east -->
         <POI type="cc.icons.ppr" MapID="1571" rotate="90,0,0" xpos="220.7027" ypos="144.4143" zpos="110.7152" GUID="FpAQhzr+7UqgBU/qCbYz3w=="/>
         <POI type="cc.icons.ppr" MapID="1562" rotate="90,0,0" xpos="220.7027" ypos="144.4143" zpos="110.7152" GUID="HeNTX8MnS0WDvs3MN/3zxQ=="/>
 
         <!-- SouthEast -->
-        <Trail type="cc.jw.thumpertrail" trailData="Data/JW/Trails/Convergence/thumpertoSouthEastPublic.trl" color="FFFF8800"/>
-        <Trail type="cc.jw.thumpertrail" trailData="Data/JW/Trails/Convergence/thumpertoSouthEast.trl" color="FFFF8800"/>
+        <Trail type="cc.jw.cvrg.trails.thumpertrail" trailData="Data/JW/Trails/Convergence/thumpertoSouthEastPublic.trl" color="FFFF8800"/>
+        <Trail type="cc.jw.cvrg.trails.thumpertrail" trailData="Data/JW/Trails/Convergence/thumpertoSouthEast.trl" color="FFFF8800"/>
         <!-- Sign to SE -->
-        <POI type="cc.jw.convergesignage.directionsigns.southeast" rotate="90,0,75" MapID="1571" xpos="43.64621" ypos="178.8479" zpos="-83.13187" GUID="Su7bXSqQkEKPHm4W55HDLw=="/>
-        <POI type="cc.jw.convergesignage.directionsigns.southeast" rotate="90,0,75" MapID="1562" xpos="43.64621" ypos="178.8479" zpos="-83.13187" GUID="W0eDyWLJvUirRfjdiD8RoQ=="/>
+        <POI type="cc.jw.cvrg.signs.directionsigns.southeast" rotate="90,0,75" MapID="1571" xpos="43.64621" ypos="178.8479" zpos="-83.13187" GUID="Su7bXSqQkEKPHm4W55HDLw=="/>
+        <POI type="cc.jw.cvrg.signs.directionsigns.southeast" rotate="90,0,75" MapID="1562" xpos="43.64621" ypos="178.8479" zpos="-83.13187" GUID="W0eDyWLJvUirRfjdiD8RoQ=="/>
         
         
 

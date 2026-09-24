@@ -4,7 +4,7 @@
         displayName="Convergence Corp"
         fadeNear="3000" fadeFar="3500"
     >
-        <MarkerCategory name="voe" displayName="VoE">
+        <MarkerCategory name="voe" displayName="Visions of Eternity">
             <MarkerCategory name="adventure" displayName="Adventures">
                 <MarkerCategory name="scour" displayName="Scour for Seer Relics">
                     <MarkerCategory name="trail" displayName="Trail" texture="Data/Trail.png" />

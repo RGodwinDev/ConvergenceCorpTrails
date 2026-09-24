@@ -4,200 +4,296 @@
             displayName="Convergence Corp"
             fadeNear="3000" fadeFar="3500"
         >
-        <MarkerCategory name="jw" displayName="JW">
-            <MarkerCategory 
-                name="adventures"
-                displayName="Adventures"
-            >
+        <MarkerCategory name="jw" displayName="Janthir Wilds">
+            <!-- Adventures -->
+            <MarkerCategory name="adventures" displayName="Adventures" >
                 <MarkerCategory
                     name="stwlc"
                     displayName="Save the Woodland Creatures"
-                    texture="Data/warclawtrail.png"
-                />
+                >
+                    <MarkerCategory
+                        name="trails"
+                        displayName="Trails"
+                    >
+                        <MarkerCategory
+                            name="trail"
+                            displayName="Trail"
+                            texture="Data/warclawtrail.png"
+                        />
+                    </MarkerCategory>
+                    <MarkerCategory
+                        name="signs"
+                        displayName="Signs"
+                    >
+                        <MarkerCategory
+                            name="digsign"
+                            displayName="Dig Signs"
+                            iconFile="Data/Icons/Uncover.png"
+                        />
+                    </MarkerCategory>
+                </MarkerCategory>
                 <MarkerCategory
                     name="snr"
                     displayName="Search and Rescue"
                     texture="Data/warclawtrail.png"
-                />
+                >
+                    <MarkerCategory
+                        name="trails"
+                        displayName="Trails"
+                    >
+                        <MarkerCategory
+                            name="trail"
+                            displayName="Trail"
+                            texture="Data/warclawtrail.png"
+                        />
+                    </MarkerCategory>
+                </MarkerCategory>
                 <MarkerCategory
                     name="vftt"
                     displayName="View From the Top"
                     texture="Data/trail.png"
-                />
-                <MarkerCategory
-                    name="digsign"
-                    displayName="Dig Signs"
-                    iconFile="Data/Icons/Uncover.png"
-                />
-
+                >  
+                    <MarkerCategory
+                        name="trails"
+                        displayName="Trails"
+                    >
+                        <MarkerCategory
+                            name="trail"
+                            displayName="Trail"
+                            texture="Data/trail.png"
+                        />
+                    </MarkerCategory>
+                </MarkerCategory>
             </MarkerCategory>
-            <MarkerCategory
-                name="lowlandinfosigns" 
-                displayName="Convergence Info in Lowland"
-                iconSize="4"
-                rotate="90,0,0"
-            >
+            <!-- Hearts -->
+            <MarkerCategory name="hearts" displayName="Hearts" >
                 <MarkerCategory
-                    name="thumperroutes"
-                    displayName="Thumper Routes"
-                    iconFile="Data/JW/Markers/Lowland/ThumperRoutesv2.png"
-                 />
-            </MarkerCategory>
-            <!-- JW HEART SIGNS -->
-            <MarkerCategory 
-                name="heartsignage" 
-                displayName="Heart Signs"
-                iconSize="2"
-                rotate="90,0,0"
-            >
-                <!-- Lowland Shore Signs -->
-                <MarkerCategory 
-                    name="JourneykinOutpost" 
-                    displayName="Pet the Warclaws Sign" 
-                    iconFile="Data/JW/Markers/Hearts/outpostPetTheCats.png" 
-                />
-                <MarkerCategory
-                    name="dodgetrainer"
-                    displayName="Dodge Trainer Sign"
-                    iconFile="Data/JW/Markers/Hearts/HarvestDenDodgeTrainer.png"
-                />
-                <MarkerCategory
-                    name="breakbartrainer"
-                    displayName="Breakbar Trainer Sign"
-                    iconFile="Data/JW/Markers/Hearts/HarvestDenBreakbarTrainer.png"
-                />
-                <MarkerCategory
-                    name="HDenForge"
-                    displayName="Forge Sign"
-                    iconFile="Data/JW/Markers/Hearts/HarvestDenForge.png"
-                />
-
-                <!-- Janthir Syntri Signs -->
-                <MarkerCategory
-                    name="JSMoaEvent"
-                    displayName="Moas Sign"
-                    iconFile="Data/JW/Markers/Hearts/ForagersMOA.png"
-                />
-                <MarkerCategory
-                    name="JSDeer"
-                    displayName="Deer Sign"
-                    iconFile="Data/JW/Markers/Hearts/ForagersDEER.png"
-                 />
-                <MarkerCategory
-                    name="JSRam"
-                    displayName="Ram Sign"
-                    iconFile="Data/JW/Markers/Hearts/ForagersRAM.png"
-                />
-                <MarkerCategory
-                    name="JSIboga"
-                    displayName="Iboga Sign"
-                    iconFile="Data/JW/Markers/Hearts/ForagersIBOGA.png"
-                />
-                <MarkerCategory
-                    name="JSBoar"
-                    displayName="Boar Sign"
-                    iconFile="Data/JW/Markers/Hearts/ForagersBOAR.png"
-                />
-                <MarkerCategory
-                    name="JSCamp"
-                    displayName="Camp Sign"
-                    iconFile="Data/JW/Markers/Hearts/ForagersCAMP.png"
-                />
-                <MarkerCategory
-                    name="JSMMWarn"
-                    displayName="M&amp;M Warning Sign"
-                    iconFile="Data/JW/Markers/Hearts/ForagersMMWARN.png"
-                />
-                <MarkerCategory
-                    name="JSFesteringBasin"
-                    displayName="Festering Basin Adventure Sign"
-                    iconFile="Data/JW/Markers/Hearts/FesteringBasin.png"
-                />
-                <MarkerCategory
-                    name="JSFesteringBasinGrub"
-                    displayName="Festering Basin Grub Sign"
-                    iconFile="Data/JW/Markers/Hearts/GreerGrub.png"
-                />
-            </MarkerCategory >
-
-            <!-- Convergence Signs -->
-            <MarkerCategory 
-                name="convergesignage" 
-                displayName="Convergence Signs"
-                iconSize="2"
-                rotate="90,0,0"
-            >
-                <MarkerCategory
-                    name="donttouchsign"
-                    displayName="Don't touch"
-                    iconFile="Data/JW/Markers/Convergence/donttouch.png"
-                    />
-                <MarkerCategory
-                    name="disruptspawns"
-                    displayName="Disruptor Spawns"
-                />
-                <MarkerCategory
-                    name="directionsigns"
-                    displayName="Directional Signs"
+                    name="journeykinoutpost"
+                    displayName="Journeykin Outpost"
                 >
+                    <MarkerCategory
+                        name="signs"
+                        displayName="Signs"
+                    >
+                        <MarkerCategory
+                            name="petthecats"
+                            displayName="Pet the Warclaws Sign"
+                            iconFile="Data/JW/Markers/Hearts/outpostPetTheCats.png"
+                        />
+                    </MarkerCategory>
+                    <MarkerCategory
+                        name="trails"
+                        displayName="Trails">
+                        <MarkerCategory
+                            name="trail"
+                            displayName="Trail"
+                            texture="Data/Icons/heart_full.png"
+                        />
+                    </MarkerCategory>
+                </MarkerCategory>
+                <MarkerCategory
+                    name="harvestden"
+                    displayName="Harvest Den"
+                >
+                    <MarkerCategory
+                        name="signs"
+                        displayName="Signs"
+                    >
+                        <MarkerCategory
+                            name="dodgetrainer"
+                            displayName="Dodge Trainer"
+                            iconFile="Data/JW/Markers/Hearts/HarvestDenDodgeTrainer.png"
+                        />
+                        <MarkerCategory
+                            name="breakbartrainer"
+                            displayName="Breakbar Trainer"
+                            iconFile="Data/JW/Markers/Hearts/HarvestDenBreakbarTrainer.png"
+                        />
+                        <MarkerCategory
+                            name="forge"
+                            displayName="Forge"
+                            iconFile="Data/JW/Markers/Hearts/HarvestDenForge.png"
+                        />
+                    </MarkerCategory>
+                    <MarkerCategory
+                        name="trails"
+                        displayName="Trails"
+                    >
+                        <MarkerCategory
+                            name="trail"
+                            displayName="Trail"
+                            texture="Data/Icons/heart_full.png"
+                        />
+                    </MarkerCategory>
+                </MarkerCategory>
+                <MarkerCategory
+                    name="festeringbasin"
+                    displayName="Festering Basin"
+                >
+                    <MarkerCategory
+                        name="signs"
+                        displayName="Signs"
+                    >
+                        <MarkerCategory
+                            name="grub"
+                            displayName="Greer Grub Sign"
+                            iconFile="Data/JW/Markers/Hearts/GreerGrub.png"
+                        />
+                        <MarkerCategory
+                            name="jsfesteringbasin"
+                            displayName="Festering Basin Sign"
+                            iconFile="Data/JW/Markers/Hearts/FesteringBasin.png"
+                        />
+                    </MarkerCategory>
+                    <MarkerCategory
+                        name="trails"
+                        displayName="Trails"
+                    >
+                        <MarkerCategory
+                            name="trail"
+                            displayName="Trail"
+                            texture="Data/Icons/heart_full.png"
+                        />
+                    </MarkerCategory>
+                </MarkerCategory>
+                <MarkerCategory
+                    name="foragershunt"
+                    displayName="Foragers Hunt"
+                >
+                    <MarkerCategory
+                        name="signs"
+                        displayName="Signs"
+                    >
+                        <MarkerCategory
+                            name="moa"
+                            displayName="Moa Event"
+                            iconFile="Data/JW/Markers/Hearts/ForagersMOA.png"
+                        />
+                        <MarkerCategory
+                            name="deer"
+                            displayName="Deer Signs"
+                            iconFile="Data/JW/Markers/Hearts/ForagersDEER.png"
+                        />
+                        <MarkerCategory
+                            name="ram"
+                            displayName="Ram Event"
+                            iconFile="Data/JW/Markers/Hearts/ForagersRAM.png"
+                        />
+                        <MarkerCategory
+                            name="iboga"
+                            displayName="Iboga Event"
+                            iconFile="Data/JW/Markers/Hearts/ForagersIBOGA.png"
+                        />
+                        <MarkerCategory
+                            name="boar"
+                            displayName="Boar Event"
+                            iconFile="Data/JW/Markers/Hearts/ForagersBOAR.png"
+                        />
+                        <MarkerCategory
+                            name="camp"
+                            displayName="Camp Event"
+                            iconFile="Data/JW/Markers/Hearts/ForagersCAMP.png"
+                        />
+                        <MarkerCategory
+                            name="mnmwarn"
+                            displayName="M&amp;M Warning"
+                            iconFile="Data/JW/Markers/Hearts/ForagersMMWARN.png"
+                        />
+                    </MarkerCategory>
+                    <MarkerCategory
+                        name="trails"
+                        displayName="Trails"
+                    >
+                        <MarkerCategory
+                            name="trail"
+                            displayName="Trail"
+                            texture="Data/Icons/heart_full.png"
+                        />
+                    </MarkerCategory>
+                </MarkerCategory>
+            </MarkerCategory>
+            <MarkerCategory name="cvrg" displayName="Convergence" >
+                <MarkerCategory
+                    name="signs"
+                    displayName="Signs"
+                >
+                    <MarkerCategory
+                        name="thumperroutes"
+                        displayName="Thumper Routes"
+                        iconFile="Data/JW/Markers/Lowland/ThumperRoutesv2.png"
+                    />
+                    <MarkerCategory
+                        name="toconverge"
+                        displayName="To Convergence"
+                        iconFile="Data/ToConvergenceSign.png"
+                    />
+                    <MarkerCategory
+                        name="donttouch"
+                        displayName="Don't touch the bear"
+                        iconFile="Data/JW/Markers/Convergence/donttouch.png"
+                    />
+                    <MarkerCategory
+                        name="directionsigns"
+                        displayName="Directional Signs"
+                    >
+                        <MarkerCategory 
+                            name="west"
+                            displayName="West"
+                            iconFile="Data/JW/Markers/Convergence/WESTSign.png"
+                        />
+                        <MarkerCategory
+                            name="east"
+                            displayName="East"
+                            iconFile="Data/JW/Markers/Convergence/EASTSign.png"
+                        />
+                        <MarkerCategory
+                            name="center"
+                            displayName="Center"
+                            iconFile="Data/JW/Markers/Convergence/CENTERSign.png"
+                        />
+                        <MarkerCategory
+                            name="north"
+                            displayName="North"
+                            iconFile="Data/JW/Markers/Convergence/NORTHSign.png"
+                        />
+                        <MarkerCategory
+                            name="southeast"
+                            displayName="South East"
+                            iconFile="Data/JW/Markers/Convergence/SOUTHEASTSign.png"
+                        />
+                    </MarkerCategory>
+                </MarkerCategory>
+                <MarkerCategory
+                    name="trails"
+                    displayName="Trails"
+                >
+                    <MarkerCategory
+                        name="elct"
+                        displayName="Trail to Convergence"
+                        texture="Data/trail.png"
+                    />
+                    <MarkerCategory
+                        name="dolyaktrail"
+                        displayName="Dolyak Trail"
+                        texture="Data/dolyaktrail.png"
+                    />
+                    <MarkerCategory
+                        name="doortrail"
+                        displayName="Door Trail"
+                        texture="Data/warclawtrail.png"
+                    />
                     <MarkerCategory 
-                        name="west"
-                        displayName="West"
-                        iconFile="Data/JW/Markers/Convergence/WESTSign.png"
+                        name="doortrailalternate"
+                        displayName="Alternate Door Trail"
+                        texture="Data/warclawtrail.png"
                     />
                     <MarkerCategory
-                        name="east"
-                        displayName="East"
-                        iconFile="Data/JW/Markers/Convergence/EASTSign.png"
-                    />
-                    <MarkerCategory
-                        name="center"
-                        displayName="Center"
-                        iconFile="Data/JW/Markers/Convergence/CENTERSign.png"
-                    />
-                    <MarkerCategory
-                        name="north"
-                        displayName="North"
-                        iconFile="Data/JW/Markers/Convergence/NORTHSign.png"
-                    />
-                    <MarkerCategory
-                        name="southeast"
-                        displayName="South East"
-                        iconFile="Data/JW/Markers/Convergence/SOUTHEASTSign.png"
+                        name="thumpertrail"
+                        displayName="Thumper Trails"
+                        texture="Data/trail.png"
                     />
                 </MarkerCategory>
             </MarkerCategory>
-            <!-- JW Trails -->
-            <MarkerCategory
-                name="elct"
-                displayName="Lowland Shore Convergence Entrance Trail"
-                texture="Data/trail2.png"
-            />
-            <MarkerCategory
-                name="dolyaktrail"
-                displayName="Dolyak Trail"
-                texture="Data/dolyaktrail.png"
-            />
-            <MarkerCategory
-                name="doortrail"
-                displayName="Door Trail"
-                texture="Data/warclawtrail.png"
-            />
-            <MarkerCategory 
-                name="doortrailalternate"
-                displayName="Alternate Door Trail"
-                texture="Data/warclawtrail.png"
-            />
-            <MarkerCategory
-                name="thumpertrail"
-                displayName="Thumper Trails"
-                texture="Data/trail.png"
-            />
-            <MarkerCategory 
-                name="hearttrails" 
-                displayName="Heart Trails" 
-                texture="Data/Icons/heart_full.png"
-            />
         </MarkerCategory>
     </MarkerCategory>
 </OverlayData>

@@ -9,8 +9,11 @@
         <!-- 1509 = wiz tower -->
         <!-- 1523 = soto public -->
         <!-- 1527 = soto private -->
+
+        <!-- Sign to convergence -->
+        <POI type="cc.soto.wiztower.signs.toconvergence" MapID="1509" xpos="35.527" ypos="293.629" zpos="-4.91327"  GUID="jkeKqwQgJUWYtqMbcC6nOg==" color="FFFFA500"/>
         <!-- Wiz Tower Trail to Convergence Portal-->
-        <Trail type="cc.soto.wiztower.wiztrail" trailData="Data/SotO/Trails/wiztower.trl" color="FFFFA500"/>
+        <Trail type="cc.soto.wiztower.trails.wiztrail" trailData="Data/SotO/Trails/wiztower.trl" color="FFFFA500"/>
 
         <!-- corner maps in the tower -->
         <POI iconSize="4" rotate="90,0,35" type="cc.soto.wiztower.signs.splitmid" MapID="1509" xpos="-7.686641" ypos="328" zpos="-138.3005" GUID="plVkWttWG0m2J8XXm132/Q=="/>
