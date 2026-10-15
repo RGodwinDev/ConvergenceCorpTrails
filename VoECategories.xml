@@ -1,40 +1,120 @@
 <OverlayData>
-    <MarkerCategory
-        name="cc"
-        displayName="Convergence Corp"
-        fadeNear="3000" fadeFar="3500"
-    >
-        <MarkerCategory name="voe" displayName="Visions of Eternity">
-            <MarkerCategory name="adventure" displayName="Adventures">
-                <MarkerCategory name="scour" displayName="Scour for Seer Relics">
-                    <MarkerCategory name="trail" displayName="Trail" texture="Data/Trail.png" />
-                    <MarkerCategory name="ok" displayName="OK Circles" iconFile="Data/Icons/OKCircle.png"/>
-                    <MarkerCategory name="bad" displayName="Bad X" iconFile="Data/Icons/BadX.png"/>
-                </MarkerCategory>
-            </MarkerCategory>
-            <MarkerCategory name="jps" displayName="Jump Puzzles">
-                <MarkerCategory name="birdiebenefactor" displayName="Birdie Benefactor">
-                    <MarkerCategory name="trail" displayName="Trail" texture="Data/ZBirdTrail.png"/>
-                    <MarkerCategory name="signs" displayName="Nest Signs">
-                        <MarkerCategory name="nest1" displayName="Nest 1 Sign" iconFile="Data/BBNest1.png"/>
-                        <MarkerCategory name="nest2" displayName="Nest 2 Sign" iconFile="Data/BBNest2.png"/>
-                        <MarkerCategory name="nest3" displayName="Nest 3 Sign" iconFile="Data/BBNest3.png"/>
-                    </MarkerCategory>
-                    
-                </MarkerCategory>
-            </MarkerCategory>
-            <MarkerCategory name="cvrg" displayName="Convergence">
-                <MarkerCategory name="signs" displayName="Signs">
-                    <MarkerCategory name="start" displayName="Convergence Path Start Sign" iconFile="Data/ToConvergenceSign.png"/>
-                </MarkerCategory>
-                <MarkerCategory name="trails" displayName="Trails" texture="Data/Trail.png">
-                    <MarkerCategory 
-                        name="pathtoconverge" 
-                        displayName="Path to Convergence" 
-                        trailData="Data/VoE/Trails/PathtoConverge.trl"
-                    />
-                </MarkerCategory>
-            </MarkerCategory>
+  <MarkerCategory name="cc" displayName="Convergence Corp" fadeNear="3000" fadeFar="3500">
+    <MarkerCategory name="voe" displayName="Visions of Eternity">
+      <MarkerCategory name="adventure" displayName="Adventures">
+        <MarkerCategory name="scour" displayName="Scour for Seer Relics">
+          <MarkerCategory name="trail" displayName="Trail" texture="Data/Trail.png" />
+          <MarkerCategory name="ok" displayName="OK Circles" iconFile="Data/Icons/OKCircle.png" />
+          <MarkerCategory name="bad" displayName="Bad X" iconFile="Data/Icons/BadX.png" />
         </MarkerCategory>
+      </MarkerCategory>
+      <MarkerCategory name="jps" displayName="Jump Puzzles">
+        <MarkerCategory name="birdiebenefactor" displayName="Birdie Benefactor">
+          <MarkerCategory name="trail" displayName="Trail" texture="Data/ZBirdTrail.png" />
+          <MarkerCategory name="signs" displayName="Nest Signs">
+            <MarkerCategory name="nest1" displayName="Nest 1 Sign" iconFile="Data/BBNest1.png" />
+            <MarkerCategory name="nest2" displayName="Nest 2 Sign" iconFile="Data/BBNest2.png" />
+            <MarkerCategory name="nest3" displayName="Nest 3 Sign" iconFile="Data/BBNest3.png" />
+          </MarkerCategory>
+        </MarkerCategory>
+      </MarkerCategory>
+      <MarkerCategory name="cvrg" displayName="Convergence">
+        <MarkerCategory name="signs" displayName="Signs">
+          <MarkerCategory name="start" displayName="Convergence Path Start Sign" iconFile="Data/ToConvergenceSign.png" />
+          <MarkerCategory name="champspawns" displayName="Champ/Mob Spawn Markers" iconFile="Data/Icons/OKCircle.png" />
+        </MarkerCategory>
+        <MarkerCategory name="trails" displayName="Trails" texture="Data/Trail.png">
+          <MarkerCategory name="pathtoconverge" displayName="Path to Convergence" texture="Data/trail.png" />
+        </MarkerCategory>
+        <!-- VISIONS-->
+        <MarkerCategory name="visions" displayName="Visions">
+          <!-- All Groups -->
+          <MarkerCategory name="allgroups" displayName="All Groups">
+            <MarkerCategory name="collapse" displayName="Vision of Collapse/Magus Dam">
+              <MarkerCategory name="signs" displayName="Signs">
+                <MarkerCategory name="worker" displayName="Worker Markers" iconFile="Data/Icons/OKCircle.png" />
+              </MarkerCategory>
+            </MarkerCategory>
+            <MarkerCategory name="impendingdoom" displayName="Vision of Impending Doom/Encroaching Mists">
+                <MarkerCategory name="trails" displayName="Trails" texture="Data/trail.png" />
+                <MarkerCategory name="signs" displayName="Signs">
+                </MarkerCategory>
+            </MarkerCategory>
+            <MarkerCategory name="affliction" displayName="Vision of Affliction/Scarab Plague" />
+            <MarkerCategory name="ineptitude" displayName="Vision of Ineptitude/Luminates Plant" />
+            <MarkerCategory name="theend" displayName="Vision of The End" />
+            <MarkerCategory name="zealotry" displayName="Vision of Zealotry">
+                <MarkerCategory name="trails" displayName="Trails" texture="Data/trail.png" />
+                <MarkerCategory name="signs" displayName="Signs">
+                    <MarkerCategory name="champspawns" displayName="Champ Spawns" iconFile="Data/Icons/OKCircle.png" />
+                    <MarkerCategory name="teleportsign" displayName="Teleport Place Marker" iconFile="Data/Icons/portal_entre.png" />
+                </MarkerCategory>
+            </MarkerCategory>
+          </MarkerCategory>
+          <!-- GROUP 1-->
+          <MarkerCategory name="group1" displayName="Group 1">
+            <MarkerCategory name="collapse" displayName="Vision of Collapse/Magus Dam">
+              <MarkerCategory name="trail" displayName="Trail" texture="Data/trail.png" />
+            </MarkerCategory>
+            <MarkerCategory name="impendingdoom" displayName="Vision of Impending Doom/Encroaching Mists">
+                <MarkerCategory name="trails" displayName="Trails" texture="Data/trail.png" />
+                <MarkerCategory name="signs" displayName="Signs"/>
+            </MarkerCategory>
+            <MarkerCategory name="affliction" displayName="Vision of Affliction/Scarab Plague" />
+            <MarkerCategory name="ineptitude" displayName="Vision of Ineptitude/Luminates Plant">
+              <MarkerCategory name="trails" displayName="Trails" texture="Data/trail.png" />
+                <MarkerCategory name="signs" displayName="Signs"/>
+            </MarkerCategory>
+            <MarkerCategory name="theend" displayName="Vision of The End">
+              <MarkerCategory name="trails" displayName="Trails" texture="Data/trail.png" />
+                <MarkerCategory name="signs" displayName="Signs"/>
+            </MarkerCategory>
+            <MarkerCategory name="zealotry" displayName="Vision of Zealotry" >
+                <MarkerCategory name="trails" displayName="Trails" texture="Data/trail.png" />
+                <MarkerCategory name="signs" displayName="Signs"/>
+            </MarkerCategory>
+          </MarkerCategory>
+          <!-- GROUP 2-->
+          <MarkerCategory name="group2" displayName="Group 2">
+            <MarkerCategory name="collapse" displayName="Vision of Collapse/Magus Dam">
+              <MarkerCategory name="trail" displayName="Trail" texture="Data/trail.png" />
+            </MarkerCategory>
+            <MarkerCategory name="impendingdoom" displayName="Vision of Impending Doom/Encroaching Mists">
+                <MarkerCategory name="trails" displayName="Trails" texture="Data/trail.png" />
+                <MarkerCategory name="signs" displayName="Signs"/>
+            </MarkerCategory>
+            <MarkerCategory name="affliction" displayName="Vision of Affliction/Scarab Plague" />
+            <MarkerCategory name="ineptitude" displayName="Vision of Ineptitude/Luminates Plant">
+                <MarkerCategory name="signs" displayName="Signs"/>
+                <MarkerCategory name="trails" displayName="Trails" texture="Data/trail.png" />
+            </MarkerCategory>
+            <MarkerCategory name="theend" displayName="Vision of The End" />
+            <MarkerCategory name="zealotry" displayName="Vision of Zealotry" >
+                <MarkerCategory name="signs" displayName="Signs"/>
+                <MarkerCategory name="trails" displayName="Trails" texture="Data/trail.png" />
+            </MarkerCategory>
+          </MarkerCategory>
+          <!-- GROUP 3-->
+          <MarkerCategory name="group3" displayName="Group 3">
+            <MarkerCategory name="collapse" displayName="Vision of Collapse/Magus Dam">
+              <MarkerCategory name="trail" displayName="Trail" texture="Data/trail.png" />
+            </MarkerCategory>
+            <MarkerCategory name="impendingdoom" displayName="Vision of Impending Doom/Encroaching Mists">
+                <MarkerCategory name="trails" displayName="Trails" texture="Data/trail.png" />
+                <MarkerCategory name="signs" displayName="Signs"/>
+            </MarkerCategory>
+            <MarkerCategory name="affliction" displayName="Vision of Affliction/Scarab Plague" />
+            <MarkerCategory name="ineptitude" displayName="Vision of Ineptitude/Luminates Plant">
+                <MarkerCategory name="signs" displayName="Signs"/>
+                <MarkerCategory name="trails" displayName="Trails" texture="Data/trail.png" />
+            </MarkerCategory>
+            <MarkerCategory name="theend" displayName="Vision of The End">
+              <MarkerCategory name="trails" displayName="Trails" texture="Data/trail.png" />
+            </MarkerCategory>
+            <MarkerCategory name="zealotry" displayName="Vision of Zealotry" />
+          </MarkerCategory>
+        </MarkerCategory>
+      </MarkerCategory>
     </MarkerCategory>
+  </MarkerCategory>
 </OverlayData>

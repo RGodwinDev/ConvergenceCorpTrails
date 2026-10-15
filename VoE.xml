@@ -1,33 +1,28 @@
 <OverlayData>
-    <POIs>
-        <!-- Shipwreck Strand -->
-            <!-- Map ID 1595 -->
-            
-        <!-- Starlit Weald -->
-            <!-- Map ID 1593 -->
-
-        <!-- Birdie Benefactor JP -->
-        <Trail type="cc.voe.jps.birdiebenefactor.trail" trailData="Data/VoE/Trails/JPBirdieBenefactor.trl" color="FFFF00A5"/>
-        <!-- BB start -->
-        <!--
+  <POIs>
+    <!-- Shipwreck Strand -->
+    <!-- Map ID 1595 -->
+    <!-- Starlit Weald -->
+    <!-- Map ID 1593 -->
+    <!-- Birdie Benefactor JP -->
+    <Trail type="cc.voe.jps.birdiebenefactor.trail" trailData="Data/VoE/Trails/JPBirdieBenefactor.trl" color="FFFF00A5" />
+    <!-- BB start -->
+    <!--
         <POI MapID="1593" xpos="133.8189" ypos="10.45827" zpos="-463.552" GUID="cVavcAr9jEqFIis1F1xTOw=="/>
         -->
-        <!-- BB nest 1 -->
-        <POI type="cc.voe.jps.birdiebenefactor.signs.nest1" MapID="1593" xpos="151.1166" ypos="43.21682" zpos="-475.7564" GUID="NJY4zi/+fU2HKzxCSGtvsA=="/>
-        <!-- BB nest 2 -->
-        <POI type="cc.voe.jps.birdiebenefactor.signs.nest2" MapID="1593" xpos="145.1261" ypos="92.88569" zpos="-525.3588" GUID="dwv7gjHRl0SDBe3DdwEt+A=="/>
-        <!-- BB nest 3 -->
-        <POI type="cc.voe.jps.birdiebenefactor.signs.nest3" MapID="1593" xpos="91.16193" ypos="219.6285" zpos="-525.3012" GUID="nGEUVrLf3U+kfbe6W2ehKg=="/>
-
-
-        <!-- Eternity's Garden -->
-            <!-- Map ID 1622 -->
-
-        <!-- Leyspring Hollows-->
-            <!-- Map ID 1633 -->
-        <!--sign for convergence path start-->
-        <POI type="cc.voe.cvrg.signs.start" MapID="1633" xpos="160.4878" ypos="63.26712" zpos="-393.4799" GUID="ndS/fmlSukKprJvFAHScWw==" color="FF00AF83"/>
-        <!-- Trail to the VoE Convergence from Hall of Assemblage -->
-        <Trail type="cc.voe.cvrg.trails.pathtoconverge" trailData="Data/VoE/Trails/PathtoConverge.trl" color="FF00AF83"/>
-    </POIs>
-</OverlayData> 
+    <!-- BB nest 1 -->
+    <POI type="cc.voe.jps.birdiebenefactor.signs.nest1" MapID="1593" xpos="151.1166" ypos="43.21682" zpos="-475.7564" GUID="NJY4zi/+fU2HKzxCSGtvsA==" />
+    <!-- BB nest 2 -->
+    <POI type="cc.voe.jps.birdiebenefactor.signs.nest2" MapID="1593" xpos="145.1261" ypos="92.88569" zpos="-525.3588" GUID="dwv7gjHRl0SDBe3DdwEt+A==" />
+    <!-- BB nest 3 -->
+    <POI type="cc.voe.jps.birdiebenefactor.signs.nest3" MapID="1593" xpos="91.16193" ypos="219.6285" zpos="-525.3012" GUID="nGEUVrLf3U+kfbe6W2ehKg==" />
+    <!-- Eternity's Garden -->
+    <!-- Map ID 1622 -->
+    <!-- Leyspring Hollows-->
+    <!-- Map ID 1633 -->
+    <!--sign for convergence path start-->
+    <POI type="cc.voe.cvrg.signs.start" MapID="1633" xpos="160.4878" ypos="63.26712" zpos="-393.4799" GUID="ndS/fmlSukKprJvFAHScWw==" color="FF00AF83" />
+    <!-- Trail to the VoE Convergence from Hall of Assemblage -->
+    <Trail type="cc.voe.cvrg.trails.pathtoconverge" trailData="Data/VoE/Trails/PathtoConverge.trl" color="FF00AF83" />
+  </POIs>
+</OverlayData>

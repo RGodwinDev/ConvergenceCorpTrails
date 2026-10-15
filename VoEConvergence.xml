@@ -1,4 +1,97 @@
 <OverlayData>
-    <POIs>
-    </POIs>
+  <POIs>
+    <!-- Public Convergence: 1627 -->
+    <!-- Private Convergence: 1629 -->
+    <!-- Main area -->
+    <!-- Champ/mob spawns -->
+    <POI MapID="1629" xpos="315.252" ypos="314.839" zpos="342.295" type="cc.voe.cvrg.signs.champspawns" GUID="vJPwNoTjMk6BO9NDYj5wqQ==" />
+    <POI MapID="1627" xpos="315.252" ypos="314.839" zpos="342.295" type="cc.voe.cvrg.signs.champspawns" GUID="+I9CeebS5E+LDWq9AAKDxA==" />
+    <POI MapID="1629" xpos="344.456" ypos="314.839" zpos="421.047" type="cc.voe.cvrg.signs.champspawns" GUID="AtuOpWdZQ02mE9tc2hUGNA==" />
+    <POI MapID="1627" xpos="344.456" ypos="314.839" zpos="421.047" type="cc.voe.cvrg.signs.champspawns" GUID="4ywaRdEJ0UKZhD/hjVTHIw==" />
+    <POI MapID="1629" xpos="259.305" ypos="314.838" zpos="390.468" type="cc.voe.cvrg.signs.champspawns" GUID="CoLMVP0vuEeRETuAre/jbQ==" />
+    <POI MapID="1627" xpos="259.305" ypos="314.838" zpos="390.468" type="cc.voe.cvrg.signs.champspawns" GUID="CoLMVP0vuEeRETuAre/jbQ==" />
+    <!-- VISIONS -->
+    <!-- Collapse/Magus Dam -->
+    <!-- Worker POIS -->
+    <POI type="cc.voe.cvrg.visions.allgroups.collapse.signs.worker" xpos="-82.0249" ypos="0.709075" zpos="-649.596" MapID="1627" GUID="DZwymcTyghEJd3y+fB9VxA==" />
+    <POI type="cc.voe.cvrg.visions.allgroups.collapse.signs.worker" xpos="2.23603" ypos="14.2772" zpos="-585.357" MapID="1627" GUID="gl8iqO3EtJIxt6KUMr5Plw==" />
+    <POI type="cc.voe.cvrg.visions.allgroups.collapse.signs.worker" xpos="4.09779" ypos="26.494" zpos="-628.935" MapID="1627" GUID="iYdoYWNiC+ece5DtOQCKhQ==" />
+    <POI type="cc.voe.cvrg.visions.allgroups.collapse.signs.worker" xpos="-37.1359" ypos="2.43481" zpos="-606.749" MapID="1627" GUID="ia0b38+VKXOqIPkLBZJbvQ==" />
+    <POI type="cc.voe.cvrg.visions.allgroups.collapse.signs.worker" xpos="17.0473" ypos="14.2648" zpos="-607.293" MapID="1627" GUID="EZOCLFDtN3OJoa9dK1qfkQ==" />
+    <POI type="cc.voe.cvrg.visions.allgroups.collapse.signs.worker" xpos="33.1961" ypos="32.1986" zpos="-567.031" MapID="1627" GUID="EYH81XGl4S1cjqBFK+Q2fg==" />
+    <POI type="cc.voe.cvrg.visions.allgroups.collapse.signs.worker" xpos="105.182" ypos="33.2921" zpos="-566.371" MapID="1627" GUID="E8VDVzfAJ9ZTHIsWCIkETg==" />
+    <POI type="cc.voe.cvrg.visions.allgroups.collapse.signs.worker" xpos="104.121" ypos="33.2921" zpos="-647.539" MapID="1627" GUID="vI4D/LFmQPR6/SktXPQ69Q==" />
+    <!-- Group 1 -->
+    <Trail type="cc.voe.cvrg.visions.group1.collapse.trail" trailData="Data/VoE/Trails/Convergence/CollapseGroup1.trl" GUID="cidOglD5e3cfMJnukduvOQ==" />
+    <!-- Group 2 -->
+    <Trail type="cc.voe.cvrg.visions.group2.collapse.trail" trailData="Data/VoE/Trails/Convergence/CollapseGroup2.trl" GUID="T4aTM+1oCmXan2Iwfi5dtg==" />
+    <!-- Group 3 -->
+    <Trail type="cc.voe.cvrg.visions.group3.collapse.trail" trailData="Data/VoE/Trails/Convergence/CollapseGroup3.trl" GUID="kQu/IETePAqTUM+M0K/4zQ==" />
+    <!-- Impending Doom/Encroaching Mists -->
+    <!-- Left path start -->
+    <POI MapID="1627" xpos="578.418" ypos="135.989" zpos="-99.32" type="cc.voe.cvrg.visions.group1.impendingdoom.signs" iconFile="Data/Group1Start.png" GUID="LYwmBG2vpU2uxo/wqRa20w==" />
+    <POI MapID="1629" xpos="578.418" ypos="135.989" zpos="-99.32" type="cc.voe.cvrg.visions.group1.impendingdoom.signs" iconFile="Data/Group1Start.png" GUID="vXL/E/EwkUW0XS4ksKs+yw==" />
+    <Trail type="cc.voe.cvrg.visions.group1.impendingdoom.trails" trailData="Data/VoE/Trails/Convergence/ImpendingDoomLeft.trl" color="FF00FF00" />
+    <!-- Middle path start -->
+    <POI MapID="1627" xpos="567.59" ypos="137.581" zpos="-94.7318" type="cc.voe.cvrg.visions.group3.impendingdoom.signs" iconFile="Data/Group3Start.png" GUID="6iS/Hvyqn0y7JGdvRga/8g==" />
+    <POI MapID="1629" xpos="567.59" ypos="137.581" zpos="-94.7318" type="cc.voe.cvrg.visions.group3.impendingdoom.signs" iconFile="Data/Group3Start.png" GUID="L/cYeswAzU29lh+SnhXCVw==" />
+    <Trail type="cc.voe.cvrg.visions.group3.impendingdoom.trails" trailData="Data/VoE/Trails/Convergence/ImpendingDoomMiddle.trl" color="FF00FFFF" />
+    <!-- Right path start -->
+    <POI MapID="1627" xpos="567.823" ypos="137.505" zpos="-92.1108" type="cc.voe.cvrg.visions.group2.impendingdoom.signs" iconFile="Data/Group2Start.png" GUID="WfM8Vq2zZ0aFpW3nZLh+JA==" />
+    <POI MapID="1629" xpos="567.823" ypos="137.505" zpos="-92.1108" type="cc.voe.cvrg.visions.group2.impendingdoom.signs" iconFile="Data/Group2Start.png" GUID="UJ3C6c0BLEaqC5IaNYiWFA==" />
+    <Trail type="cc.voe.cvrg.visions.group2.impendingdoom.trails" trailData="Data/VoE/Trails/Convergence/ImpendingDoomRight.trl" color="FFFF0000" />
+    <!-- Affliction/Scarab Plague-->
+    <!-- Ineptitude/Luminates Plant-->
+    <!-- Group 1 Path -->
+    <POI type="cc.voe.cvrg.visions.group1.ineptitude.signs" xpos="-421.183" ypos="22.0523" zpos="26.9406" MapID="1627" GUID="LgsFejM0RvX1MLHtTVRihA==" />
+    <Trail type="cc.voe.cvrg.visions.group1.ineptitude.trails" trailData="Data/VoE/Trails/Convergence/LuminatesTrailMiddle.trl" color="FF00FFFF" />
+    <!-- Group 2 Path -->
+    <POI type="cc.voe.cvrg.visions.group2.ineptitude.signs" xpos="-422.392" ypos="22.0523" zpos="26.1175" MapID="1627" GUID="M5QTh7MaZ4VfsJgpurnQcw==" />
+    <Trail type="cc.voe.cvrg.visions.group2.ineptitude.trails" trailData="Data/VoE/Trails/Convergence/LuminatesTrailLeft.trl" color="FF00FF00" />
+    <!-- Group 3 Path -->
+    <POI type="cc.voe.cvrg.visions.group3.ineptitude.signs" xpos="-419.527" ypos="22.0523" zpos="28.0828" MapID="1627" GUID="kwZhW9R35gYSm5StWM60cg==" />
+    <Trail type="cc.voe.cvrg.visions.group3.ineptitude.trails" trailData="Data/VoE/Trails/Convergence/LuminatesTrailRight.trl" color="FFFF0000" />
+    <Trail type="cc.voe.cvrg.visions.group3.ineptitude.trails" trailData="Data/VoE/Trails/Convergence/LuminatesTrailRightPrivate.trl" color="FFFF0000" />
+    <!-- The End -->
+    <!-- All Groups-->
+    <!-- Group 1 Path -->
+    <Trail type="cc.voe.cvrg.visions.group1.theend.trails" trailData="Data/VoE/Trails/Convergence/EndLeftGlideGroup1.trl" color="FF00FFFF" />
+    <!-- Group 2 Path -->
+    <!-- Group 3 Path -->
+    <Trail type="cc.voe.cvrg.visions.group3.theend.trails" trailData="Data/VoE/Trails/Convergence/EndLeftGlideGroup3.trl" color="FF00FFFF" />
+    
+    <!-- Zealotry -->
+    
+    
+    <!-- Group 1 Path -->
+    <POI type="cc.voe.cvrg.visions.group1.zealotry.signs" xpos="-519.509" ypos="53.3273" zpos="-608.863" MapID="1627" GUID="WC1ATqaHqAKogQsSmxTLsg==" />
+    <POI type="cc.voe.cvrg.visions.group1.zealotry.signs" xpos="-519.509" ypos="53.3273" zpos="-608.863" MapID="1629" GUID="3GUqiYQ/dEaJr6rTz7PKSA==" />
+    <Trail type="cc.voe.cvrg.visions.group1.zealotry.trails" trailData="data/voe/trails/convergence/ZealotryGroup1.trl" color="FF00FF00" />
+    <!-- Group 2 path -->
+    <POI type="cc.voe.cvrg.visions.group2.zealotry.signs" xpos="-528.151" ypos="53.3561" zpos="-620.353" MapID="1627" GUID="cDs7w8IR35a6nn5zFjhmKA==" />
+    <POI type="cc.voe.cvrg.visions.group2.zealotry.signs" xpos="-528.151" ypos="53.3561" zpos="-620.353" MapID="1629" GUID="K/G8NLYQSU67msi6BWncxQ==" />
+    <Trail type="cc.voe.cvrg.visions.group2.zealotry.trails" trailData="data/voe/trails/convergence/ZealotryGroup2.trl" color="FF00FF00" />
+    <!-- Group 3 path -->
+    <POI type="cc.voe.cvrg.visions.group3.zealotry" xpos="-528.154" ypos="53.3561" zpos="-624.376" MapID="1627" GUID="Cpah3yTPOAK/rmhR/2t8ug==" />
+    <POI type="cc.voe.cvrg.visions.group3.zealotry" xpos="-528.154" ypos="53.3561" zpos="-624.376" MapID="1629" GUID="pmaEGhLGEUWVA1V01C8bpA==" />
+    <!-- Champ spawns-->
+    <POI MapID="1627" xpos="-579.737" ypos="53.1382" zpos="-481.631" type="cc.voe.cvrg.visions.allgroups.zealotry.signs.champspawns" GUID="7Dv6vDLihk+redCc4TT7zA==" />
+    <POI MapID="1629" xpos="-579.737" ypos="53.1382" zpos="-481.631" type="cc.voe.cvrg.visions.allgroups.zealotry.signs.champspawns" GUID="xQWO9S2A0kCLW0EABSTbHw==" />
+    <POI type="cc.voe.cvrg.visions.allgroups.zealotry.signs.champspawns" xpos="-645.463" ypos="103.254" zpos="-598.301" MapID="1627" GUID="jRbBcBqPgE1IuMgcZ6AmBw==" />
+    <POI type="cc.voe.cvrg.visions.allgroups.zealotry.signs.champspawns" xpos="-645.463" ypos="103.254" zpos="-598.301" MapID="1629" GUID="u32rLu6NIUWbou0SfvQtlw==" />
+    <POI type="cc.voe.cvrg.visions.allgroups.zealotry.signs.champspawns" xpos="-681.187" ypos="79.0583" zpos="-409.589" MapID="1627" GUID="DF/YagMgKGMm0gD/64dqcA==" />
+    <POI type="cc.voe.cvrg.visions.allgroups.zealotry.signs.champspawns" xpos="-681.187" ypos="79.0583" zpos="-409.589" MapID="1629" GUID="qxEu4K5VPkqa8vRoft7U6Q==" />
+    <POI type="cc.voe.cvrg.visions.allgroups.zealotry.signs.champspawns" xpos="-566.601" ypos="53.1382" zpos="-522.51" MapID="1627" GUID="Cg8FZUlyOxKrsigdxBegvg==" />
+    <POI type="cc.voe.cvrg.visions.allgroups.zealotry.signs.champspawns" xpos="-566.601" ypos="53.1382" zpos="-522.51" MapID="1629" GUID="xPlNKBAuCUiqmChoEjQing==" />
+    <POI type="cc.voe.cvrg.visions.allgroups.zealotry.signs.champspawns" xpos="-628.929" ypos="96.4191" zpos="-550.004" MapID="1627" GUID="rrw6pnzP9dEP0JLBZaDPgQ==" />
+    <POI type="cc.voe.cvrg.visions.allgroups.zealotry.signs.champspawns" xpos="-628.929" ypos="96.4191" zpos="-550.004" MapID="1629" GUID="WgtGqIv4Lkmpm7UJOAit5g==" />
+    <POI type="cc.voe.cvrg.visions.allgroups.zealotry.signs.champspawns" xpos="-653.104" ypos="79.0583" zpos="-378.262" MapID="1627" GUID="Op/Ynta5OcAPEu8qR8CeIA==" />
+    <POI type="cc.voe.cvrg.visions.allgroups.zealotry.signs.champspawns" xpos="-653.104" ypos="79.0583" zpos="-378.262" MapID="1629" GUID="FCospmZ95EKXiPW0qmYqZg==" />
+    <POI type="cc.voe.cvrg.visions.allgroups.zealotry.signs.champspawns" xpos="-570.678" ypos="53.1554" zpos="-579.732" MapID="1627" GUID="ts3za+NWecga8iNP/fl55Q==" />
+    <POI type="cc.voe.cvrg.visions.allgroups.zealotry.signs.champspawns" xpos="-570.678" ypos="53.1554" zpos="-579.732" MapID="1629" GUID="kurnK+v6CEuTgzccuXzOEA==" />
+    <POI type="cc.voe.cvrg.visions.allgroups.zealotry.signs.champspawns" xpos="-583.194" ypos="77.5842" zpos="-637.789" MapID="1627" GUID="tMFZoFz9bvU83IoJnqCT/w==" />
+    <!-- Teleport sign -->
+    <POI type="cc.voe.cvrg.visions.allgroups.zealotry.signs.teleportsign" xpos="-626.119" ypos="110" zpos="-586.772" MapID="1627" GUID="F9ng8UuCumirQudF576/pg==" />
+    <POI type="cc.voe.cvrg.visions.allgroups.zealotry.signs.teleportsign" xpos="-626.119" ypos="110" zpos="-586.772" MapID="1629" GUID="7wC7BSM+dU27z11fcV1haw==" />
+  </POIs>
 </OverlayData>
